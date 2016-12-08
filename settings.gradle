@@ -1,0 +1,3 @@
+include ':libFAB'
+include ':aalayam'
+include ':libZBarScanner'

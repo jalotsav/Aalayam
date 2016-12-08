@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cordntrlyot_ptnt_frgmnt_dashbrd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="Missingprefix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <!-- Images & VasScales -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- Profile -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue_midnight"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imgvw_ptnt_frgmnt_dashbrd_profile"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="@dimen/_30sdp"
+                    android:contentDescription="@string/imgcd_flaticon"
+                    app:ico_color="@color/white"
+                    app:ico_icon="gmd-person"
+                    app:ico_size="70dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black_trsprnt_80">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/profile_sml"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <!-- END Profile -->
+
+            <!-- VasScales -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/greenlight_prmry"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imgvw_ptnt_frgmnt_dashbrd_vasscales"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="@dimen/_30sdp"
+                    android:contentDescription="@string/imgcd_flaticon"
+                    app:ico_color="@color/white"
+                    app:ico_icon="gmd-library-books"
+                    app:ico_size="70dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black_trsprnt_80">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/vasscale_sml"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <!-- END VasScales -->
+        </LinearLayout>
+        <!-- END Images & VasScales -->
+
+
+        <!-- Case Images -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/flaticon_main_qrcode"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgvw_ptnt_frgmnt_dashbrd_caseimages"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/_30sdp"
+                android:contentDescription="@string/imgcd_flaticon"
+                app:ico_color="@color/white"
+                app:ico_icon="gmd-collections"
+                app:ico_size="70dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/black_trsprnt_80">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/case_images_sml"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <!-- END Case Images -->
+
+        <!-- Payments & Feedback -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- Payments -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/red_alizarin"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imgvw_ptnt_frgmnt_dashbrd_pymnts"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="@dimen/_30sdp"
+                    android:contentDescription="@string/imgcd_flaticon"
+                    app:ico_color="@color/white"
+                    app:ico_icon="gmd-receipt"
+                    app:ico_size="70dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black_trsprnt_80">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/pymnts_sml"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <!-- END Payments -->
+
+            <!-- Feedback -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/flaticon_main_feedback"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imgvw_ptnt_frgmnt_dashbrd_feedback"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="@dimen/_30sdp"
+                    android:contentDescription="@string/imgcd_flaticon"
+                    app:ico_color="@color/white"
+                    app:ico_icon="gmd-feedback"
+                    app:ico_size="70dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black_trsprnt_80">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/feedback_sml"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <!-- END Feedback -->
+        </LinearLayout>
+        <!-- END Payments & Feedback -->
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

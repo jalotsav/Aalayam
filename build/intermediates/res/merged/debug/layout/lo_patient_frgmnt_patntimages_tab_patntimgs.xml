@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navgndrwer.patient.PatientImages_TabPatntImages" >
+
+    <!-- Patient Images GirdView -->
+
+    <GridView
+        android:id="@+id/grdvw_ptnt_frgmnt_ptntimgs_tabptntimgs"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth" >
+    </GridView>
+    <!-- END Patient Images GirdView -->
+
+
+    <!-- No Patient Images -->
+
+    <LinearLayout
+        android:id="@+id/lnrlyot_ptnt_frgmnt_ptntimgs_noptntimgs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/flat_emptyvw_images"
+            android:gravity="center"
+            android:text="@string/ptnt_images_appearher"
+            android:textColor="@color/gray_drk"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <!-- END No Patient Images -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/lo_user_notify" />
+
+    <!-- Add Images and Download Images Queue Progressbar -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <!-- Add Images -->
+
+        <!-- ImageView
+            android:id="@+id/imgvw_ptnt_frgmnt_ptntimgs_tabptntimgs_addptntimg"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="end"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:contentDescription="@string/imgcd_add"
+            android:src="@drawable/ic_fab_add_red" / -->
+
+        <com.bsptechno.libfabbsptechno.FloatingActionsMenu
+            android:id="@+id/fabmenu_ptnt_frgmnt_ptntimgs_tabptntimgs_addimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            fab:fab_addButtonColorNormal="@color/trqs_prmry"
+            fab:fab_addButtonColorPressed="@color/trqs_prmry_pressed"
+            fab:fab_addButtonPlusIconColor="@color/white"
+            fab:fab_labelStyle="@style/menu_labels_style" >
+
+            <com.bsptechno.libfabbsptechno.FloatingActionButton
+                android:id="@+id/fab_ptnt_frgmnt_ptntimgs_tabptntimgs_addgallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="@color/pink"
+                fab:fab_colorPressed="@color/pink_pressed"
+                fab:fab_icon="@drawable/ic_gallery_white"
+                fab:fab_size="mini"
+                fab:fab_title="Choose photo" />
+
+            <com.bsptechno.libfabbsptechno.FloatingActionButton
+                android:id="@+id/fab_ptnt_frgmnt_ptntimgs_tabptntimgs_addcamera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="@color/yellow_drk"
+                fab:fab_colorPressed="@color/yellow_drk_pressed"
+                fab:fab_icon="@drawable/ic_camera_white"
+                fab:fab_size="mini"
+                fab:fab_title="Take photo" />
+        </com.bsptechno.libfabbsptechno.FloatingActionsMenu>
+
+        <!-- END Add Images -->
+
+
+        <!-- Download Patient Images Queue Progressbar -->
+
+        <LinearLayout
+            android:id="@+id/lnrlyot_ptnt_frgmnt_ptntimgs_tabptntimgs_dwnldimgntfy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black_32"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_ptnt_frgmnt_ptntimgs_tabptntimgs_dwnldimgcnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_ptnt_frgmnt_ptntimgs_tabptntimgs_dwnldimgcntlbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/ptnt_images_inqueue"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/prgrsbr_ptnt_frgmnt_ptntimgs_tabptntimgs_dwnldimg"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:indeterminate="true"
+                android:progress="1" />
+        </LinearLayout>
+        <!-- END Download Patient Images Queue Progressbar -->
+    </LinearLayout>
+
+    <!-- END Add Images and Download Images Queue Progressbar -->
+
+    <ProgressBar
+        android:id="@+id/prgrsbr_ptnt_frgmnt_ptntimgs_tabptntimgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <!-- style="?android:attr/progressBarStyleLarge" -->
+
+</RelativeLayout>

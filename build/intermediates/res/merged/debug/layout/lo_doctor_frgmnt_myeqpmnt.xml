@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cordntrlyot_dctr_frgmnt_eqpmnt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navgndrwer.doctor.MyInventoryFrgmnt">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <!-- Start Total Equipment -->
+
+        <LinearLayout
+            android:id="@+id/lnrlyot_dctr_frgmnt_eqpmnt_totaleqpmnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/trqs_prmry"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_dctr_frgmnt_eqpmnt_totalamnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:padding="2dp"
+                android:text="@string/total_eqpmnt"
+                android:textColor="@color/bluemdnght_prmry"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <!-- End Total Equipment -->
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swiperfrshlyot_dctr_frgmnt_eqpmnt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/lnrlyot_dctr_frgmnt_eqpmnt_totaleqpmnt">
+
+            <ListView
+                android:id="@+id/lstvw_dctr_frgmnt_myeqpmnt_eqpmnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/listvw_dividr_gray"
+                android:dividerHeight="1dp"></ListView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swiperfrshlyot_dctr_frgmnt_myeqpmnt_emptyview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/lnrlyot_dctr_frgmnt_eqpmnt_totaleqpmnt">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/lnrlyot_dctr_frgmnt_myeqpmnt_noeqpmnt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:drawableTop="@drawable/flat_emptyvw_equipment"
+                        android:gravity="center"
+                        android:text="@string/eqpmnt_appearher"
+                        android:textColor="@color/gray_drk"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/lnrlyot_dctr_frgmnt_eqpmnt_totaleqpmnt"
+            android:background="@drawable/toolbar_dropshadow" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+#Thu Dec 08 12:28:00 IST 2016
+base.0=D\:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1bd10a642bda250356cc33b28efa73b9d071b47c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6c7e15ee22cb211ed0e3c9afb068e72d78002dd7\\classes.dex
+base.1=D\:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6c7e15ee22cb211ed0e3c9afb068e72d78002dd7
+file.0=D\:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1bd10a642bda250356cc33b28efa73b9d071b47c\\classes.dex

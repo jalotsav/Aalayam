@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_Email" >
+    
+    <!-- Next button -->
+    <RelativeLayout
+        android:id="@+id/rltvlyot_login_email_btnnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_light" >
+
+        <Button
+            android:id="@+id/btn_login_email_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:drawableEnd="@drawable/ic_forwrd_blck"
+            android:drawableRight="@drawable/ic_forwrd_blck"
+            android:background="@drawable/btn_selector"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:text="@string/next_sml" />
+        
+    </RelativeLayout>
+    <!-- END Next button -->
+	
+	<!-- Header and Email -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/rltvlyot_login_email_btnnext"
+        android:weightSum="3"
+        android:orientation="vertical" >
+        
+        <!-- Header -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/blue_prmry"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+            	android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            	android:layout_marginStart="@dimen/activity_horizontal_margin"
+            	android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:text="@string/dctr_login"
+                android:textSize="30sp"
+                android:textColor="@color/white" />
+            
+        </RelativeLayout>
+        <!-- END Header -->
+        
+        <ProgressBar
+	        android:id="@+id/prgrsbr_login_email_websrvccheckemail"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:indeterminate="true"
+	        android:progress="1"
+	        android:visibility="gone" />
+        
+        <!-- Email -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:background="@color/gray_light_light"
+            android:orientation="vertical" >
+			
+            <!-- Aalayam RHC Image -->
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            	android:layout_marginStart="@dimen/activity_horizontal_margin"
+            	android:layout_marginBottom="2dp"
+            	android:layout_marginRight="@dimen/activity_horizontal_margin"
+            	android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:src="@drawable/aalayam_rhc"
+                android:contentDescription="@string/alym_logo" />
+			<!-- END Aalayam RHC Image -->
+
+			<!-- Sign in with... -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            	android:layout_marginStart="@dimen/activity_horizontal_margin"
+            	android:layout_marginBottom="10dp"
+            	android:layout_marginRight="@dimen/activity_horizontal_margin"
+            	android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:text="@string/signin_with_alym_acnt"
+                android:textSize="16sp"
+                android:textColor="@color/black" /> 
+			<!-- END Sign in with... -->
+			
+			<!-- Enter Email Label -->
+            <TextView
+                android:id="@+id/tv_login_email_emaillbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            	android:layout_marginStart="@dimen/activity_horizontal_margin"
+            	android:layout_marginBottom="7dp"
+            	android:layout_marginRight="@dimen/activity_horizontal_margin"
+            	android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:text="@string/entr_your_email"
+                android:textSize="12sp"
+                android:textColor="@color/gray_drk"
+                android:visibility="invisible" /> 
+			<!-- END Enter Email Label -->
+			
+			<!-- Email Edittext -->
+            <EditText
+                android:id="@+id/et_login_email_dctremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            	android:layout_marginStart="@dimen/activity_horizontal_margin"
+            	android:layout_marginRight="@dimen/activity_horizontal_margin"
+            	android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:ems="10"
+                android:hint="@string/entr_your_email"
+                android:inputType="textEmailAddress" >
+
+                <requestFocus />
+            </EditText>
+			<!-- END Email Edittext -->
+			
+			<!-- Email validation -->
+            <TextView
+                android:id="@+id/tv_login_email_emailvaldtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            	android:layout_marginStart="@dimen/activity_horizontal_margin"
+            	android:layout_marginTop="7dp"
+            	android:layout_marginRight="@dimen/activity_horizontal_margin"
+            	android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:textSize="12sp"
+                android:textColor="@color/red"
+                android:visibility="invisible" />
+            	<!-- END Email validation -->  
+            	     
+        </LinearLayout>        
+        <!-- END Email -->
+        
+    </LinearLayout>
+    <!-- END Header and Email -->
+    
+</RelativeLayout>

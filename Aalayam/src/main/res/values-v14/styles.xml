@@ -1,0 +1,104 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    
+    <!-- style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+    </style -->
+ 
+	<!-- Blue Light Theme Color Primary Attributes -->
+	<style name="Alym_Blue_Light" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/blue_prmry</item>
+        <item name="colorPrimaryDark">@color/blue_prmrydrk</item>
+        <item name="colorAccent">@color/blue_prmry</item>
+    </style>
+ 
+	<!-- Blue Midnight Light Theme Color Primary Attributes -->
+	<style name="Alym_Blue_Midnight_Light" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/bluemdnght_prmry</item>
+        <item name="colorPrimaryDark">@color/bluemdnght_prmrydrk</item>
+        <item name="colorAccent">@color/bluemdnght_prmry</item>
+    </style>
+ 
+	<!-- OrangeDeep Light Theme Color Primary Attributes -->
+	<style name="Alym_OrangeDeep_Light" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/orangedeep_prmry</item>
+        <item name="colorPrimaryDark">@color/orangedeep_prmrydrk</item>
+        <item name="colorAccent">@color/orangedeep_prmry</item>
+    </style>
+ 
+	<!-- GreenLight Light Theme Color Primary Attributes -->
+	<style name="Alym_GreenLight_Light" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/greenlight_prmry</item>
+        <item name="colorPrimaryDark">@color/greenlight_prmrydrk</item>
+        <item name="colorAccent">@color/greenlight_prmry</item>
+    </style>
+ 
+	<!-- Indigo Light Theme Color Primary Attributes -->
+	<style name="Alym_Indigo_Light" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/indigo_prmry</item>
+        <item name="colorPrimaryDark">@color/indigo_prmrydrk</item>
+        <item name="colorAccent">@color/indigo_prmry</item>
+    </style>
+ 
+	<!-- Red Light Theme Color Primary Attributes -->
+	<style name="Alym_Red_Light" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/red_prmry</item>
+        <item name="colorPrimaryDark">@color/red_prmrydrk</item>
+        <item name="colorAccent">@color/red_prmry</item>
+    </style>
+
+    <!-- Pink Light Theme Color Primary Attributes -->
+    <style name="Alym_Pink_Light" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/pink_prmry</item>
+        <item name="colorPrimaryDark">@color/pink_prmrydrk</item>
+        <item name="colorAccent">@color/pink_prmry</item>
+    </style>
+    
+    <!-- Navigation Drawer TEAL -->
+    <style name="JalotsavNavDrwrStyleTeal" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/trqs_prmry</item>
+        <item name="colorPrimaryDark">@color/trqs_prmrydrk</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+    
+    <!-- Navigation Drawer BLUE -->
+    <style name="JalotsavNavDrwrStyleBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue_prmry</item>
+        <item name="colorPrimaryDark">@color/blue_prmrydrk</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <!-- Navigatoin Drawer ArrowToggle Style -->
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+    
+    <!-- AlertDialog LollipopDesign -->
+    <style name="Jalotsav_AlertDialog_Lollipopdesign" parent="android:Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth">
+     	<!-- item name="android:windowNoTitle">true</item -->
+    	<item name="android:windowBackground">@color/white_dialog</item>
+	</style>
+	<!-- End of AlertDialog LollipopDesign -->
+
+</resources>

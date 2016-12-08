@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_Pswrd" >
+    
+    <!-- Next button -->
+    <RelativeLayout
+        android:id="@+id/rltvlyot_login_pswrd_btnnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_light" >
+
+        <Button
+            android:id="@+id/btn_login_pswrd_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:drawableEnd="@drawable/ic_forwrd_blck"
+            android:drawableRight="@drawable/ic_forwrd_blck"
+            android:background="@drawable/btn_selector"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:text="@string/next_sml" />
+        
+    </RelativeLayout>
+    <!-- END Next button -->
+	
+	<!-- Email and Password -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/rltvlyot_login_pswrd_btnnext"
+        android:weightSum="3"
+        android:orientation="vertical" >
+        
+        <!-- Email -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/blue_prmry"
+            android:orientation="vertical" >
+	          
+            <!-- Image and Email -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+            	android:layout_marginBottom="@dimen/activity_horizontal_margin" >
+                
+	            <com.jalotsav.imageviewshape.RoundedImageView
+	                android:id="@+id/rndiv_login_pswrd_userimg"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerVertical="true"
+	            	android:layout_marginLeft="@dimen/activity_horizontal_margin"
+	            	android:layout_marginStart="@dimen/activity_horizontal_margin"
+	                android:background="@color/transparent"
+	                android:src="@drawable/ic_account_circle_white"
+	                android:contentDescription="@string/alym_logo" />
+	
+	            <TextView
+	                android:id="@+id/tv_login_pswrd_dctremail"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerVertical="true"
+	                android:layout_toRightOf="@id/rndiv_login_pswrd_userimg"
+	                android:layout_toEndOf="@id/rndiv_login_pswrd_userimg"
+	            	android:layout_marginLeft="10dp"
+	            	android:layout_marginStart="10dp"
+	            	android:layout_marginRight="@dimen/activity_horizontal_margin"
+	            	android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+	                android:textSize="25sp"
+	                android:textColor="@color/white" />
+	            
+            </RelativeLayout>
+            <!-- END Image and Email -->
+            
+        </RelativeLayout>
+        <!-- End Email -->
+        
+        <ProgressBar
+	        android:id="@+id/prgrsbr_login_pswrd_websrvccheckpswrd"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:indeterminate="true"
+	        android:progress="1"
+	        android:visibility="gone" />
+        
+        <!-- Password -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:background="@color/gray_light_light"
+            android:orientation="vertical" >
+			
+			<!-- Enter Password Label -->
+            <TextView
+                android:id="@+id/tv_login_pswrd_pswrdlbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            	android:layout_marginStart="@dimen/activity_horizontal_margin"
+            	android:layout_marginBottom="10dp"
+            	android:layout_marginRight="@dimen/activity_horizontal_margin"
+            	android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:text="@string/pswrd"
+                android:textSize="12sp"
+                android:textColor="@color/gray_drk"
+                android:visibility="invisible" /> 
+			<!-- END Enter Password Label -->
+			
+			<!-- Password Edittext -->
+            <EditText
+                android:id="@+id/et_login_pswrd_dctrpswrd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            	android:layout_marginStart="@dimen/activity_horizontal_margin"
+            	android:layout_marginRight="@dimen/activity_horizontal_margin"
+            	android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:ems="10"
+                android:hint="@string/pswrd"
+                android:inputType="textPassword" >
+
+                <requestFocus />
+            </EditText>
+			<!-- END Password Edittext -->
+			
+			<!-- Password validation -->
+            <TextView
+                android:id="@+id/tv_login_pswrd_pswrdvaldtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            	android:layout_marginStart="@dimen/activity_horizontal_margin"
+            	android:layout_marginTop="10dp"
+            	android:layout_marginRight="@dimen/activity_horizontal_margin"
+            	android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:textSize="12sp"
+                android:textColor="@color/red"
+                android:visibility="visible" />
+            	<!-- END Password validation -->
+			
+			<!-- Forgot Password -->
+            <TextView
+                android:id="@+id/tv_login_pswrd_frgtpswrd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            	android:layout_marginStart="@dimen/activity_horizontal_margin"
+            	android:layout_marginTop="25dp"
+            	android:layout_marginRight="@dimen/activity_horizontal_margin"
+            	android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            	android:text="@string/frgt_pswrd_qstn"
+                android:textSize="16sp"
+                android:textColor="@color/blue" />
+           	<!-- END Forgot Password -->       
+        </LinearLayout>        
+        <!-- END Password -->
+    </LinearLayout>
+    <!-- END Header and Password -->
+</RelativeLayout>

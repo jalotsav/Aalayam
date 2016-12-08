@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aalayam.iml" filepath="$PROJECT_DIR$/Aalayam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aalayam/aalayam.iml" filepath="$PROJECT_DIR$/Aalayam/aalayam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libFAB/libFAB.iml" filepath="$PROJECT_DIR$/libFAB/libFAB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libZBarScanner/libZBarScanner.iml" filepath="$PROJECT_DIR$/libZBarScanner/libZBarScanner.iml" />
+    </modules>
+  </component>
+</project>
