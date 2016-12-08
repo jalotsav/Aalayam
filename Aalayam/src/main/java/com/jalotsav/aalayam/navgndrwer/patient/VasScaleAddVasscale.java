@@ -20,6 +20,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -42,6 +43,7 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 	TextView tvPatntName;
 	NumberPicker nmbrpckrBefore, nmbrpckrAfter;
 	ImageView imgvwBefore, imgvwAfter;
+	EditText mEtDailyPymnt;
 	Button btnAddscale;
 	Map<String, Integer> mapEmojsDrwbleId;
 
@@ -65,6 +67,7 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 		nmbrpckrAfter = (NumberPicker) findViewById(R.id.nmbrpckr_ptnt_frgmnt_vasscale_addvasscale_after);
 		imgvwBefore = (ImageView) findViewById(R.id.imgvw_ptnt_frgmnt_vasscale_addvasscale_before);
 		imgvwAfter = (ImageView) findViewById(R.id.imgvw_ptnt_frgmnt_vasscale_addvasscale_after);
+		mEtDailyPymnt = (EditText) findViewById(R.id.et_ptnt_frgmnt_vasscale_addvasscale_dailypymnt);
 		btnAddscale = (Button) findViewById(R.id.btn_ptnt_frgmnt_vasscale_addvasscale_addscale);
 
 		// Check Internet check service is running or not, If not then Start Service
@@ -76,6 +79,10 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 		vas_id = getIntent().getIntExtra(VAS_ID, 0);
 		vasBefore = getIntent().getIntExtra(BEFORE_SML, 10);
 		vasAfter = getIntent().getIntExtra(AFTER_SML, 10);
+		String dailyPayment = getIntent().getStringExtra(DAILY_PAYMENT);
+
+		if(!TextUtils.isEmpty(dailyPayment))
+			mEtDailyPymnt.setText(General_Fnctns.get2DigitDecimal(dailyPayment, true));
 
 		if (comeFor.equals(ADD_VASSCALE)) {
 			
@@ -89,7 +96,7 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 
 		tvPatntName.setText(getIntent().getStringExtra(PATIENT_NAME_SML));
 
-		mapEmojsDrwbleId = new HashMap<String, Integer>();
+		mapEmojsDrwbleId = new HashMap<>();
 		mapEmojsDrwbleId.put(EMOJS_00_ID, R.drawable.emojs_00);
 		mapEmojsDrwbleId.put(EMOJS_01_ID, R.drawable.emojs_01);
 		mapEmojsDrwbleId.put(EMOJS_02_ID, R.drawable.emojs_02);
@@ -276,12 +283,15 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 				// Dismiss dialog
 				dialg.dismiss();
 
+				String strDailyPymnt = General_Fnctns.get2DigitDecimal(mEtDailyPymnt.getText().toString().trim(), true);
+
 				if (comeFor.equals(ADD_VASSCALE)) {
 
 					// AsyncTask for Send selected VasSacle to Web-Service
 					new SendAddBeforeAfterVasscaleToWebSrve().execute(
 							String.valueOf(nmbrpckrBefore.getValue()),
-							String.valueOf(nmbrpckrAfter.getValue()));
+							String.valueOf(nmbrpckrAfter.getValue()),
+							strDailyPymnt);
 				} else if (comeFor.equals(UPDATE_VASSCALE)) {
 
 					if(nmbrpckrBefore.getValue() != vasBefore
@@ -289,19 +299,19 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 						
 						callSendUpdateAfterAsyncStatus = true;
 						
-						new SendUpdateBeforeVasscaleToWebSrve().execute(String.valueOf(nmbrpckrBefore.getValue()));
+						new SendUpdateBeforeVasscaleToWebSrve().execute(String.valueOf(nmbrpckrBefore.getValue()), strDailyPymnt);
 					}else if(nmbrpckrBefore.getValue() != vasBefore
 							&& nmbrpckrAfter.getValue() == vasAfter){
 						
 						callSendUpdateAfterAsyncStatus = false;
 						
-						new SendUpdateBeforeVasscaleToWebSrve().execute(String.valueOf(nmbrpckrBefore.getValue()));
+						new SendUpdateBeforeVasscaleToWebSrve().execute(String.valueOf(nmbrpckrBefore.getValue()), strDailyPymnt);
 					}else if(nmbrpckrAfter.getValue() != vasAfter
 							&& nmbrpckrBefore.getValue() == vasBefore){
 						
 						callSendUpdateAfterAsyncStatus = false;
 						
-						new SendUpdateAfterVasscaleToWebSrve().execute(String.valueOf(nmbrpckrAfter.getValue()));
+						new SendUpdateAfterVasscaleToWebSrve().execute(String.valueOf(nmbrpckrAfter.getValue()), strDailyPymnt);
 					}
 				}
 			}
@@ -362,12 +372,8 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 					((EditText) child).setTextColor(color);
 					numberPicker.invalidate();
 					return true;
-				} catch (NoSuchFieldException e) {
-					Log.w(TAG, "setNumberPickerTextColor: " + e);
-				} catch (IllegalAccessException e) {
-					Log.w(TAG, "setNumberPickerTextColor: " + e);
-				} catch (IllegalArgumentException e) {
-					Log.w(TAG, "setNumberPickerTextColor: " + e);
+				} catch (NoSuchFieldException | IllegalAccessException | IllegalArgumentException e) {
+					Log.e(TAG, "setNumberPickerTextColor: " + e);
 				}
 			}
 		}
@@ -384,11 +390,7 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 				try {
 					ColorDrawable colorDrawable = new ColorDrawable(color);
 					pf.set(picker, colorDrawable);
-				} catch (IllegalArgumentException e) {
-					e.printStackTrace();
-				} catch (Resources.NotFoundException e) {
-					e.printStackTrace();
-				} catch (IllegalAccessException e) {
+				} catch (IllegalArgumentException | Resources.NotFoundException | IllegalAccessException e) {
 					e.printStackTrace();
 				}
 				break;
@@ -425,6 +427,7 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 				jsnobj.put(PT_ID, slctd_ptnt_id);
 				jsnobj.put(BEFORE_SML, params[0]);
 				jsnobj.put(AFTER_SML, params[1]);
+				jsnobj.put(DAILY_PAYMENT, params[2]);
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -505,8 +508,8 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 
 	public class SendUpdateBeforeVasscaleToWebSrve extends AsyncTask<String, Void, Void> {
 
-		private ProgressDialog prgrsdlg = new ProgressDialog(
-				VasScaleAddVasscale.this);
+		private ProgressDialog prgrsdlg = new ProgressDialog(VasScaleAddVasscale.this);
+		String strDailyPymnt;
 		String websrvc_response;
 
 		@Override
@@ -524,6 +527,7 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 		protected Void doInBackground(String... params) {
 			// TODO Auto-generated method stub
 
+			strDailyPymnt = params[1];
 			ServiceHandler obj_srvchndlr = new ServiceHandler();
 
 			JSONObject jsnobj = new JSONObject();
@@ -531,6 +535,7 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 				jsnobj.put(FUNCTION_SMALL, FNCTN_UPDATE_VAS_BEFORE);
 				jsnobj.put(VAS_ID, vas_id);
 				jsnobj.put(BEFORE_SML, params[0]);
+				jsnobj.put(DAILY_PAYMENT, params[1]);
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -580,7 +585,7 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 
 							if(callSendUpdateAfterAsyncStatus){
 
-								new SendUpdateAfterVasscaleToWebSrve().execute(String.valueOf(nmbrpckrAfter.getValue()));
+								new SendUpdateAfterVasscaleToWebSrve().execute(String.valueOf(nmbrpckrAfter.getValue()), strDailyPymnt);
 							}else{
 								
 								Intent i = new Intent();
@@ -643,6 +648,7 @@ public class VasScaleAddVasscale extends ActionBarActivity implements
 				jsnobj.put(FUNCTION_SMALL, FNCTN_UPDATE_VAS_AFTER);
 				jsnobj.put(VAS_ID, vas_id);
 				jsnobj.put(AFTER_SML, params[0]);
+				jsnobj.put(DAILY_PAYMENT, params[1]);
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

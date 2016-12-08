@@ -24,6 +24,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Handler;
 import android.support.v4.content.ContextCompat;
+import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.util.Base64;
 import android.util.Log;
@@ -481,6 +482,31 @@ public class General_Fnctns implements AalayamConstants{
 		cnvrtd_value = new DecimalFormat("#0.00").format(double_cnvrtd_value);
 		
 		return cnvrtd_value;
+	}
+
+	/*
+    * Get Two digits after decimal points with thousand comma separator
+    * */
+	public static String get2DigitDecimal(String reqstdStr, boolean isNeedwithMathRound) {
+
+		String convrtdStr = "0.00";
+		try {
+
+			if (TextUtils.isEmpty(reqstdStr))
+				return convrtdStr;
+			else {
+				double reqstdVal = Double.valueOf(reqstdStr);
+				if (isNeedwithMathRound)
+					reqstdVal = Math.round(reqstdVal * 100) / 100.00;
+				convrtdStr = new DecimalFormat("###,##0.00").format(Math.abs(reqstdVal));
+				if (reqstdVal < 0)
+					convrtdStr = "-" + convrtdStr;
+			}
+		} catch (NumberFormatException e) {
+			e.printStackTrace();
+		}
+
+		return convrtdStr;
 	}
 	
 	/***

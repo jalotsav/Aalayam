@@ -56,6 +56,7 @@ public interface AalayamConstants {
 	String BASE_64 = "base_64";
 	String BEFORE_SML = "before";
 	String AFTER_SML = "after";
+	String DAILY_PAYMENT = "daily_payment";
 	String NEWS_ID = "news_id";
 	String WHO_READ_SML = "who_read";
 	String REGISTRATION_ID = "registration_id";

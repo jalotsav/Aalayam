@@ -5,33 +5,40 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="1377725083982868"
+    timestamp="1390022622069217"
     token="1034058111036796415"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="3756" />
+        duration="2408" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1188" />
+        duration="59" />
     <task
         name="verifier"
-        duration="290" />
+        duration="14" />
 
     <artifact
-        location="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\Aalayam\build\outputs\apk\aalayam-debug.apk"
-        type="MAIN" />
+        location="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\Aalayam\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="1377725083982868"
+        timestamp="1389328071911873"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\Aalayam\build\outputs\apk\aalayam-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="1390022622069217"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\Aalayam\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

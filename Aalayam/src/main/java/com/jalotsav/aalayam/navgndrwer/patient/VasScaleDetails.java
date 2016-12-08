@@ -18,7 +18,7 @@ import com.jalotsav.aalayam.service.InternetService;
 
 public class VasScaleDetails extends Activity implements AalayamConstants{
 
-	TextView tvPtntName, tvScaleBefore, tvScaleAfter, tvScaleDate;
+	TextView tvPtntName, tvScaleBefore, tvScaleAfter, tvScaleDate, tvDailyPymnt;
 	ImageView imgvwBefore, imgvwAfter;
 	Map<String, Integer> mapEmojsDrwbleId;
 	Button mBtnOk;
@@ -33,6 +33,7 @@ public class VasScaleDetails extends Activity implements AalayamConstants{
 		tvScaleBefore = (TextView)findViewById(R.id.tv_ptnt_frgmnt_vasscale_dtls_before);
 		tvScaleAfter = (TextView)findViewById(R.id.tv_ptnt_frgmnt_vasscale_dtls_after);
 		tvScaleDate = (TextView)findViewById(R.id.tv_ptnt_frgmnt_vasscale_dtls_date);
+		tvDailyPymnt = (TextView)findViewById(R.id.tv_ptnt_frgmnt_vasscale_dtls_dailypymnt);
 		imgvwBefore = (ImageView) findViewById(R.id.imgvw_ptnt_frgmnt_vasscale_dtls_beforeemoji);
 		imgvwAfter = (ImageView) findViewById(R.id.imgvw_ptnt_frgmnt_vasscale_dtls_afteremoji);
 		mBtnOk = (Button)findViewById(R.id.btn_ptnt_frgmnt_vasscale_dtls_ok);
@@ -41,12 +42,13 @@ public class VasScaleDetails extends Activity implements AalayamConstants{
 		tvScaleBefore.setText(String.valueOf(getIntent().getIntExtra(BEFORE_SML, 0)));
 		tvScaleAfter.setText(String.valueOf(getIntent().getIntExtra(AFTER_SML, 0)));
 		tvScaleDate.setText(getIntent().getStringExtra(ADD_DATE_SML));
+		tvDailyPymnt.setText(getIntent().getStringExtra(DAILY_PAYMENT));
 
 		// Check Internet check service is running or not, If not then Start Service
 		if(!General_Fnctns.isServiceRunning(InternetService.class, this))
 			startService(new Intent(this, InternetService.class));
 
-		mapEmojsDrwbleId = new HashMap<String, Integer>();
+		mapEmojsDrwbleId = new HashMap<>();
 		mapEmojsDrwbleId.put(EMOJS_00_ID, R.drawable.emojs_00);
 		mapEmojsDrwbleId.put(EMOJS_01_ID, R.drawable.emojs_01);
 		mapEmojsDrwbleId.put(EMOJS_02_ID, R.drawable.emojs_02);
