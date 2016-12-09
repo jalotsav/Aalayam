@@ -100,4 +100,14 @@
 	</style>
 	<!-- End of AlertDialog LollipopDesign -->
 
+    <!--ColorAccent Green style-->
+    <style name="ColorAccentBlue">
+        <item name="colorAccent">@color/blue_prmry</item>
+    </style>
+
+    <!--Material Style Button Theme - GREEN -->
+    <style name="MaterialButton.Blue" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:theme">@style/ColorAccentBlue</item>
+    </style>
+
 </resources>

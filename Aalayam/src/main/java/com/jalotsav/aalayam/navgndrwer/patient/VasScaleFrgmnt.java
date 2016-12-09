@@ -42,7 +42,7 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 	SwipeRefreshLayout swiperfrshlyot, swiperfrshlyot_emptyvw;
 	ListView lstvw_vasscalelst;
 	FloatingActionButton fab_addvasscale;
-	ArrayList<String> arrylst_vasscaledate, arrylst_vasdailypymnt;
+	ArrayList<String> arrylst_vasscaledate, arrylst_vasdailypymnt, arrylst_vasdailypymnt_type;
 	ArrayList<Integer> arrylst_vasscale_id, arrylst_vasbefore, arrylst_vasafter;
 	ArrayList<Long> arrylst_vasscaledate_timestamp;
 
@@ -82,6 +82,7 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 		arrylst_vasafter = new ArrayList<>();
 		arrylst_vasscaledate_timestamp = new ArrayList<>();
 		arrylst_vasdailypymnt = new ArrayList<>();
+		arrylst_vasdailypymnt_type = new ArrayList<>();
 
 		// Set EmptyView to ListView
 		lstvw_vasscalelst.setEmptyView(swiperfrshlyot_emptyvw);
@@ -127,6 +128,7 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 					intnt_updatescale.putExtra(BEFORE_SML, (int)arrylst_vasbefore.get(position));
 					intnt_updatescale.putExtra(AFTER_SML, (int)arrylst_vasafter.get(position));
 					intnt_updatescale.putExtra(DAILY_PAYMENT, arrylst_vasdailypymnt.get(position));
+					intnt_updatescale.putExtra(DAILY_PAYMENT_TYPE, arrylst_vasdailypymnt_type.get(position));
 					startActivityForResult(intnt_updatescale, ADD_VASSCALE_REQUEST);
 				}else{
 					
@@ -136,6 +138,7 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 					intnt_vasscale.putExtra(AFTER_SML, arrylst_vasafter.get(position));
 					intnt_vasscale.putExtra(ADD_DATE_SML, arrylst_vasscaledate.get(position));
 					intnt_vasscale.putExtra(DAILY_PAYMENT, arrylst_vasdailypymnt.get(position));
+					intnt_vasscale.putExtra(DAILY_PAYMENT_TYPE, arrylst_vasdailypymnt_type.get(position));
 					startActivity(intnt_vasscale);
 				}
 			}
@@ -184,6 +187,7 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 				Collections.reverse(arrylst_vasafter);
 				Collections.reverse(arrylst_vasscaledate_timestamp);
 				Collections.reverse(arrylst_vasdailypymnt);
+				Collections.reverse(arrylst_vasdailypymnt_type);
 
 				for(long str: arrylst_vasscaledate_timestamp){
 					
@@ -287,7 +291,8 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 								arrylst_vasafter = new ArrayList<>();
 								arrylst_vasscaledate_timestamp = new ArrayList<>();
 								arrylst_vasdailypymnt= new ArrayList<>();
-								
+								arrylst_vasdailypymnt_type= new ArrayList<>();
+
 								for(int i=0; i< jsonArrayFirst.length(); i++){
 									
 									JSONArray jsonArraySecnd = jsonArrayFirst.getJSONArray(i);
@@ -301,6 +306,9 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 										arrylst_vasafter.add(jsnobj_dctrprfl.getInt(AFTER_SML));
 										arrylst_vasscaledate_timestamp.add(jsnobj_dctrprfl.getLong(ADD_DATE_SML));
 										arrylst_vasdailypymnt.add(jsnobj_dctrprfl.getString(DAILY_PAYMENT));
+										arrylst_vasdailypymnt_type.add(jsnobj_dctrprfl.getString(DAILY_PAYMENT_TYPE));
+//										arrylst_vasdailypymnt.add("10.00");
+//										arrylst_vasdailypymnt_type.add(DAILY_PAYMENT_TYPE_CHEQUE);
 									}
 								}
 								

@@ -179,6 +179,8 @@
 	    		<!-- Add Vas Scale -->
 	    		<string name="add_vasscale">Add Vas scale</string>
 	    		<string name="add_scale">Add scale</string>
+				<string name="cs_sml">cs</string>
+				<string name="ch_sml">ch</string>
 	    		<string name="daily_payment">Daily payment</string>
 	    		<string name="add_scale_questnmark">Add scale ?</string>
 	    		<string name="add_scale_dialogmsg">Do you want to add scale with </string>
@@ -200,6 +202,7 @@
 	    		<string name="before_sml">Before</string>
 	    		<string name="after_sml">After</string>
 	    		<string name="date_sml">Date</string>
+				<string name="dailypymnt_with_type_sml">%1$s(%2$s)</string>
 	    		
     		<!-- Payments -->
     		<string name="ptnt_pymnthstry_appearher">Patient payments history appear here</string>

@@ -8,12 +8,12 @@
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\drawable-xxhdpi\\ic_check_white.png"
     },
     {
-        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_payment_gray.png",
-        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\drawable-xxhdpi\\ic_payment_gray.png"
-    },
-    {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_news_gray.png",
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\drawable-xxhdpi\\ic_news_gray.png"
+    },
+    {
+        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_payment_gray.png",
+        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\drawable-xxhdpi\\ic_payment_gray.png"
     },
     {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_temp.png",

@@ -5,37 +5,50 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="1390022622069217"
+    timestamp="1485291809604651"
     token="1034058111036796415"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2408" />
+        duration="1173" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="59" />
+        duration="74" />
     <task
         name="verifier"
-        duration="14" />
+        duration="5" />
 
+    <artifact
+        location="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\Aalayam\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
     <artifact
         location="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\Aalayam\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
         type="DEX" />
 
     <build
-        timestamp="1389328071911873"
+        timestamp="1484487278530902"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\Aalayam\build\outputs\apk\aalayam-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1390022622069217"
+        timestamp="1484784941379450"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\Aalayam\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="1485291809604651"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\Aalayam\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
         <artifact
             location="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\Aalayam\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />

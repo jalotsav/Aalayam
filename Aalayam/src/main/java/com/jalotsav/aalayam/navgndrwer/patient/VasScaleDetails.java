@@ -42,7 +42,9 @@ public class VasScaleDetails extends Activity implements AalayamConstants{
 		tvScaleBefore.setText(String.valueOf(getIntent().getIntExtra(BEFORE_SML, 0)));
 		tvScaleAfter.setText(String.valueOf(getIntent().getIntExtra(AFTER_SML, 0)));
 		tvScaleDate.setText(getIntent().getStringExtra(ADD_DATE_SML));
-		tvDailyPymnt.setText(getIntent().getStringExtra(DAILY_PAYMENT));
+		tvDailyPymnt.setText(getString(R.string.dailypymnt_with_type_sml,
+				getIntent().getStringExtra(DAILY_PAYMENT),
+				getIntent().getStringExtra(DAILY_PAYMENT_TYPE)));
 
 		// Check Internet check service is running or not, If not then Start Service
 		if(!General_Fnctns.isServiceRunning(InternetService.class, this))

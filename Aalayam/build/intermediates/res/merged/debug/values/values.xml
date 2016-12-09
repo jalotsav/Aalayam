@@ -1281,9 +1281,10 @@
     <string name="case_dscrptn">Case Description</string>
     <string name="case_dtls">Case Details</string>
     <string name="case_images_sml">Case Images</string>
+    <string name="ch_sml">ch</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="close_sml">close</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">04fa93df-911e-4836-9034-d1bada7a915a</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">4fc54957-b63d-4882-9564-0f7410329f9d</string>
     <string name="comments_sml">Comments</string>
     <string name="common_google_play_services_api_unavailable_text"><ns2:g id="app_name">%1$s</ns2:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
@@ -1316,7 +1317,9 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="cs_sml">cs</string>
     <string name="daily_payment">Daily payment</string>
+    <string name="dailypymnt_with_type_sml">%1$s(%2$s)</string>
     <string name="date_coln_sml">Date: </string>
     <string name="date_sml">Date</string>
     <string name="dctr_login">Doctor Login</string>
@@ -3193,6 +3196,9 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
+    <style name="ColorAccentBlue">
+        <item name="colorAccent">@color/blue_prmry</item>
+    </style>
     <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="spinBars">true</item>
         <item name="color">@android:color/white</item>
@@ -3211,6 +3217,9 @@
      	
     	<item name="android:windowBackground">@color/white_dialog</item>
 	</style>
+    <style name="MaterialButton.Blue" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:theme">@style/ColorAccentBlue</item>
+    </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 

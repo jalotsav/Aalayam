@@ -16,12 +16,12 @@
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\drawable-mdpi\\ic_dashboard_gray.png"
     },
     {
-        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_gallery_white.png",
-        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\drawable-mdpi\\ic_gallery_white.png"
-    },
-    {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_user_white.png",
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\drawable-mdpi\\ic_user_white.png"
+    },
+    {
+        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_gallery_white.png",
+        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\drawable-mdpi\\ic_gallery_white.png"
     },
     {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_description_white.png",
