@@ -183,15 +183,13 @@
 				<string name="ch_sml">ch</string>
 	    		<string name="daily_payment">Daily payment</string>
 	    		<string name="add_scale_questnmark">Add scale ?</string>
-	    		<string name="add_scale_dialogmsg">Do you want to add scale with </string>
-	    		<string name="beforescale_coln_sml">Before scale: </string>
-	    		<string name="afterscale_coln_sml">After scale: </string>
+	    		<string name="add_scale_dialogmsg">Do you want to add scale with\nBefore scale: %1$d,\nAfter scale: %2$d and\nDaily payment %3$s\u20B9 by %4$s ?</string>
 	    		<string name="vasscale_added_sucsfly">Vas scale details added successfully</string>
 	    		<!-- Update Vas Scale -->
 	    		<string name="update_vasscale">Update Vas scale</string>
 	    		<string name="update_scale">Update scale</string>
 	    		<string name="update_scale_questnmark">Update scale ?</string>
-	    		<string name="update_scale_dialogmsg">Do you want to update scale with </string>	    		
+				<string name="update_scale_dialogmsg">Do you want to update scale with\nBefore scale: %1$d,\nAfter scale: %2$d and\nDaily payment %3$s\u20B9 by %4$s ?</string>
 	    		<string name="vasscale_before_updated_sucsfly">Vas scale details for before updated successfully</string>
 	    		<string name="vasscale_after_updated_sucsfly">Vas scale details for after updated successfully</string>
 	    		

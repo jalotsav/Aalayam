@@ -297,12 +297,7 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
                 dialg.dismiss();
 
                 String strDailyPymnt = General_Fnctns.get2DigitDecimal(mEtDailyPymnt.getText().toString().trim(), true);
-                int slctdDPymntTypeId = mRadioGroupPymntType.getCheckedRadioButtonId();
-                String slctdDPymntType = "";
-                if (slctdDPymntTypeId == mRadiobtnCS.getId())
-                    slctdDPymntType = DAILY_PAYMENT_TYPE_CASH;
-                else if (slctdDPymntTypeId == mRadiobtnCH.getId())
-                    slctdDPymntType = DAILY_PAYMENT_TYPE_CHEQUE;
+                String slctdDPymntType = getSelectedDPaymentType();
 
                 if (comeFor.equals(ADD_VASSCALE)) {
 
@@ -341,43 +336,35 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
     private String getAddBeforeAfterScaleSetdialogmsg() {
         // TODO Auto-generated method stub
 
-        String dialogMsg = getResources().getString(
-                R.string.add_scale_dialogmsg)
-                + "\n"
-                + getResources().getString(R.string.beforescale_coln_sml)
-                + " "
-                + nmbrpckrBefore.getValue()
-                + " "
-                + getResources().getString(R.string.and_all_sml)
-                + "\n"
-                + getResources().getString(R.string.afterscale_coln_sml)
-                + " "
-                + nmbrpckrAfter.getValue() + " ?";
-
-        return dialogMsg;
+        return getResources().getString(R.string.add_scale_dialogmsg,
+                nmbrpckrBefore.getValue(),
+                nmbrpckrAfter.getValue(),
+                General_Fnctns.get2DigitDecimal(mEtDailyPymnt.getText().toString().trim(), true),
+                getSelectedDPaymentType());
     }
 
     private String getUpdateBeforeAfterScaleSetdialogmsg() {
         // TODO Auto-generated method stub
 
-        String dialogMsg = getResources().getString(
-                R.string.update_scale_dialogmsg)
-                + "\n"
-                + getResources().getString(R.string.beforescale_coln_sml)
-                + " "
-                + nmbrpckrBefore.getValue()
-                + " "
-                + getResources().getString(R.string.and_all_sml)
-                + "\n"
-                + getResources().getString(R.string.afterscale_coln_sml)
-                + " "
-                + nmbrpckrAfter.getValue() + " ?";
-
-        return dialogMsg;
+        return getResources().getString(R.string.update_scale_dialogmsg,
+                nmbrpckrBefore.getValue(),
+                nmbrpckrAfter.getValue(),
+                General_Fnctns.get2DigitDecimal(mEtDailyPymnt.getText().toString().trim(), true),
+                getSelectedDPaymentType());
     }
 
-    public static boolean setNumberPickerTextColor(NumberPicker numberPicker,
-                                                   int color) {
+    private String getSelectedDPaymentType() {
+
+        String slctdDPymntType = "";
+        int slctdDPymntTypeId = mRadioGroupPymntType.getCheckedRadioButtonId();
+        if (slctdDPymntTypeId == mRadiobtnCS.getId())
+            slctdDPymntType = DAILY_PAYMENT_TYPE_CASH;
+        else if (slctdDPymntTypeId == mRadiobtnCH.getId())
+            slctdDPymntType = DAILY_PAYMENT_TYPE_CHEQUE;
+        return slctdDPymntType;
+    }
+
+    public static boolean setNumberPickerTextColor(NumberPicker numberPicker, int color) {
         final int count = numberPicker.getChildCount();
         for (int i = 0; i < count; i++) {
             View child = numberPicker.getChildAt(i);

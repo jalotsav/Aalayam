@@ -307,8 +307,6 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 										arrylst_vasscaledate_timestamp.add(jsnobj_dctrprfl.getLong(ADD_DATE_SML));
 										arrylst_vasdailypymnt.add(jsnobj_dctrprfl.getString(DAILY_PAYMENT));
 										arrylst_vasdailypymnt_type.add(jsnobj_dctrprfl.getString(DAILY_PAYMENT_TYPE));
-//										arrylst_vasdailypymnt.add("10.00");
-//										arrylst_vasdailypymnt_type.add(DAILY_PAYMENT_TYPE_CHEQUE);
 									}
 								}
 								

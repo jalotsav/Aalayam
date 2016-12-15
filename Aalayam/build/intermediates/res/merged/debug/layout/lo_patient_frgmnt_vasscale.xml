@@ -1,61 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.jalotsav.aalayam.navgndrwer.patient.VasScaleFrgmnt" >
+    tools:context="com.jalotsav.aalayam.navgndrwer.patient.VasScaleFrgmnt">
 
     <android.support.v4.widget.SwipeRefreshLayout
-    	android:id="@+id/swiperfrshlyot_ptnt_frgmnt_vasscale"
+        android:id="@+id/swiperfrshlyot_ptnt_frgmnt_vasscale"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent">
 
         <ListView
             android:id="@+id/lstvw_ptnt_frgmnt_vasscale_vaslist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:divider="@drawable/listvw_dividr_gray"
-            android:dividerHeight="1dp" >
-        </ListView>
+            android:dividerHeight="1dp"></ListView>
 
     </android.support.v4.widget.SwipeRefreshLayout>
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swiperfrshlyot_ptnt_frgmnt_vasscale_emptyview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent">
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
-		    <LinearLayout
-		        android:id="@+id/lnrlyot_ptnt_frgmnt_vasscale_novas"
-		        android:layout_width="match_parent"
-		        android:layout_height="wrap_content"
-        		android:layout_gravity="center"
-        		android:gravity="center"
-		        android:orientation="vertical" >
+            <LinearLayout
+                android:id="@+id/lnrlyot_ptnt_frgmnt_vasscale_novas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
 
-			    <TextView
-			        android:layout_width="fill_parent"
-			        android:layout_height="wrap_content"
-        			android:gravity="center"
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
                     android:drawablePadding="10dp"
-    				android:drawableTop="@drawable/flat_emptyvw_vasscale"
-			        android:textSize="25sp"
-			        android:textColor="@color/gray_drk"
-			        android:text="@string/vasscales_appearhere" />
-		    </LinearLayout>
+                    android:drawableTop="@drawable/flat_emptyvw_vasscale"
+                    android:gravity="center"
+                    android:text="@string/vasscales_appearhere"
+                    android:textColor="@color/gray_drk"
+                    android:textSize="25sp" />
+            </LinearLayout>
         </ScrollView>
     </android.support.v4.widget.SwipeRefreshLayout>
 
     <include
+        layout="@layout/lo_user_notify"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        layout="@layout/lo_user_notify" />
+        android:layout_height="wrap_content" />
 
     <View
         android:layout_width="match_parent"
@@ -72,9 +71,9 @@
         android:layout_marginBottom="@dimen/activity_horizontal_margin"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:visibility="gone"
         fab:fab_colorNormal="@color/red_prmry"
         fab:fab_colorPressed="@color/red_pressed"
-        fab:fab_icon="@drawable/ic_add_white"
-        android:visibility="gone" />
+        fab:fab_icon="@drawable/ic_add_white" />
 
 </RelativeLayout>

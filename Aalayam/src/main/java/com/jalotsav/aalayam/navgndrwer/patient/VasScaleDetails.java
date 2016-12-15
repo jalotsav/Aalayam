@@ -6,6 +6,7 @@ import java.util.Map;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -42,9 +43,10 @@ public class VasScaleDetails extends Activity implements AalayamConstants{
 		tvScaleBefore.setText(String.valueOf(getIntent().getIntExtra(BEFORE_SML, 0)));
 		tvScaleAfter.setText(String.valueOf(getIntent().getIntExtra(AFTER_SML, 0)));
 		tvScaleDate.setText(getIntent().getStringExtra(ADD_DATE_SML));
-		tvDailyPymnt.setText(getString(R.string.dailypymnt_with_type_sml,
-				getIntent().getStringExtra(DAILY_PAYMENT),
-				getIntent().getStringExtra(DAILY_PAYMENT_TYPE)));
+		String dailyPymnt = getIntent().getStringExtra(DAILY_PAYMENT);
+		String dailyPymntType = getIntent().getStringExtra(DAILY_PAYMENT_TYPE);
+		if(!TextUtils.isEmpty(dailyPymnt) && !TextUtils.isEmpty(dailyPymntType))
+			tvDailyPymnt.setText(getString(R.string.dailypymnt_with_type_sml, dailyPymnt, dailyPymntType));
 
 		// Check Internet check service is running or not, If not then Start Service
 		if(!General_Fnctns.isServiceRunning(InternetService.class, this))

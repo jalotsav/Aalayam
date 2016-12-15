@@ -1256,13 +1256,12 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
     <string name="add_scale">Add scale</string>
-    <string name="add_scale_dialogmsg">Do you want to add scale with </string>
+    <string name="add_scale_dialogmsg">Do you want to add scale with\nBefore scale: %1$d,\nAfter scale: %2$d and\nDaily payment %3$s\u20B9 by %4$s ?</string>
     <string name="add_scale_questnmark">Add scale ?</string>
     <string name="add_sml">Add</string>
     <string name="add_vasscale">Add Vas scale</string>
     <string name="address">Address</string>
     <string name="after_sml">After</string>
-    <string name="afterscale_coln_sml">After scale: </string>
     <string name="alctd_area">Allocated areas</string>
     <string name="already_feedback_onserver">Feedback already submitted for this patient on Aalayam server.</string>
     <string name="alym_logo">Aalayam Logo</string>
@@ -1274,7 +1273,6 @@
     <string name="area">Area</string>
     <string name="assgnd_to">Assigned to</string>
     <string name="before_sml">Before</string>
-    <string name="beforescale_coln_sml">Before scale: </string>
     <string name="birthdate">Birthdate</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="cancel_sml">Cancel</string>
@@ -1284,7 +1282,7 @@
     <string name="ch_sml">ch</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="close_sml">close</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">4fc54957-b63d-4882-9564-0f7410329f9d</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">17b0a9d5-44db-4e62-8f71-7136c4c2d9fe</string>
     <string name="comments_sml">Comments</string>
     <string name="common_google_play_services_api_unavailable_text"><ns2:g id="app_name">%1$s</ns2:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
@@ -2105,7 +2103,7 @@
     <string name="total_recvd">Total Received</string>
     <string name="treatment_sml">Treatment</string>
     <string name="update_scale">Update scale</string>
-    <string name="update_scale_dialogmsg">Do you want to update scale with </string>
+    <string name="update_scale_dialogmsg">Do you want to update scale with\nBefore scale: %1$d,\nAfter scale: %2$d and\nDaily payment %3$s\u20B9 by %4$s ?</string>
     <string name="update_scale_questnmark">Update scale ?</string>
     <string name="update_sml">Update</string>
     <string name="update_vasscale">Update Vas scale</string>
