@@ -180,7 +180,7 @@
 	    		<string name="add_vasscale">Add Vas scale</string>
 	    		<string name="add_scale">Add scale</string>
 				<string name="cs_sml">cs</string>
-				<string name="ch_sml">ch</string>
+				<string name="cq_sml">cq</string>
 	    		<string name="daily_payment">Daily payment</string>
 	    		<string name="add_scale_questnmark">Add scale ?</string>
 	    		<string name="add_scale_dialogmsg">Do you want to add scale with\nBefore scale: %1$d,\nAfter scale: %2$d and\nDaily payment %3$s\u20B9 by %4$s ?</string>

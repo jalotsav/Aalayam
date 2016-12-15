@@ -4309,11 +4309,10 @@ containing a value of this type.
         public static final int case_dscrptn=0x7f060055;
         public static final int case_dtls=0x7f060056;
         public static final int case_images_sml=0x7f060057;
-        public static final int ch_sml=0x7f060058;
-        public static final int character_counter_pattern=0x7f060059;
-        public static final int close_sml=0x7f06005a;
-        public static final int com_crashlytics_android_build_id=0x7f06005b;
-        public static final int comments_sml=0x7f06005c;
+        public static final int character_counter_pattern=0x7f060058;
+        public static final int close_sml=0x7f060059;
+        public static final int com_crashlytics_android_build_id=0x7f06005a;
+        public static final int comments_sml=0x7f06005b;
         public static final int common_google_play_services_api_unavailable_text=0x7f060013;
         public static final int common_google_play_services_enable_button=0x7f060014;
         public static final int common_google_play_services_enable_text=0x7f060015;
@@ -4345,6 +4344,7 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f06002f;
         public static final int common_signin_button_text=0x7f060030;
         public static final int common_signin_button_text_long=0x7f060031;
+        public static final int cq_sml=0x7f06005c;
         public static final int cs_sml=0x7f06005d;
         public static final int daily_payment=0x7f06005e;
         public static final int dailypymnt_with_type_sml=0x7f06005f;

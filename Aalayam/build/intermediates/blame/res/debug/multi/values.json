@@ -18783,27 +18783,8 @@
                     "startLine": 1281,
                     "startColumn": 4,
                     "startOffset": 84202,
-                    "endColumn": 37,
-                    "endOffset": 84235
-                },
-                "from": {
-                    "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 182,
-                        "startColumn": 4,
-                        "startOffset": 8208,
-                        "endColumn": 37,
-                        "endOffset": 8241
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1282,
-                    "startColumn": 4,
-                    "startOffset": 84240,
                     "endColumn": 86,
-                    "endOffset": 84322
+                    "endOffset": 84284
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml",
@@ -18818,11 +18799,11 @@
             },
             {
                 "to": {
-                    "startLine": 1283,
+                    "startLine": 1282,
                     "startColumn": 4,
-                    "startOffset": 84327,
+                    "startOffset": 84289,
                     "endColumn": 43,
-                    "endOffset": 84366
+                    "endOffset": 84328
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\values\\strings.xml",
@@ -18837,11 +18818,11 @@
             },
             {
                 "to": {
-                    "startLine": 1284,
+                    "startLine": 1283,
                     "startColumn": 4,
-                    "startOffset": 84371,
+                    "startOffset": 84333,
                     "endColumn": 164,
-                    "endOffset": 84531
+                    "endOffset": 84493
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\generated\\fabric\\res\\debug\\values\\com_crashlytics_build_id.xml",
@@ -18856,11 +18837,11 @@
             },
             {
                 "to": {
-                    "startLine": 1285,
+                    "startLine": 1284,
                     "startColumn": 4,
-                    "startOffset": 84536,
+                    "startOffset": 84498,
                     "endColumn": 49,
-                    "endOffset": 84581
+                    "endOffset": 84543
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\values\\strings.xml",
@@ -18875,11 +18856,11 @@
             },
             {
                 "to": {
-                    "startLine": 1286,
+                    "startLine": 1285,
                     "startColumn": 4,
-                    "startOffset": 84586,
+                    "startOffset": 84548,
                     "endColumn": 231,
-                    "endOffset": 84813
+                    "endOffset": 84775
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -18894,11 +18875,11 @@
             },
             {
                 "to": {
-                    "startLine": 1287,
+                    "startLine": 1286,
                     "startColumn": 4,
-                    "startOffset": 84818,
+                    "startOffset": 84780,
                     "endColumn": 125,
-                    "endOffset": 84939
+                    "endOffset": 84901
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -18913,11 +18894,11 @@
             },
             {
                 "to": {
-                    "startLine": 1288,
+                    "startLine": 1287,
                     "startColumn": 4,
-                    "startOffset": 84944,
+                    "startOffset": 84906,
                     "endColumn": 180,
-                    "endOffset": 85120
+                    "endOffset": 85082
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -18932,11 +18913,11 @@
             },
             {
                 "to": {
-                    "startLine": 1289,
+                    "startLine": 1288,
                     "startColumn": 4,
-                    "startOffset": 85125,
+                    "startOffset": 85087,
                     "endColumn": 124,
-                    "endOffset": 85245
+                    "endOffset": 85207
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -18951,11 +18932,11 @@
             },
             {
                 "to": {
-                    "startLine": 1290,
+                    "startLine": 1289,
                     "startColumn": 4,
-                    "startOffset": 85250,
+                    "startOffset": 85212,
                     "endColumn": 123,
-                    "endOffset": 85369
+                    "endOffset": 85331
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -18970,11 +18951,11 @@
             },
             {
                 "to": {
-                    "startLine": 1291,
+                    "startLine": 1290,
                     "startColumn": 4,
-                    "startOffset": 85374,
+                    "startOffset": 85336,
                     "endColumn": 212,
-                    "endOffset": 85582
+                    "endOffset": 85544
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -18989,11 +18970,11 @@
             },
             {
                 "to": {
-                    "startLine": 1292,
+                    "startLine": 1291,
                     "startColumn": 4,
-                    "startOffset": 85587,
+                    "startOffset": 85549,
                     "endColumn": 214,
-                    "endOffset": 85797
+                    "endOffset": 85759
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19008,11 +18989,11 @@
             },
             {
                 "to": {
-                    "startLine": 1293,
+                    "startLine": 1292,
                     "startColumn": 4,
-                    "startOffset": 85802,
+                    "startOffset": 85764,
                     "endColumn": 122,
-                    "endOffset": 85920
+                    "endOffset": 85882
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19027,11 +19008,11 @@
             },
             {
                 "to": {
-                    "startLine": 1294,
+                    "startLine": 1293,
                     "startColumn": 4,
-                    "startOffset": 85925,
+                    "startOffset": 85887,
                     "endColumn": 164,
-                    "endOffset": 86085
+                    "endOffset": 86047
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19046,11 +19027,11 @@
             },
             {
                 "to": {
-                    "startLine": 1295,
+                    "startLine": 1294,
                     "startColumn": 4,
-                    "startOffset": 86090,
+                    "startOffset": 86052,
                     "endColumn": 93,
-                    "endOffset": 86179
+                    "endOffset": 86141
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19065,11 +19046,11 @@
             },
             {
                 "to": {
-                    "startLine": 1296,
+                    "startLine": 1295,
                     "startColumn": 4,
-                    "startOffset": 86184,
+                    "startOffset": 86146,
                     "endColumn": 140,
-                    "endOffset": 86320
+                    "endOffset": 86282
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19084,11 +19065,11 @@
             },
             {
                 "to": {
-                    "startLine": 1297,
+                    "startLine": 1296,
                     "startColumn": 4,
-                    "startOffset": 86325,
+                    "startOffset": 86287,
                     "endColumn": 89,
-                    "endOffset": 86410
+                    "endOffset": 86372
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19103,11 +19084,11 @@
             },
             {
                 "to": {
-                    "startLine": 1298,
+                    "startLine": 1297,
                     "startColumn": 4,
-                    "startOffset": 86415,
+                    "startOffset": 86377,
                     "endColumn": 102,
-                    "endOffset": 86513
+                    "endOffset": 86475
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19122,11 +19103,11 @@
             },
             {
                 "to": {
-                    "startLine": 1299,
+                    "startLine": 1298,
                     "startColumn": 4,
-                    "startOffset": 86518,
+                    "startOffset": 86480,
                     "endColumn": 150,
-                    "endOffset": 86664
+                    "endOffset": 86626
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19141,11 +19122,11 @@
             },
             {
                 "to": {
-                    "startLine": 1300,
+                    "startLine": 1299,
                     "startColumn": 4,
-                    "startOffset": 86669,
+                    "startOffset": 86631,
                     "endColumn": 121,
-                    "endOffset": 86786
+                    "endOffset": 86748
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19160,11 +19141,11 @@
             },
             {
                 "to": {
-                    "startLine": 1301,
+                    "startLine": 1300,
                     "startColumn": 4,
-                    "startOffset": 86791,
+                    "startOffset": 86753,
                     "endColumn": 142,
-                    "endOffset": 86929
+                    "endOffset": 86891
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19179,11 +19160,11 @@
             },
             {
                 "to": {
-                    "startLine": 1302,
+                    "startLine": 1301,
                     "startColumn": 4,
-                    "startOffset": 86934,
+                    "startOffset": 86896,
                     "endColumn": 99,
-                    "endOffset": 87029
+                    "endOffset": 86991
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19198,11 +19179,11 @@
             },
             {
                 "to": {
-                    "startLine": 1303,
+                    "startLine": 1302,
                     "startColumn": 4,
-                    "startOffset": 87034,
+                    "startOffset": 86996,
                     "endColumn": 150,
-                    "endOffset": 87180
+                    "endOffset": 87142
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19217,11 +19198,11 @@
             },
             {
                 "to": {
-                    "startLine": 1304,
+                    "startLine": 1303,
                     "startColumn": 4,
-                    "startOffset": 87185,
+                    "startOffset": 87147,
                     "endColumn": 91,
-                    "endOffset": 87272
+                    "endOffset": 87234
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19236,11 +19217,11 @@
             },
             {
                 "to": {
-                    "startLine": 1305,
+                    "startLine": 1304,
                     "startColumn": 4,
-                    "startOffset": 87277,
+                    "startOffset": 87239,
                     "endColumn": 218,
-                    "endOffset": 87491
+                    "endOffset": 87453
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.2.1\\res\\values\\values.xml",
@@ -19255,11 +19236,11 @@
             },
             {
                 "to": {
-                    "startLine": 1306,
+                    "startLine": 1305,
                     "startColumn": 4,
-                    "startOffset": 87496,
+                    "startOffset": 87458,
                     "endColumn": 218,
-                    "endOffset": 87710
+                    "endOffset": 87672
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19274,11 +19255,11 @@
             },
             {
                 "to": {
-                    "startLine": 1307,
+                    "startLine": 1306,
                     "startColumn": 4,
-                    "startOffset": 87715,
+                    "startOffset": 87677,
                     "endColumn": 94,
-                    "endOffset": 87805
+                    "endOffset": 87767
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19293,11 +19274,11 @@
             },
             {
                 "to": {
-                    "startLine": 1308,
+                    "startLine": 1307,
                     "startColumn": 4,
-                    "startOffset": 87810,
+                    "startOffset": 87772,
                     "endColumn": 104,
-                    "endOffset": 87910
+                    "endOffset": 87872
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19312,11 +19293,11 @@
             },
             {
                 "to": {
-                    "startLine": 1309,
+                    "startLine": 1308,
                     "startColumn": 4,
-                    "startOffset": 87915,
+                    "startOffset": 87877,
                     "endColumn": 180,
-                    "endOffset": 88091
+                    "endOffset": 88053
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19331,11 +19312,11 @@
             },
             {
                 "to": {
-                    "startLine": 1310,
+                    "startLine": 1309,
                     "startColumn": 4,
-                    "startOffset": 88096,
+                    "startOffset": 88058,
                     "endColumn": 124,
-                    "endOffset": 88216
+                    "endOffset": 88178
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19350,11 +19331,11 @@
             },
             {
                 "to": {
-                    "startLine": 1311,
+                    "startLine": 1310,
                     "startColumn": 4,
-                    "startOffset": 88221,
+                    "startOffset": 88183,
                     "endColumn": 174,
-                    "endOffset": 88391
+                    "endOffset": 88353
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19369,11 +19350,11 @@
             },
             {
                 "to": {
-                    "startLine": 1312,
+                    "startLine": 1311,
                     "startColumn": 4,
-                    "startOffset": 88396,
+                    "startOffset": 88358,
                     "endColumn": 104,
-                    "endOffset": 88496
+                    "endOffset": 88458
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19388,11 +19369,11 @@
             },
             {
                 "to": {
-                    "startLine": 1313,
+                    "startLine": 1312,
                     "startColumn": 4,
-                    "startOffset": 88501,
+                    "startOffset": 88463,
                     "endColumn": 147,
-                    "endOffset": 88644
+                    "endOffset": 88606
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19407,11 +19388,11 @@
             },
             {
                 "to": {
-                    "startLine": 1314,
+                    "startLine": 1313,
                     "startColumn": 4,
-                    "startOffset": 88649,
+                    "startOffset": 88611,
                     "endColumn": 62,
-                    "endOffset": 88707
+                    "endOffset": 88669
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19426,11 +19407,11 @@
             },
             {
                 "to": {
-                    "startLine": 1315,
+                    "startLine": 1314,
                     "startColumn": 4,
-                    "startOffset": 88712,
+                    "startOffset": 88674,
                     "endColumn": 61,
-                    "endOffset": 88769
+                    "endOffset": 88731
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19445,11 +19426,11 @@
             },
             {
                 "to": {
-                    "startLine": 1316,
+                    "startLine": 1315,
                     "startColumn": 4,
-                    "startOffset": 88774,
+                    "startOffset": 88736,
                     "endColumn": 78,
-                    "endOffset": 88848
+                    "endOffset": 88810
                 },
                 "from": {
                     "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
@@ -19459,6 +19440,25 @@
                         "startOffset": 6122,
                         "endColumn": 78,
                         "endOffset": 6196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1316,
+                    "startColumn": 4,
+                    "startOffset": 88815,
+                    "endColumn": 37,
+                    "endOffset": 88848
+                },
+                "from": {
+                    "file": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\Aalayam\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 8208,
+                        "endColumn": 37,
+                        "endOffset": 8241
                     }
                 }
             },
