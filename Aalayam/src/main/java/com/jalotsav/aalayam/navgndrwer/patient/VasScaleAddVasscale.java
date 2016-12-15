@@ -51,7 +51,7 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
     AppCompatButton btnAddscale;
     Map<String, Integer> mapEmojsDrwbleId;
 
-    private String comeFor, slctd_ptnt_id;
+    private String comeFor, slctd_ptnt_id, dailyPymnt, dailyPymntType;
     private int vas_id, vasBefore, vasAfter;
 
     boolean callSendUpdateAfterAsyncStatus = true;
@@ -86,6 +86,8 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
         vas_id = getIntent().getIntExtra(VAS_ID, 0);
         vasBefore = getIntent().getIntExtra(BEFORE_SML, 10);
         vasAfter = getIntent().getIntExtra(AFTER_SML, 10);
+        dailyPymnt = getIntent().getStringExtra(DAILY_PAYMENT);
+        dailyPymntType = getIntent().getStringExtra(DAILY_PAYMENT_TYPE);
 
         if (comeFor.equals(ADD_VASSCALE)) {
 
@@ -181,11 +183,16 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
                     confirmSendAddUpdateScale();
                 else if (comeFor.equals(UPDATE_VASSCALE)) {
 
+                    confirmSendAddUpdateScale();
+
+                    /*String currentEntrdDPymnt = General_Fnctns.get2DigitDecimal(mEtDailyPymnt.getText().toString().trim(), true);
                     if (nmbrpckrBefore.getValue() == vasBefore
-                            && nmbrpckrAfter.getValue() == vasAfter)
-                        General_Fnctns.showtoastLngthlong(VasScaleAddVasscale.this, "You have to change scale for update");
+                            || nmbrpckrAfter.getValue() == vasAfter
+                            || currentEntrdDPymnt.equals(dailyPayment)
+                            || getSelectedDPaymentType().equals(dailyPymntType))
+                        General_Fnctns.showtoastLngthlong(VasScaleAddVasscale.this, "You have to change scale or daily payment for update");
                     else
-                        confirmSendAddUpdateScale();
+                        confirmSendAddUpdateScale();*/
                 }
             }
         });
@@ -312,20 +319,21 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
                             && nmbrpckrAfter.getValue() != vasAfter) {
 
                         callSendUpdateAfterAsyncStatus = true;
-
                         new SendUpdateBeforeVasscaleToWebSrve().execute(String.valueOf(nmbrpckrBefore.getValue()), strDailyPymnt, slctdDPymntType);
                     } else if (nmbrpckrBefore.getValue() != vasBefore
                             && nmbrpckrAfter.getValue() == vasAfter) {
 
                         callSendUpdateAfterAsyncStatus = false;
-
                         new SendUpdateBeforeVasscaleToWebSrve().execute(String.valueOf(nmbrpckrBefore.getValue()), strDailyPymnt, slctdDPymntType);
                     } else if (nmbrpckrAfter.getValue() != vasAfter
                             && nmbrpckrBefore.getValue() == vasBefore) {
 
                         callSendUpdateAfterAsyncStatus = false;
-
                         new SendUpdateAfterVasscaleToWebSrve().execute(String.valueOf(nmbrpckrAfter.getValue()), strDailyPymnt, slctdDPymntType);
+                    } else {
+
+                        callSendUpdateAfterAsyncStatus = true;
+                        new SendUpdateBeforeVasscaleToWebSrve().execute(String.valueOf(nmbrpckrBefore.getValue()), strDailyPymnt, slctdDPymntType);
                     }
                 }
             }
