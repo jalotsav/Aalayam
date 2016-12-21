@@ -24,11 +24,15 @@ public class FireMessagingService  extends FirebaseMessagingService implements A
     public void onMessageReceived(RemoteMessage remoteMessage) {
         // TODO(developer): Handle FCM messages here.
 
-        Log.i(TAG, "onMessageReceived-From: " + remoteMessage.getFrom());
-        Log.d(TAG, "onMessageReceived-Body: " + remoteMessage.getNotification().getBody());
+        try {
+            Log.i(TAG, "onMessageReceived-From: " + remoteMessage.getFrom());
+            Log.d(TAG, "onMessageReceived-Body: " + remoteMessage.getNotification().getBody());
 
-        // Build notification
-        sendNotification(remoteMessage.getNotification().getBody());
+            // Build notification
+            sendNotification(remoteMessage.getNotification().getBody());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     private void sendNotification(String messageBody) {

@@ -498,7 +498,7 @@ public class General_Fnctns implements AalayamConstants{
 				double reqstdVal = Double.valueOf(reqstdStr);
 				if (isNeedwithMathRound)
 					reqstdVal = Math.round(reqstdVal * 100) / 100.00;
-				convrtdStr = new DecimalFormat("###,##0.00").format(Math.abs(reqstdVal));
+				convrtdStr = new DecimalFormat("##0.00").format(Math.abs(reqstdVal));
 				if (reqstdVal < 0)
 					convrtdStr = "-" + convrtdStr;
 			}

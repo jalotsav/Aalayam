@@ -51,7 +51,7 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
     AppCompatButton btnAddscale;
     Map<String, Integer> mapEmojsDrwbleId;
 
-    private String comeFor, slctd_ptnt_id, dailyPymnt, dailyPymntType;
+    private String comeFor, slctd_ptnt_id;
     private int vas_id, vasBefore, vasAfter;
 
     boolean callSendUpdateAfterAsyncStatus = true;
@@ -86,8 +86,6 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
         vas_id = getIntent().getIntExtra(VAS_ID, 0);
         vasBefore = getIntent().getIntExtra(BEFORE_SML, 10);
         vasAfter = getIntent().getIntExtra(AFTER_SML, 10);
-        dailyPymnt = getIntent().getStringExtra(DAILY_PAYMENT);
-        dailyPymntType = getIntent().getStringExtra(DAILY_PAYMENT_TYPE);
 
         if (comeFor.equals(ADD_VASSCALE)) {
 
