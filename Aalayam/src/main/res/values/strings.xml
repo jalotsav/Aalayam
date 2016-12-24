@@ -91,7 +91,10 @@
     	
     <!-- Navigation Drawer Doctor -->
     <string name="drawer_open">open</string>
-    <string name="drawer_close">close</string>	
+    <string name="drawer_close">close</string>
+	<string name="powrby_sml">Powered by</string>
+	<string name="dev_company_name">Jalotsav</string>
+	<string name="loading_3dots_sml">Loading&#8230;</string>
          
 		<!-- DOCTOR -->
 		    <!-- Nav Drawer Menu Items -->
@@ -112,14 +115,16 @@
 		        <item >My Payments</item>
 		        <item >My Profile</item>
 		    </string-array>
-		    
+			<string name="dashboard_sml">Dashboard</string>
+			<string name="my_profile_sml">My Profile</string>
+
 		    <!-- Dashboard -->
-		    <string name="my_ptnts">My Patients</string>
+		    <string name="my_ptnts_sml">My Patients</string>
 		    <string name="news_sml">News</string>
 		    <string name="scan_qrcode">Scan QR Code</string>
-		    <string name="eqpmnt_sml">Equipments</string>
-		    <string name="my_pymnts">My Payments</string>
-			<string name="oops_you_have_no_actvptnt">Oops...! You have no active patients</string>
+		    <string name="my_eqpmnt_sml">My Equipments</string>
+		    <string name="my_pymnts_sml">My Payments</string>
+			<string name="oops_you_have_no_actvptnt">Oops&#8230;! You have no active patients</string>
 			<string name="plz_load_ptnts_data_from_server">Please load patients initial data from Aalayam server</string>
 
 		    <!-- Patients -->
