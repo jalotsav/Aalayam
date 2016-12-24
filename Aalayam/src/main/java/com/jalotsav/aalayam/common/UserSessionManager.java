@@ -106,7 +106,6 @@ public class UserSessionManager {
             i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             */
             i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            // Staring Login Activity
             _context.startActivity(i);
             
             return false;

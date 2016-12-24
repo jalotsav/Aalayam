@@ -397,7 +397,7 @@ public class PatientProfileFrgmnt extends Fragment implements AalayamConstants {
 					String url_getimg = srvc_hndlr.getImagesFromUrl(PATIENT_SMALL + FORWARD_SLASH + PROFILE_SMALL, mProfileImageName);
 					
 					// Get Doctor Profile image from AdminPanel
-//					new Get_Image_Websrvc().execute(url_getimg);
+//					new GetImageWebsrvc().execute(url_getimg);
 					getImageFromWebServerStoreDevice(url_getimg);
 				}
 			}
@@ -424,7 +424,7 @@ public class PatientProfileFrgmnt extends Fragment implements AalayamConstants {
 /*
 
 	// Get Doctor Profile image from AdminPanel
-	public class Get_Image_Websrvc extends AsyncTask<String, Void, Bitmap> {
+	public class GetImageWebsrvc extends AsyncTask<String, Void, Bitmap> {
 		
 		@Override
 		protected void onPreExecute() {

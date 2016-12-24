@@ -26,6 +26,7 @@ import com.jalotsav.aalayam.common.AalayamConstants;
 import com.jalotsav.aalayam.common.General_Fnctns;
 import com.jalotsav.aalayam.common.UserSessionManager;
 import com.jalotsav.aalayam.navgndrwer.doctor.NavgnDrawer_Main_Doctor;
+import com.jalotsav.aalayam.navgndrwer.doctor.NavgnDrwrDoctor;
 import com.jalotsav.aalayam.pushnotifctn.ServerUtilities;
 import com.jalotsav.aalayam.pushnotifctn.WakeLocker;
 import com.jalotsav.aalayam.webservice.ServiceHandler;
@@ -382,10 +383,11 @@ public class Login_Pswrd extends Activity implements AalayamConstants{
 						// set Login status as True in SharedPreffrences
 						session.setLoginStatusTrue();
 						
-						Intent intnt_dctrhome = new Intent(Login_Pswrd.this, NavgnDrawer_Main_Doctor.class);
-						intnt_dctrhome.putExtra(DCTR_EMAILID, apiDctrEmailid);
-						intnt_dctrhome.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-						startActivity(intnt_dctrhome);	
+//						Intent intntNvgnDrwrDoctr = new Intent(Login_Pswrd.this, NavgnDrawer_Main_Doctor.class);
+						Intent intntNvgnDrwrDoctr = new Intent(Login_Pswrd.this, NavgnDrwrDoctor.class);
+						intntNvgnDrwrDoctr.putExtra(DCTR_EMAILID, apiDctrEmailid);
+						intntNvgnDrwrDoctr.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+						startActivity(intntNvgnDrwrDoctr);
 					}
 				};
 				mRegisterTask.execute(null, null, null);

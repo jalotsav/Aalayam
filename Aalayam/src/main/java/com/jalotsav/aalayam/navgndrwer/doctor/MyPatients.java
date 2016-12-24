@@ -29,7 +29,7 @@ public class MyPatients extends Fragment implements AalayamConstants {
 		View rootView = inflater.inflate(R.layout.lo_doctor_frgmnt_mypatients, container, false);
 
 		// Set Actionbar Title
-		((NavgnDrawer_Main_Doctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_PATIENTS);
+		((NavgnDrwrDoctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_PATIENTS);
 
 		tavvwpgr_adapter = new TabViewPagerAdapterMyPatients(getFragmentManager(), Titles, Numboftabs);
 

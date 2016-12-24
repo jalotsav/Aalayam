@@ -19,6 +19,7 @@ import com.google.android.gcm.GCMBaseIntentService;
 import com.jalotsav.aalayam.common.AalayamConstants;
 import com.jalotsav.aalayam.common.UserSessionManager;
 import com.jalotsav.aalayam.navgndrwer.doctor.NavgnDrawer_Main_Doctor;
+import com.jalotsav.aalayam.navgndrwer.doctor.NavgnDrwrDoctor;
 import com.jalotsav.aalayam.pushnotifctn.ServerUtilities;
 //import static com.bsptechno.vstock.pushnotifctn.CommonUtilities.displayMessage;
 
@@ -191,10 +192,11 @@ public class GCMIntentService extends GCMBaseIntentService implements AalayamCon
 			UserSessionManager session = new UserSessionManager(_context);
     		session.setLoginStatusTrue();
 			
-			Intent intnt_dctrhome = new Intent(_context, NavgnDrawer_Main_Doctor.class);
-			intnt_dctrhome.putExtra(AalayamConstants.DCTR_EMAILID, Login_Pswrd.apiDctrEmailid);
-			intnt_dctrhome.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-			startActivity(intnt_dctrhome);
+//			Intent intntNvgnDrwrDoctr = new Intent(_context, NavgnDrawer_Main_Doctor.class);
+            Intent intntNvgnDrwrDoctr = new Intent(_context, NavgnDrwrDoctor.class);
+            intntNvgnDrwrDoctr.putExtra(AalayamConstants.DCTR_EMAILID, Login_Pswrd.apiDctrEmailid);
+            intntNvgnDrwrDoctr.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+			startActivity(intntNvgnDrwrDoctr);
     	}
     }
 }

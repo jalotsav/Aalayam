@@ -322,7 +322,6 @@ public class NavgnDrawer_Main_Doctor extends AppCompatActivity implements Aalaya
 
 		@Override
 		protected Void doInBackground(Void... params) {
-			// TODO Auto-generated method stub
 
 			ServiceHandler obj_srvchndlr = new ServiceHandler();
 
@@ -331,7 +330,6 @@ public class NavgnDrawer_Main_Doctor extends AppCompatActivity implements Aalaya
 				jsnobj.put(FUNCTION_SMALL, FNCTN_SELECT_DOCTOR_BY_DR_ID);
 				jsnobj.put(DR_ID, String.valueOf(session.getDrId()));
 			} catch (JSONException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 
@@ -343,7 +341,6 @@ public class NavgnDrawer_Main_Doctor extends AppCompatActivity implements Aalaya
 
 		@Override
 		protected void onPostExecute(Void result) {
-			// TODO Auto-generated method stub
 			super.onPostExecute(result);
 
 			if(websrvc_response.equals(ACCESS_DENIED)){
@@ -383,11 +380,9 @@ public class NavgnDrawer_Main_Doctor extends AppCompatActivity implements Aalaya
 							}
 						}
 					}else if(success.equals(FALSE_SMALL)){
-
 						// There are some server problem
 					}
 				} catch (JSONException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
@@ -396,7 +391,7 @@ public class NavgnDrawer_Main_Doctor extends AppCompatActivity implements Aalaya
 
 	// Check image to External storage if not available Get from AdminPanel and store to device
 	private void checkGetDoctorImage() {
-		// TODO Auto-generated method stub
+
 		if(mProfileImageName == null || mProfileImageName.equals("")){
 
         	mAdapter = new NavgnDrawer_Adapter(NavgnDrawer_Main_Doctor.this, navgndrwer_menu_titles, navgndrwer_menu_icons, mDoctrName, mDoctrEmail, mDoctrImage);
@@ -497,14 +492,12 @@ public class NavgnDrawer_Main_Doctor extends AppCompatActivity implements Aalaya
 
 	@Override
 	public void onBackPressed() {
-		// TODO Auto-generated method stub
 
         if(session !=null) {
 
-            if(session.getIsHomeDctrNavdrwr()){
-
+            if(session.getIsHomeDctrNavdrwr())
                 super.onBackPressed();
-            }else{
+            else {
 
                 displayFragmntView(1);
 
@@ -513,9 +506,7 @@ public class NavgnDrawer_Main_Doctor extends AppCompatActivity implements Aalaya
                 // Set selection on DashBoard
                 mAdapter.notifyDataSetChanged();
             }
-        }else{
-
+        } else
             super.onBackPressed();
-        }
 	}
 }

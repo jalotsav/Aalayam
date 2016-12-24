@@ -187,6 +187,10 @@ public interface AalayamConstants {
 	int NAVDRWER_FRGMNT_VASSCALE = 9;
 	int NAVDRWER_FRGMNT_FEEDBACK = 10;
 
+	// Identifier
+	int DRWRITEM_IDENTIFIER_PATIENTS = 51;
+	int DRWRITEM_IDENTIFIER_NEWS = 52;
+
     // VasScale Emojies
     String EMOJS_00_ID = "emojs_00_id";
     String EMOJS_01_ID = "emojs_01_id";

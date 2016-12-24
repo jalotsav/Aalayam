@@ -92,6 +92,13 @@
         <item name="spinBars">true</item>
         <item name="color">@android:color/white</item>
     </style>
+
+    <!-- MikePenz Navigation Drawer TEAL -->
+    <style name="MikePenzNavDrwrStyleTeal" parent="MaterialDrawerTheme.Light.DarkToolbar">
+        <item name="colorPrimary">@color/trqs_prmry</item>
+        <item name="colorPrimaryDark">@color/trqs_prmrydrk</item>
+        <item name="material_drawer_selected_text">@color/trqs_prmry</item>
+    </style>
     
     <!-- AlertDialog LollipopDesign -->
     <style name="Jalotsav_AlertDialog_Lollipopdesign" parent="android:Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth">

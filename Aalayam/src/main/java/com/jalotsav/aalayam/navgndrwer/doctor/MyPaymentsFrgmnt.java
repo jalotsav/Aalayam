@@ -58,7 +58,7 @@ public class MyPaymentsFrgmnt extends Fragment implements AalayamConstants, Swip
 		View rootView = inflater.inflate(R.layout.lo_patient_frgmnt_payments, container, false);
 
 		// Set Actionbar Title
-		((NavgnDrawer_Main_Doctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_PAYMENTS);
+		((NavgnDrwrDoctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_PAYMENTS);
 		
 		session = new UserSessionManager(getActivity());
 		

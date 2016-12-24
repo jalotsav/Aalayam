@@ -33,6 +33,7 @@ import com.jalotsav.aalayam.models.GetPatients.MdlGetPatientsData;
 import com.jalotsav.aalayam.navgndrwer.patient.NavgnDrawer_Main_Patient;
 import com.jalotsav.aalayam.retrofitapihelper.RetroAPIAalayam;
 import com.jalotsav.aalayam.webservice.ServiceHandler;
+import com.mikepenz.materialdrawer.holder.StringHolder;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -73,7 +74,7 @@ public class DashboardDoctor extends Fragment implements AalayamConstants, View.
         View rootView = inflater.inflate(R.layout.lo_doctor_frgmnt_dashboard, container, false);
 
         // Set Actionbar Title
-        ((NavgnDrawer_Main_Doctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_DASHBOARD);
+        ((NavgnDrwrDoctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_DASHBOARD);
 
         session = new UserSessionManager(getActivity());
 
@@ -120,6 +121,8 @@ public class DashboardDoctor extends Fragment implements AalayamConstants, View.
     @Override
     public void onClick(View v) {
         // TODO Auto-generated method stub
+
+        FragmentManager fragmentManager = getFragmentManager();
         switch (v.getId()) {
             case R.id.imgvw_dctr_frgmnt_dashbrd_activeptnt:
 
@@ -130,11 +133,7 @@ public class DashboardDoctor extends Fragment implements AalayamConstants, View.
                 }
 
                 Fragment fragmentPtnt = new MyPatients();
-                if (fragmentPtnt != null) {
-                    FragmentManager fragmentManager = getFragmentManager();
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.frame_container_doctor, fragmentPtnt).commit();
-                }
+                fragmentManager.beginTransaction().replace(R.id.framecntnr_nvgtndrwr_actvtymain, fragmentPtnt).commit();
                 break;
             case R.id.imgvw_dctr_frgmnt_dashbrd_news:
 
@@ -145,11 +144,7 @@ public class DashboardDoctor extends Fragment implements AalayamConstants, View.
                 }
 
                 Fragment fragmentNews = new NewsFrgmnt();
-                if (fragmentNews != null) {
-                    FragmentManager fragmentManager = getFragmentManager();
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.frame_container_doctor, fragmentNews).commit();
-                }
+                fragmentManager.beginTransaction().replace(R.id.framecntnr_nvgtndrwr_actvtymain, fragmentNews).commit();
 
                 break;
             case R.id.imgvw_dctr_frgmnt_dashbrd_qrcode:
@@ -165,11 +160,7 @@ public class DashboardDoctor extends Fragment implements AalayamConstants, View.
                 }
 
                 Fragment fragmentEpmnts = new MyEquipmentFrgmnt();
-                if (fragmentEpmnts != null) {
-                    FragmentManager fragmentManager = getFragmentManager();
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.frame_container_doctor, fragmentEpmnts).commit();
-                }
+                fragmentManager.beginTransaction().replace(R.id.framecntnr_nvgtndrwr_actvtymain, fragmentEpmnts).commit();
                 break;
             case R.id.imgvw_dctr_frgmnt_dashbrd_mypymnts:
 
@@ -180,12 +171,7 @@ public class DashboardDoctor extends Fragment implements AalayamConstants, View.
                 }
 
                 Fragment fragmentPymnts = new MyPaymentsFrgmnt();
-                if (fragmentPymnts != null) {
-                    FragmentManager fragmentManager = getFragmentManager();
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.frame_container_doctor, fragmentPymnts).commit();
-                }
-
+                fragmentManager.beginTransaction().replace(R.id.framecntnr_nvgtndrwr_actvtymain, fragmentPymnts).commit();
                 break;
 
             default:
@@ -349,6 +335,9 @@ public class DashboardDoctor extends Fragment implements AalayamConstants, View.
 
                                         rltvlyotPtntCount.setVisibility(View.VISIBLE);
                                         tvPtntCount.setText(String.valueOf(ptntCount));
+                                        // Update NavDrawer Badge
+                                        ((NavgnDrwrDoctor) getActivity())
+                                                .updateBadge(DRWRITEM_IDENTIFIER_PATIENTS, new StringHolder(String.valueOf(ptntCount)));
                                     }
 
                                     // Set Patient data load status True (Used on QrCode)
@@ -587,6 +576,9 @@ public class DashboardDoctor extends Fragment implements AalayamConstants, View.
 
                                             rltvlyotNewsCount.setVisibility(View.VISIBLE);
                                             tvNewsCount.setText(String.valueOf(unreadNewsCount));
+                                            // Update NavDrawer Badge
+                                            ((NavgnDrwrDoctor) getActivity())
+                                                    .updateBadge(DRWRITEM_IDENTIFIER_NEWS, new StringHolder(String.valueOf(unreadNewsCount)));
                                         }
                                     } else {
 

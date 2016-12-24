@@ -90,7 +90,7 @@ public class PatientsFrgmnt extends Fragment implements AalayamConstants, Search
 		View rootView = inflater.inflate(R.layout.lo_doctor_frgmnt_patients, container, false);
 
 		// Set Actionbar Title
-		((NavgnDrawer_Main_Doctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_PATIENTS);
+//		((NavgnDrawer_Main_Doctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_PATIENTS);
 
 		session = new UserSessionManager(getActivity());
 		

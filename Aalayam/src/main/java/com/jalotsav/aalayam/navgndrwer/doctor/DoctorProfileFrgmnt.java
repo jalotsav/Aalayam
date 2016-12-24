@@ -65,7 +65,7 @@ public class DoctorProfileFrgmnt extends Fragment implements AalayamConstants {
 		View rootView = inflater.inflate(R.layout.lo_doctor_frgmnt_profile, container, false);
 
 		// Set Actionbar Title
-		((NavgnDrawer_Main_Doctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_PROFILE);
+		((NavgnDrwrDoctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_PROFILE);
 		
 		session = new UserSessionManager(getActivity());
 		

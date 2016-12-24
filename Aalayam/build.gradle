@@ -25,7 +25,7 @@ android {
         applicationId "com.jalotsav.aalayam"
         minSdkVersion 14
         targetSdkVersion 24
-        versionCode 6
+        versionCode 7
         versionName "2.0.2"
     }
     buildTypes {
@@ -53,6 +53,9 @@ dependencies {
     compile 'com.google.android.gms:play-services-gcm:9.2.1'
     /*compile 'com.google.android.gms:play-services:9.2.1'*/
     /*compile 'org.apache.httpcomponents:httpclient:4.2.6'*/
+    compile('com.mikepenz:materialdrawer:5.2.0@aar') {
+        transitive = true
+    }
     compile 'com.mikepenz:iconics-core:2.5.11@aar'
     compile 'com.mikepenz:google-material-typeface:2.2.0.2.original@aar'
     compile 'com.mikepenz:fontawesome-typeface:4.6.0.3@aar'

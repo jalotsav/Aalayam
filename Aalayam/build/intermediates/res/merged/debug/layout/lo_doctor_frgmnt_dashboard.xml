@@ -50,7 +50,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:padding="10dp"
-                        android:text="@string/my_ptnts"
+                        android:text="@string/my_ptnts_sml"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/white" />
                 </RelativeLayout>
@@ -229,7 +229,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:padding="10dp"
-                        android:text="@string/eqpmnt_sml"
+                        android:text="@string/my_eqpmnt_sml"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/white" />
                 </RelativeLayout>
@@ -264,7 +264,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:padding="10dp"
-                        android:text="@string/my_pymnts"
+                        android:text="@string/my_pymnts_sml"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/white" />
                 </RelativeLayout>

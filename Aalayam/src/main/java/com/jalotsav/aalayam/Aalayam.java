@@ -10,6 +10,7 @@ import com.crashlytics.android.Crashlytics;
 import com.jalotsav.aalayam.common.AalayamConstants;
 import com.jalotsav.aalayam.common.General_Fnctns;
 import com.jalotsav.aalayam.navgndrwer.doctor.NavgnDrawer_Main_Doctor;
+import com.jalotsav.aalayam.navgndrwer.doctor.NavgnDrwrDoctor;
 import com.jalotsav.aalayam.service.InternetService;
 
 import io.fabric.sdk.android.Fabric;
@@ -42,7 +43,8 @@ public class Aalayam extends Activity implements AalayamConstants {
                     startService(new Intent(Aalayam.this, InternetService.class));
                 }
 
-                Intent intntNvgnDrwrDoctr = new Intent(Aalayam.this, NavgnDrawer_Main_Doctor.class);
+//                Intent intntNvgnDrwrDoctr = new Intent(Aalayam.this, NavgnDrawer_Main_Doctor.class);
+                Intent intntNvgnDrwrDoctr = new Intent(Aalayam.this, NavgnDrwrDoctor.class);
                 intntNvgnDrwrDoctr.putExtra(OPEN_FRGMNT_BY_POSTN, openFrgmntPostn);
                 startActivity(intntNvgnDrwrDoctr);
             }

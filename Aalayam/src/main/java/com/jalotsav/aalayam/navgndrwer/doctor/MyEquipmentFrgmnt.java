@@ -56,7 +56,7 @@ public class MyEquipmentFrgmnt extends Fragment implements AalayamConstants, Swi
 		View rootView = inflater.inflate(R.layout.lo_doctor_frgmnt_myeqpmnt, container, false);
 
 		// Set Actionbar Title
-		((NavgnDrawer_Main_Doctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_MYEQUIPMENT);
+		((NavgnDrwrDoctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_MYEQUIPMENT);
 		
 		session = new UserSessionManager(getActivity());
 		

@@ -50,7 +50,7 @@ public class NewsFrgmnt extends Fragment implements AalayamConstants, SwipeRefre
 		View rootView = inflater.inflate(R.layout.lo_doctor_frgmnt_news, container, false);
 
 		// Set Actionbar Title
-		((NavgnDrawer_Main_Doctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_NEWS);
+		((NavgnDrwrDoctor) getActivity()).onSectionAttached(NAVDRWER_FRGMNT_NEWS);
 		
 		session = new UserSessionManager(getActivity());
 		

@@ -92,6 +92,11 @@
             android:theme="@style/JalotsavNavDrwrStyleTeal" >
         </activity>
         <activity
+            android:name=".navgndrwer.doctor.NavgnDrwrDoctor"
+            android:screenOrientation="portrait"
+            android:theme="@style/MikePenzNavDrwrStyleTeal" >
+        </activity>
+        <activity
             android:name=".navgndrwer.doctor.NewsDetails"
             android:label="@string/news_dtls"
             android:screenOrientation="portrait"
