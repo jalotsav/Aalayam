@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Aalayam.iml" filepath="$PROJECT_DIR$/Aalayam.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Aalayam/aalayam.iml" filepath="$PROJECT_DIR$/Aalayam/aalayam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libFAB/libFAB.iml" filepath="$PROJECT_DIR$/libFAB/libFAB.iml" />
       <module fileurl="file://$PROJECT_DIR$/libZBarScanner/libZBarScanner.iml" filepath="$PROJECT_DIR$/libZBarScanner/libZBarScanner.iml" />
     </modules>
