@@ -16,12 +16,12 @@
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xhdpi\\ic_check_white.png"
     },
     {
-        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_forwrd_blck.png",
-        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xhdpi\\ic_forwrd_blck.png"
-    },
-    {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_gallery_white.png",
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xhdpi\\ic_gallery_white.png"
+    },
+    {
+        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_forwrd_blck.png",
+        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xhdpi\\ic_forwrd_blck.png"
     },
     {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_add_white.png",
