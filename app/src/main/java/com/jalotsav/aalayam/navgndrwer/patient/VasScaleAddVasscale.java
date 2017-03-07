@@ -10,6 +10,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +25,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.NumberPicker;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -42,7 +45,9 @@ import java.util.Map;
 
 public class VasScaleAddVasscale extends AppCompatActivity implements AalayamConstants {
 
-    TextView tvPatntName;
+    CoordinatorLayout mCordntlyot;
+    TextView tvPatntName, mTvPrvsVasDate;
+    LinearLayout mLnrlyotPrvsVasDate;
     NumberPicker nmbrpckrBefore, nmbrpckrAfter;
     ImageView imgvwBefore, imgvwAfter;
     EditText mEtDailyPymnt;
@@ -53,8 +58,8 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
 
     private String comeFor, slctd_ptnt_id;
     private int vas_id, vasBefore, vasAfter;
-
     boolean callSendUpdateAfterAsyncStatus = true;
+    long mPrvsTimestampVas;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -66,7 +71,10 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setElevation(0);
 
+        mCordntlyot = (CoordinatorLayout) findViewById(R.id.cordntrlyot_ptnt_frgmnt_vasscale_addvasscale);
         tvPatntName = (TextView) findViewById(R.id.tv_ptnt_frgmnt_vasscale_addvasscale_patntnm);
+        mTvPrvsVasDate = (TextView) findViewById(R.id.tv_ptnt_frgmnt_vasscale_addvasscale_prvsvasdate);
+        mLnrlyotPrvsVasDate = (LinearLayout) findViewById(R.id.lnrlyot_ptnt_frgmnt_vasscale_addvasscale_prvsdate);
         nmbrpckrBefore = (NumberPicker) findViewById(R.id.nmbrpckr_ptnt_frgmnt_vasscale_addvasscale_before);
         nmbrpckrAfter = (NumberPicker) findViewById(R.id.nmbrpckr_ptnt_frgmnt_vasscale_addvasscale_after);
         imgvwBefore = (ImageView) findViewById(R.id.imgvw_ptnt_frgmnt_vasscale_addvasscale_before);
@@ -86,11 +94,18 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
         vas_id = getIntent().getIntExtra(VAS_ID, 0);
         vasBefore = getIntent().getIntExtra(BEFORE_SML, 10);
         vasAfter = getIntent().getIntExtra(AFTER_SML, 10);
+        mPrvsTimestampVas = getIntent().getLongExtra(VASSCALE_PREVIOUS_TIMESTAMP, 0);
 
         if (comeFor.equals(ADD_VASSCALE)) {
 
             actionBar.setTitle(getResources().getString(R.string.add_vasscale));
             btnAddscale.setText(getResources().getString(R.string.add_sml));
+            if(mPrvsTimestampVas != 0) { // Visible Previous VasScale Date, if selected
+
+                mLnrlyotPrvsVasDate.setVisibility(View.VISIBLE);
+                mTvPrvsVasDate.setText(General_Fnctns.getDateFromTimestamp(mPrvsTimestampVas));
+                Snackbar.make(mCordntlyot, R.string.fill_crfly_later_not_edit_msg, Snackbar.LENGTH_LONG).show();
+            }
         } else if (comeFor.equals(UPDATE_VASSCALE)) {
 
             actionBar.setTitle(getResources().getString(R.string.update_vasscale));
@@ -441,6 +456,7 @@ public class VasScaleAddVasscale extends AppCompatActivity implements AalayamCon
                 jsnobj.put(AFTER_SML, params[1]);
                 jsnobj.put(DAILY_PAYMENT, params[2]);
                 jsnobj.put(DAILY_PAYMENT_TYPE, params[3]);
+                jsnobj.put(ADD_DATE_SML, mPrvsTimestampVas != 0 ? mPrvsTimestampVas : General_Fnctns.getcurrentTimestamp());
             } catch (JSONException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();

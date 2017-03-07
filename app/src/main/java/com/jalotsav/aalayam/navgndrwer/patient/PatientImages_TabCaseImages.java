@@ -113,7 +113,7 @@ public class PatientImages_TabCaseImages extends Fragment implements AalayamCons
     }
 
     // Get Directory paths which are contain Image and set to GridView
-    public class GetPatientCaseImgsPathAsync extends AsyncTask<Void, Void, Void>{
+	private class GetPatientCaseImgsPathAsync extends AsyncTask<Void, Void, Void>{
 
 		@Override
 		protected void onPreExecute() {
@@ -123,7 +123,7 @@ public class PatientImages_TabCaseImages extends Fragment implements AalayamCons
 	        // Show ProgressBar
 			prgrsbr.setVisibility(View.VISIBLE);
 			
-			imagePaths = new ArrayList<String>();
+			imagePaths = new ArrayList<>();
 		}
 
 		@Override
@@ -134,7 +134,7 @@ public class PatientImages_TabCaseImages extends Fragment implements AalayamCons
 
 				General_Fnctns obj_gnrlfnctns = new General_Fnctns();
 		        imagePaths = obj_gnrlfnctns.getFilePaths(PATH_IMAGES_PATIENT_CASE, arrylstPtntCaseImagesname);
-			} catch (Exception e) {	}
+			} catch (Exception e) {	e.printStackTrace(); }
 	        
 			return null;
 		}
@@ -195,7 +195,7 @@ public class PatientImages_TabCaseImages extends Fragment implements AalayamCons
     }
 
 	// Get Doctor Profile image from AdminPanel
-	public class GetImageFromWebsrvc extends AsyncTask<String, Void, Bitmap> {
+	private class GetImageFromWebsrvc extends AsyncTask<String, Void, Bitmap> {
 		
 		String mImageName = "";
 		
@@ -275,7 +275,7 @@ public class PatientImages_TabCaseImages extends Fragment implements AalayamCons
 	}
 
     // Get Directory paths which are contain Image and Refresh to GridView
-    public class GetPatientImgsPathRefrehGridAsync extends AsyncTask<Void, Void, Void>{
+	private class GetPatientImgsPathRefrehGridAsync extends AsyncTask<Void, Void, Void>{
 
 		@Override
 		protected void onPreExecute() {
@@ -296,7 +296,7 @@ public class PatientImages_TabCaseImages extends Fragment implements AalayamCons
 
 				General_Fnctns obj_gnrlfnctns = new General_Fnctns();
 		        imagePaths = obj_gnrlfnctns.getFilePaths(PATH_IMAGES_PATIENT_CASE, arrylstPtntCaseImagesname);
-			} catch (Exception e) {	}
+			} catch (Exception e) {	e.printStackTrace(); }
 	        
 			return null;
 		}
@@ -328,7 +328,7 @@ public class PatientImages_TabCaseImages extends Fragment implements AalayamCons
     }
 	
 	// Get Patient Details from Web-service
-	public class GetPatientDetailsFromWebSrve extends AsyncTask<Void, Void, Void>{
+	private class GetPatientDetailsFromWebSrve extends AsyncTask<Void, Void, Void>{
 
 		String websrvc_response;
 

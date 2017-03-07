@@ -17,8 +17,8 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.DatePicker;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bsptechno.libfabbsptechno.FloatingActionButton;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -53,10 +53,11 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 	SwipeRefreshLayout swiperfrshlyot, swiperfrshlyot_emptyvw;
 	ListView lstvw_vasscalelst;
 	FloatingActionButton fab_addvasscale;
+	ProgressBar mPrgrsbrMain;
+
 	ArrayList<String> arrylst_vasscaledate, arrylst_vasdailypymnt, arrylst_vasdailypymnt_type;
 	ArrayList<Integer> arrylst_vasscale_id, arrylst_vasbefore, arrylst_vasafter;
 	ArrayList<Long> arrylst_vasscaledate_timestamp;
-
 	private String slctd_ptnt_id, slctd_ptnt_name;
 	boolean currnt_run_onscreen_status = false;
 	private static final int ADD_VASSCALE_REQUEST = 10;
@@ -85,6 +86,7 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 		swiperfrshlyot_emptyvw = (SwipeRefreshLayout)rootView.findViewById(R.id.swiperfrshlyot_ptnt_frgmnt_vasscale_emptyview);
 		lstvw_vasscalelst = (ListView)rootView.findViewById(R.id.lstvw_ptnt_frgmnt_vasscale_vaslist);
 		fab_addvasscale = (FloatingActionButton)rootView.findViewById(R.id.fab_ptnt_frgmnt_vasscale_addvasscale);
+		mPrgrsbrMain = (ProgressBar) rootView.findViewById(R.id.prgrsbr_ptnt_frgmnt_vasscale_main);
 		
 		slctd_ptnt_id = getActivity().getIntent().getStringExtra(PT_ID);
 		slctd_ptnt_name = getActivity().getIntent().getStringExtra(PATIENT_NAME_SML);
@@ -261,6 +263,7 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 	// Fetch Remote Config status for Add Previous VasScale
 	private void fetchConfigStatus() {
 
+		mPrgrsbrMain.setVisibility(View.VISIBLE);
 		long cacheExpiration = 3600;
 		if (mFireRemoteConfig.getInfo().getConfigSettings().isDeveloperModeEnabled()) {
 			cacheExpiration = 0;
@@ -270,6 +273,7 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 			@Override
 			public void onComplete(@NonNull Task<Void> task) {
 
+				mPrgrsbrMain.setVisibility(View.GONE);
 				if (task.isSuccessful())
 					mFireRemoteConfig.activateFetched();
 
@@ -311,7 +315,7 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
     	}
 	}
 	
-	public class GetPatientDetailsWebSrve extends AsyncTask<Void, Void, Void>{
+	private class GetPatientDetailsWebSrve extends AsyncTask<Void, Void, Void>{
 
 		String websrvc_response;
 		

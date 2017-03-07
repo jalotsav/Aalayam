@@ -9,8 +9,10 @@ import android.util.Log;
 import com.crashlytics.android.Crashlytics;
 import com.jalotsav.aalayam.common.AalayamConstants;
 import com.jalotsav.aalayam.common.General_Fnctns;
+import com.jalotsav.aalayam.common.UserSessionManager;
 import com.jalotsav.aalayam.navgndrwer.doctor.NavgnDrawer_Main_Doctor;
 import com.jalotsav.aalayam.navgndrwer.doctor.NavgnDrwrDoctor;
+import com.jalotsav.aalayam.navgndrwer.patient.NavgnDrawer_Main_Patient;
 import com.jalotsav.aalayam.service.InternetService;
 
 import io.fabric.sdk.android.Fabric;
