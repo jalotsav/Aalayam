@@ -17,24 +17,24 @@ ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidMa
 		INJECTED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:7:5-67
-MERGED from [com.google.firebase:firebase-crash:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.1\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-gcm:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.1\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.1\AndroidManifest.xml:22:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.5.5\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.8\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.6] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.6\AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.10] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.10\AndroidManifest.xml:25:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.1.4] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.4\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-crash:9.2.1] C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.2.1] C:\Users\JBS C021\.android\build-cache\9015086ff02effaa1ddeb5b878793b090ebad4d4\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\e5273d955b1d8c49cce09cf9caceda6a9c9e3fe5\output\AndroidManifest.xml:22:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] C:\Users\JBS C021\.android\build-cache\0ef2dc8c7b0bb49f4de534d88dd2385d2f88bec6\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] C:\Users\JBS C021\.android\build-cache\487443a91e0cde3dfb2a6fb3be946d37b24e5ce5\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] C:\Users\JBS C021\.android\build-cache\9ff1d1d2231ccd8d2325ece45277763a48f0c028\output\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] C:\Users\JBS C021\.android\build-cache\4e0179353fdf49be353ce016fb4c2f7d06191db1\output\AndroidManifest.xml:25:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] C:\Users\JBS C021\.android\build-cache\6055324786a3ea8cc686dfcd682a71d2f8627efd\output\AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:9:5-79
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:20:5-79
 	android:name
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:9:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
@@ -51,12 +51,12 @@ ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidMa
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:16:22-65
 uses-permission#android.permission.CAMERA
 ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:19:5-65
-MERGED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libZBarScanner\unspecified\AndroidManifest.xml:11:5-65
+MERGED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libZBarScanner\build\intermediates\bundles\default\AndroidManifest.xml:11:5-65
 	android:name
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:19:22-62
 uses-feature#android.hardware.camera
 ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:21:5-60
-MERGED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libZBarScanner\unspecified\AndroidManifest.xml:13:5-60
+MERGED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libZBarScanner\build\intermediates\bundles\default\AndroidManifest.xml:13:5-60
 	android:name
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:21:19-57
 uses-permission#android.permission.CALL_PHONE
@@ -73,28 +73,28 @@ ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidMa
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:28:22-68
 uses-permission#android.permission.WAKE_LOCK
 ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:31:5-68
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:22:5-68
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:22:5-68
 	android:name
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:31:22-65
 permission#com.jalotsav.aalayam.permission.C2D_MESSAGE
 ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:34:5-36:47
-MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:25:5-26:47
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:25:5-26:47
 	android:protectionLevel
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:36:9-44
 	android:name
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:35:9-67
 uses-permission#com.jalotsav.aalayam.permission.C2D_MESSAGE
 ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:38:5-83
-MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:28:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:28:5-79
 	android:name
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:38:22-80
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:41:5-82
-MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-gcm:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.1\AndroidManifest.xml:21:5-82
-MERGED from [com.google.android.gms:play-services-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.1\AndroidManifest.xml:21:5-82
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:9.2.1] C:\Users\JBS C021\.android\build-cache\9015086ff02effaa1ddeb5b878793b090ebad4d4\output\AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\e5273d955b1d8c49cce09cf9caceda6a9c9e3fe5\output\AndroidManifest.xml:21:5-82
 	android:name
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:41:22-79
 uses-permission#android.permission.VIBRATE
@@ -103,38 +103,44 @@ ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidMa
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:44:22-63
 uses-sdk
 ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:46:5-86
-MERGED from [Aalayam:libFAB:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libFAB\unspecified\AndroidManifest.xml:5:5-7:41
-MERGED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libZBarScanner\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:cardview-v7:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-core:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\9.2.1\AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-crash:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.1\AndroidManifest.xml:22:5-42
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-messaging:9.2.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-common:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-gcm:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.1\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.1\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
-MERGED from [com.mikepenz:materialdrawer:5.2.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\5.2.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:fastadapter:1.4.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\fastadapter\1.4.1\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:design:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\AndroidManifest.xml:20:5-43
-MERGED from [com.mikepenz:materialize:0.8.8] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\materialize\0.8.8\AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:iconics-core:2.5.11] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.5.11\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.mikepenz:google-material-typeface:2.2.0.2.original] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\google-material-typeface\2.2.0.2.original\AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:fontawesome-typeface:4.6.0.3] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\fontawesome-typeface\4.6.0.3\AndroidManifest.xml:8:5-10:41
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.5.5\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.8\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.6] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.6\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.10] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.10\AndroidManifest.xml:23:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.1.4] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.4\AndroidManifest.xml:7:5-43
+MERGED from [Aalayam:libFAB:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libFAB\build\intermediates\bundles\default\AndroidManifest.xml:5:5-7:41
+MERGED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libZBarScanner\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\JBS C021\.android\build-cache\200c2770c2dd4af82e1386d8c14eeeaa90d62817\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-core:9.2.1] C:\Users\JBS C021\.android\build-cache\d850f3f8eac9012053d23cee1e7db38c80344ead\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-crash:9.2.1] C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\AndroidManifest.xml:22:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.2.1] C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm:9.2.1] C:\Users\JBS C021\.android\build-cache\9015086ff02effaa1ddeb5b878793b090ebad4d4\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\e5273d955b1d8c49cce09cf9caceda6a9c9e3fe5\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\JBS C021\.android\build-cache\16e753d91f1e315b625460f0a507020b3896ddbd\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] C:\Users\JBS C021\.android\build-cache\fd8f7ebb4a0ee811acfdb25bd6c4140e7ad03c2b\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\JBS C021\.android\build-cache\b99a925e4987d2e123938ad63ea10286572ca12b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.mikepenz:materialdrawer:5.2.0] C:\Users\JBS C021\.android\build-cache\436ddbc091f663d091920f7cda303292213d4aca\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:1.4.1] C:\Users\JBS C021\.android\build-cache\e957ea4362de1ff5d56c4837fe947bf897b69b96\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.0.0] C:\Users\JBS C021\.android\build-cache\4f176a80b9609523c759ffe5080d1a8b816a5927\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.0.0] C:\Users\JBS C021\.android\build-cache\e46a013f940a1f001296fcf713fda576e549e9c4\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.0.0] C:\Users\JBS C021\.android\build-cache\3ecf4649d440f1a7c6018e225078ad96b194c3c9\output\AndroidManifest.xml:20:5-44
+MERGED from [com.mikepenz:materialize:0.8.8] C:\Users\JBS C021\.android\build-cache\595f0c28cf06f020f6cc230fc6f554ea9f3991c0\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:2.5.11] C:\Users\JBS C021\.android\build-cache\f894a771df54cde393dc0cdaeaae560ebec9177f\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\JBS C021\.android\build-cache\78ae3d6c6e0c5da03c2c9c3ac722dbae847cb62e\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.0] C:\Users\JBS C021\.android\build-cache\ea72569103a00dd50f499b04af68b901d093e2f5\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\JBS C021\.android\build-cache\09c38db98030bcfbda8f364dd06c8ad42c8761bc\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\JBS C021\.android\build-cache\2b864f6adb71d6a9617bb432a762f4f0a291d58b\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\JBS C021\.android\build-cache\82c374fc389ce02144717ce11849a1c378d9d5ab\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\JBS C021\.android\build-cache\6d60542d5540db6014f900271067fbd2e156236e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\JBS C021\.android\build-cache\78380ad5d71a61f36518dadc435b40f5ad47927c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\JBS C021\.android\build-cache\012fb4f7633b5785f858c0e13e2c266c65c659cd\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.0.0] C:\Users\JBS C021\.android\build-cache\d09d19ff114dd0163b5340b6cdb4903e26b7f1c4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.mikepenz:google-material-typeface:2.2.0.2.original] C:\Users\JBS C021\.android\build-cache\f295b5fc7e2a97ec7c3a8e85ba4ddd1b0ffa85bb\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:fontawesome-typeface:4.6.0.3] C:\Users\JBS C021\.android\build-cache\25f45d5abd641bb47c7929eeb49f5578140230aa\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] C:\Users\JBS C021\.android\build-cache\0ef2dc8c7b0bb49f4de534d88dd2385d2f88bec6\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] C:\Users\JBS C021\.android\build-cache\487443a91e0cde3dfb2a6fb3be946d37b24e5ce5\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] C:\Users\JBS C021\.android\build-cache\9ff1d1d2231ccd8d2325ece45277763a48f0c028\output\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] C:\Users\JBS C021\.android\build-cache\4e0179353fdf49be353ce016fb4c2f7d06191db1\output\AndroidManifest.xml:23:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] C:\Users\JBS C021\.android\build-cache\6055324786a3ea8cc686dfcd682a71d2f8627efd\output\AndroidManifest.xml:7:5-43
 	tools:overrideLibrary
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:46:42-84
 	android:targetSdkVersion
@@ -146,40 +152,46 @@ MERGED from [com.crashlytics.sdk.android:beta:1.1.4] D:\Learn\R_and_D\JdCode\Stu
 		INJECTED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml
 application
 ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:48:5-187:19
-MERGED from [Aalayam:libFAB:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libFAB\unspecified\AndroidManifest.xml:9:5-20
-MERGED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libZBarScanner\unspecified\AndroidManifest.xml:15:5-22:19
-MERGED from [com.android.support:cardview-v7:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-core:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\9.2.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-crash:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.1\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:26:5-41:19
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:26:5-41:19
-MERGED from [com.google.firebase:firebase-messaging:9.2.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.0\AndroidManifest.xml:20:5-32:19
-MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:30:5-59:19
-MERGED from [com.google.firebase:firebase-common:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\AndroidManifest.xml:5:5-12:19
-MERGED from [com.google.android.gms:play-services-gcm:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.1\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.1\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:design:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.0.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
-MERGED from [com.mikepenz:google-material-typeface:2.2.0.2.original] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\google-material-typeface\2.2.0.2.original\AndroidManifest.xml:27:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.5.5\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.8\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.6] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.6\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.10] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.10\AndroidManifest.xml:27:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.1.4] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.4\AndroidManifest.xml:11:5-20
+MERGED from [Aalayam:libFAB:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libFAB\build\intermediates\bundles\default\AndroidManifest.xml:9:5-20
+MERGED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libZBarScanner\build\intermediates\bundles\default\AndroidManifest.xml:15:5-22:19
+MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\JBS C021\.android\build-cache\200c2770c2dd4af82e1386d8c14eeeaa90d62817\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-core:9.2.1] C:\Users\JBS C021\.android\build-cache\d850f3f8eac9012053d23cee1e7db38c80344ead\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-crash:9.2.1] C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.2.1] C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-gcm:9.2.1] C:\Users\JBS C021\.android\build-cache\9015086ff02effaa1ddeb5b878793b090ebad4d4\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\e5273d955b1d8c49cce09cf9caceda6a9c9e3fe5\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\JBS C021\.android\build-cache\16e753d91f1e315b625460f0a507020b3896ddbd\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] C:\Users\JBS C021\.android\build-cache\fd8f7ebb4a0ee811acfdb25bd6c4140e7ad03c2b\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\JBS C021\.android\build-cache\b99a925e4987d2e123938ad63ea10286572ca12b\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:design:25.0.0] C:\Users\JBS C021\.android\build-cache\4f176a80b9609523c759ffe5080d1a8b816a5927\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.0.0] C:\Users\JBS C021\.android\build-cache\3ecf4649d440f1a7c6018e225078ad96b194c3c9\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\JBS C021\.android\build-cache\78ae3d6c6e0c5da03c2c9c3ac722dbae847cb62e\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.0] C:\Users\JBS C021\.android\build-cache\ea72569103a00dd50f499b04af68b901d093e2f5\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\JBS C021\.android\build-cache\09c38db98030bcfbda8f364dd06c8ad42c8761bc\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\JBS C021\.android\build-cache\2b864f6adb71d6a9617bb432a762f4f0a291d58b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\JBS C021\.android\build-cache\82c374fc389ce02144717ce11849a1c378d9d5ab\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\JBS C021\.android\build-cache\6d60542d5540db6014f900271067fbd2e156236e\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\JBS C021\.android\build-cache\78380ad5d71a61f36518dadc435b40f5ad47927c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\JBS C021\.android\build-cache\012fb4f7633b5785f858c0e13e2c266c65c659cd\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.0.0] C:\Users\JBS C021\.android\build-cache\d09d19ff114dd0163b5340b6cdb4903e26b7f1c4\output\AndroidManifest.xml:25:5-20
+MERGED from [com.mikepenz:google-material-typeface:2.2.0.2.original] C:\Users\JBS C021\.android\build-cache\f295b5fc7e2a97ec7c3a8e85ba4ddd1b0ffa85bb\output\AndroidManifest.xml:27:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] C:\Users\JBS C021\.android\build-cache\0ef2dc8c7b0bb49f4de534d88dd2385d2f88bec6\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] C:\Users\JBS C021\.android\build-cache\487443a91e0cde3dfb2a6fb3be946d37b24e5ce5\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] C:\Users\JBS C021\.android\build-cache\9ff1d1d2231ccd8d2325ece45277763a48f0c028\output\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] C:\Users\JBS C021\.android\build-cache\4e0179353fdf49be353ce016fb4c2f7d06191db1\output\AndroidManifest.xml:27:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] C:\Users\JBS C021\.android\build-cache\6055324786a3ea8cc686dfcd682a71d2f8627efd\output\AndroidManifest.xml:11:5-20
 	android:label
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:53:9-41
-		REJECTED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libZBarScanner\unspecified\AndroidManifest.xml:17:9-41
+		REJECTED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libZBarScanner\build\intermediates\bundles\default\AndroidManifest.xml:17:9-41
 	android:allowBackup
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:50:9-35
 	android:icon
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:52:9-45
-		REJECTED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libZBarScanner\unspecified\AndroidManifest.xml:16:9-45
+		REJECTED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libZBarScanner\build\intermediates\bundles\default\AndroidManifest.xml:16:9-45
 	android:theme
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:54:9-40
 	tools:replace
@@ -344,7 +356,7 @@ ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidMa
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:143:13-80
 activity#com.dm.zbar.android.scanner.ZBarScannerActivity
 ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:149:9-151:48
-MERGED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libZBarScanner\unspecified\AndroidManifest.xml:18:9-21:53
+MERGED from [Aalayam:libZBarScanner:unspecified] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libZBarScanner\build\intermediates\bundles\default\AndroidManifest.xml:18:9-21:53
 	android:screenOrientation
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:150:13-50
 	android:label
@@ -408,92 +420,92 @@ ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidMa
 	android:name
 		ADDED from D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\src\main\AndroidManifest.xml:185:13-44
 service#com.google.firebase.crash.internal.service.FirebaseCrashReceiverService
-ADDED from [com.google.firebase:firebase-crash:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.1\AndroidManifest.xml:26:9-27:50
+ADDED from [com.google.firebase:firebase-crash:9.2.1] C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\AndroidManifest.xml:26:9-27:50
 	android:process
-		ADDED from [com.google.firebase:firebase-crash:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.1\AndroidManifest.xml:27:13-48
+		ADDED from [com.google.firebase:firebase-crash:9.2.1] C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\AndroidManifest.xml:27:13-48
 	android:name
-		ADDED from [com.google.firebase:firebase-crash:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.1\AndroidManifest.xml:26:18-79
+		ADDED from [com.google.firebase:firebase-crash:9.2.1] C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\AndroidManifest.xml:26:18-79
 service#com.google.firebase.crash.internal.service.FirebaseCrashSenderService
-ADDED from [com.google.firebase:firebase-crash:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.1\AndroidManifest.xml:29:9-30:50
+ADDED from [com.google.firebase:firebase-crash:9.2.1] C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\AndroidManifest.xml:29:9-30:50
 	android:process
-		ADDED from [com.google.firebase:firebase-crash:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.1\AndroidManifest.xml:30:13-48
+		ADDED from [com.google.firebase:firebase-crash:9.2.1] C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\AndroidManifest.xml:30:13-48
 	android:name
-		ADDED from [com.google.firebase:firebase-crash:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.1\AndroidManifest.xml:29:18-77
+		ADDED from [com.google.firebase:firebase-crash:9.2.1] C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\AndroidManifest.xml:29:18-77
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:28:7-34:18
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:28:7-34:18
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\AndroidManifest.xml:28:7-34:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:30:11-33
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:30:11-33
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:29:11-83
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:29:11-83
 intent-filter#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:31:9-33:25
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:31:9-33:25
 action#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:32:11-77
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:32:11-77
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:32:19-75
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:32:19-75
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:36:7-39:37
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:36:7-39:37
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\AndroidManifest.xml:36:7-39:37
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:38:11-33
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:38:11-33
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:39:11-35
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:39:11-35
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:37:11-82
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:37:11-82
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:9.2.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.0\AndroidManifest.xml:24:9-30:19
+ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\AndroidManifest.xml:24:9-30:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:9.2.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.0\AndroidManifest.xml:26:13-36
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:9.2.0] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.0\AndroidManifest.xml:25:13-82
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\AndroidManifest.xml:25:13-82
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:32:9-41:20
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:32:9-41:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:34:13-36
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:34:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:35:13-73
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:35:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:33:13-78
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:33:13-78
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:36:13-40:29
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:36:13-40:29
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:39:17-61
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:39:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:39:27-58
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:39:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:45:9-47:40
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:45:9-47:40
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:47:13-37
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:46:13-86
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:46:13-86
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:51:9-57:19
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:51:9-57:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:53:13-36
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:53:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:52:13-77
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:52:13-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\AndroidManifest.xml:7:9-11:39
+ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\AndroidManifest.xml:7:9-11:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\AndroidManifest.xml:8:13-72
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\AndroidManifest.xml:8:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\AndroidManifest.xml:10:13-37
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\AndroidManifest.xml:10:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\AndroidManifest.xml:11:13-36
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\AndroidManifest.xml:11:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\AndroidManifest.xml:9:13-58
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\AndroidManifest.xml:9:13-58
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\JBS C021\.android\build-cache\16e753d91f1e315b625460f0a507020b3896ddbd\output\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\JBS C021\.android\build-cache\16e753d91f1e315b625460f0a507020b3896ddbd\output\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\JBS C021\.android\build-cache\16e753d91f1e315b625460f0a507020b3896ddbd\output\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\JBS C021\.android\build-cache\16e753d91f1e315b625460f0a507020b3896ddbd\output\AndroidManifest.xml:20:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\JBS C021\.android\build-cache\b99a925e4987d2e123938ad63ea10286572ca12b\output\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\JBS C021\.android\build-cache\b99a925e4987d2e123938ad63ea10286572ca12b\output\AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:9.2.1] D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\JBS C021\.android\build-cache\b99a925e4987d2e123938ad63ea10286572ca12b\output\AndroidManifest.xml:22:13-58

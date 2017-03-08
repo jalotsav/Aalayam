@@ -9,8 +9,10 @@ import android.util.Log;
 import com.crashlytics.android.Crashlytics;
 import com.jalotsav.aalayam.common.AalayamConstants;
 import com.jalotsav.aalayam.common.General_Fnctns;
+import com.jalotsav.aalayam.common.UserSessionManager;
 import com.jalotsav.aalayam.navgndrwer.doctor.NavgnDrawer_Main_Doctor;
 import com.jalotsav.aalayam.navgndrwer.doctor.NavgnDrwrDoctor;
+import com.jalotsav.aalayam.navgndrwer.patient.NavgnDrawer_Main_Patient;
 import com.jalotsav.aalayam.service.InternetService;
 
 import io.fabric.sdk.android.Fabric;
@@ -46,7 +48,16 @@ public class Aalayam extends Activity implements AalayamConstants {
 //                Intent intntNvgnDrwrDoctr = new Intent(Aalayam.this, NavgnDrawer_Main_Doctor.class);
                 Intent intntNvgnDrwrDoctr = new Intent(Aalayam.this, NavgnDrwrDoctor.class);
                 intntNvgnDrwrDoctr.putExtra(OPEN_FRGMNT_BY_POSTN, openFrgmntPostn);
-                startActivity(intntNvgnDrwrDoctr);
+//                startActivity(intntNvgnDrwrDoctr);
+
+                UserSessionManager session = new UserSessionManager(Aalayam.this);
+                session.setLoginStatusTrue();
+                Intent intnt_patient = new Intent(Aalayam.this, NavgnDrawer_Main_Patient.class);
+                intnt_patient.putExtra(PT_ID, "1227");
+                intnt_patient.putExtra(PATIENT_NAME_SML, "Jaldeep");
+                intnt_patient.putExtra(CASE_IMAGE_SML, "");
+                intnt_patient.putExtra(IMAGE_SML, "");
+                startActivity(intnt_patient);
             }
         }, 3000);
     }

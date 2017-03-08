@@ -237,6 +237,7 @@ public interface AalayamConstants {
 
 	// Key for onActivityResult
 	int REQUESTCODE_SPLASHACTIVITY = 101;
+	int REQUEST_APP_PERMISSION = 102;
     
     
     /** GridView Element **/

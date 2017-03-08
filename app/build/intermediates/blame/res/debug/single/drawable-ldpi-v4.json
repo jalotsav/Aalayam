@@ -1,10 +1,10 @@
 [
     {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
-        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\exploded-aar\\Aalayam\\libZBarScanner\\unspecified\\res\\drawable-ldpi-v4\\ic_launcher.png"
+        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\libZBarScanner\\build\\intermediates\\bundles\\default\\res\\drawable-ldpi-v4\\ic_launcher.png"
     },
     {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
-        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+        "source": "C:\\Users\\JBS C021\\.android\\build-cache\\16e753d91f1e315b625460f0a507020b3896ddbd\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
     }
 ]

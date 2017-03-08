@@ -167,6 +167,7 @@
 			<string name="feedback_sml">Feedback</string>
 		    
 		    <!-- Patient Images -->
+			<string name="allow_permtn_gallery_camera">To select/capture photo, you must have to allow permission</string>
 		    <string name="no_ptnt_images_onalmsrvr">No Patient images available on Aalayam server</string>
 		    <string name="ptnt_images_appearher">Patient images appear here</string>
 		    <string name="ptnt_images_inqueue">Patient images in queue</string>
@@ -229,7 +230,7 @@
 			<string name="feedback_submit_success">Feedback submitted successfully</string>
 
     		<!-- Patient Profile -->
-			<string name="to_call_allow_permtn">To make call, you must have to allow permission</string>
+			<string name="allow_permtn_to_call">To make call, you must have to allow permission</string>
     			<!-- Case Details -->
     			<string name="case_dtls">Case Details</string>
     			<string name="case_dscrptn">Case Description</string>
