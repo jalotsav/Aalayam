@@ -48,16 +48,7 @@ public class Aalayam extends Activity implements AalayamConstants {
 //                Intent intntNvgnDrwrDoctr = new Intent(Aalayam.this, NavgnDrawer_Main_Doctor.class);
                 Intent intntNvgnDrwrDoctr = new Intent(Aalayam.this, NavgnDrwrDoctor.class);
                 intntNvgnDrwrDoctr.putExtra(OPEN_FRGMNT_BY_POSTN, openFrgmntPostn);
-//                startActivity(intntNvgnDrwrDoctr);
-
-                UserSessionManager session = new UserSessionManager(Aalayam.this);
-                session.setLoginStatusTrue();
-                Intent intnt_patient = new Intent(Aalayam.this, NavgnDrawer_Main_Patient.class);
-                intnt_patient.putExtra(PT_ID, "1227");
-                intnt_patient.putExtra(PATIENT_NAME_SML, "Jaldeep");
-                intnt_patient.putExtra(CASE_IMAGE_SML, "");
-                intnt_patient.putExtra(IMAGE_SML, "");
-                startActivity(intnt_patient);
+                startActivity(intntNvgnDrwrDoctr);
             }
         }, 3000);
     }
