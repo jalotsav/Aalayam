@@ -24,12 +24,12 @@
         "source": "C:\\Users\\JBS C021\\.android\\build-cache\\4f176a80b9609523c759ffe5080d1a8b816a5927\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\JBS C021\\.android\\build-cache\\78ae3d6c6e0c5da03c2c9c3ac722dbae847cb62e\\output\\res\\color\\abc_tint_switch_track.xml"
-    },
-    {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
         "source": "C:\\Users\\JBS C021\\.android\\build-cache\\78ae3d6c6e0c5da03c2c9c3ac722dbae847cb62e\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\JBS C021\\.android\\build-cache\\78ae3d6c6e0c5da03c2c9c3ac722dbae847cb62e\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",

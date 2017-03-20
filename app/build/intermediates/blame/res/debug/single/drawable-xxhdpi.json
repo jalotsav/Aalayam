@@ -8,12 +8,12 @@
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xxhdpi\\ic_account_circle_white.png"
     },
     {
-        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_date_gray.png",
-        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xxhdpi\\ic_date_gray.png"
-    },
-    {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_doctor_gray_mtrl.png",
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xxhdpi\\ic_doctor_gray_mtrl.png"
+    },
+    {
+        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_date_gray.png",
+        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xxhdpi\\ic_date_gray.png"
     },
     {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_doctor_gray.png",
@@ -40,12 +40,12 @@
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xxhdpi\\ic_vasdtls_gray.png"
     },
     {
-        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_white.png",
-        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_white.png"
-    },
-    {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_search_white.png",
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xxhdpi\\ic_search_white.png"
+    },
+    {
+        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_white.png",
+        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_white.png"
     },
     {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_temp.png",

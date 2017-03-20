@@ -6119,8 +6119,14 @@ containing a value of this type.
         public static final int Jalotsav_AlertDialog_Lollipopdesign=0x7f09002d;
         public static final int Material_DrawerArrowStyle=0x7f0900fe;
         public static final int Material_Light_DrawerArrowStyle=0x7f0900ff;
+        /**  Material specific values 
+         */
         public static final int MaterialBaseBaseTheme=0x7f090100;
+        /**  Material specific values 
+         */
         public static final int MaterialBaseBaseTheme_Light=0x7f090101;
+        /**  Material specific values 
+         */
         public static final int MaterialBaseBaseTheme_Light_DarkToolbar=0x7f090102;
         /** 
         <item name="android:dialogTheme">@style/MaterialBaseTheme.Dialog</item>

@@ -16,12 +16,12 @@
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-hdpi\\ic_videos_colctn_gray.png"
     },
     {
-        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_vasdtls_gray.png",
-        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-hdpi\\ic_vasdtls_gray.png"
-    },
-    {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_noofsitting.png",
         "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-hdpi\\ic_noofsitting.png"
+    },
+    {
+        "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_vasdtls_gray.png",
+        "source": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\src\\main\\res\\drawable-hdpi\\ic_vasdtls_gray.png"
     },
     {
         "merged": "D:\\Learn\\R_and_D\\JdCode\\StudioProjects\\Aalayam\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_camera_white.png",
