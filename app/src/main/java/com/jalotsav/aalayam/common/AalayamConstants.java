@@ -222,6 +222,7 @@ public interface AalayamConstants {
     String COME_FOR = "come_for";
     String ADD_VASSCALE = "add_vasscale";
     String UPDATE_VASSCALE = "update_vasscale";
+    String VASSCALE_PREVIOUS_TIMESTAMP = "vasscale_previous_timestamp";
     String COME_FROM_PAYMENTS = "come_from_payments";
     String COME_FROM_INVENTORY = "come_from_inventory";
     int COME_FROM_TABPTNTIMGS = 11;
@@ -238,8 +239,10 @@ public interface AalayamConstants {
 	// Key for onActivityResult
 	int REQUESTCODE_SPLASHACTIVITY = 101;
 	int REQUEST_APP_PERMISSION = 102;
-    
-    
+
+	// Remote Config keys
+	String VASSCALE_PREVIOUS_ADD_ENABLED = "vasscale_previous_add_enabled";
+
     /** GridView Element **/
     // Number of columns of Grid View
     int NUM_OF_COLUMNS_2 = 2;
@@ -251,5 +254,4 @@ public interface AalayamConstants {
     
     // supported file formats
     List<String> FILE_EXTN = Arrays.asList("jpg", "jpeg", "png");
-       
 }

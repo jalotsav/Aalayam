@@ -184,6 +184,8 @@
 	    	<string name="vasscales_appearhere">Vas scales appear here</string>
 	    		<!-- Add Vas Scale -->
 	    		<string name="add_vasscale">Add Vas scale</string>
+				<string name="vasscale_date_coln">Vasscale Date:</string>
+				<string name="fill_crfly_later_not_edit_msg">Fill data carefully, Later you are not able to edit.</string>
 	    		<string name="add_scale">Add scale</string>
 				<string name="cs_sml">cs</string>
 				<string name="cq_sml">cq</string>

@@ -112,9 +112,19 @@
         <item name="colorAccent">@color/blue_prmry</item>
     </style>
 
+    <!--ColorAccent BlueMidnight style-->
+    <style name="ColorAccentBlueMdnght">
+        <item name="colorAccent">@color/bluemdnght_prmry</item>
+    </style>
+
     <!--Material Style Button Theme - GREEN -->
     <style name="MaterialButton.Blue" parent="Widget.AppCompat.Button.Colored">
         <item name="android:theme">@style/ColorAccentBlue</item>
+    </style>
+
+    <!--Material Style Progressbar Theme - BLUEMIDNIGHT -->
+    <style name="MaterialProgressBar.BlueMidnight" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:theme">@style/ColorAccentBlueMdnght</item>
     </style>
 
 </resources>
