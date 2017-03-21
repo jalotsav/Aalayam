@@ -3,57 +3,57 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\25f45d5abd641bb47c7929eeb49f5578140230aa\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\f295b5fc7e2a97ec7c3a8e85ba4ddd1b0ffa85bb\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="85df25d7afb26b40d1eaaa7382238bb3cb95591c">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82fb89815490ffa0d06bbc4f5fedb0f3d03ac96b\classes.dex" />
+        revision="25.0.0"
+        sha1="ef008db7640c1e5792748c986749d8ad62fb547c">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b8cfefee78823b910e1f1fefbff6f49fdf4694db\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\libs\jalotsav-imageviewshape.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.6\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="d71474d4f5e8741be81ac00167d5a5cbbdbd3ef1">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\jalotsav-imageviewshape_23cdcb9461de227c037446e92041bb5e70715050.jar" />
+        revision="24.0.3"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-answers-1.3.6_d375c4c49960d600006b3e0afdfabedd5d8afda8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\0ef2dc8c7b0bb49f4de534d88dd2385d2f88bec6\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_71ed59fbfa9cfb521002c029f527db3bd777772d.jar" />
+        revision="24.0.3"
+        sha1="edf9a22ebf25281619265079aec8f5d433da1a5c">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.2.1_322a71b7f765ed38ee5783f5b2a61b53d6c89e31.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\487443a91e0cde3dfb2a6fb3be946d37b24e5ce5\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\google-material-typeface\2.2.0.2.original\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_b70c41c855bea906e72e8433e76bab024e84c978.jar" />
+        revision="24.0.3"
+        sha1="ef008db7640c1e5792748c986749d8ad62fb547c">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.mikepenz-google-material-typeface-2.2.0.2.original_60b68eb5a13445ee3c6ab3f1361856d421eef758.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6c09228ff931eb30b68dd27fe34ed90d978b6892">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-crash-9.2.1_aa92997b741b1190459db0534e9c0f3bb2dd61fa.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\09c38db98030bcfbda8f364dd06c8ad42c8761bc\output\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\200c2770c2dd4af82e1386d8c14eeeaa90d62817\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_f4a2b4fd1afc7c2e7d6d3d9f06bd770c124aaf2a\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\e957ea4362de1ff5d56c4837fe947bf897b69b96\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4c5bfb989e99b9308bcbe7ad2dfd56fa81e63440">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_825701865b2e917af28d11520405092e575a2c17.jar" />
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17ac214bf8ab76b857e42172180c169751de0d75\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -75,129 +75,174 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\436ddbc091f663d091920f7cda303292213d4aca\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\libs\jalotsav-imageviewshape.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="4e321f93dc9379e01485b0811f46c23c3572596d">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3a3c8fcaf3a13b161ea88ccc8e4ff349d1c9b196\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\16e753d91f1e315b625460f0a507020b3896ddbd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_37717a5e50385f01d5cd4ba135646377fbd15fd0\classes.dex" />
+        revision="25.0.0"
+        sha1="d71474d4f5e8741be81ac00167d5a5cbbdbd3ef1">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\2\jalotsav-imageviewshape_23cdcb9461de227c037446e92041bb5e70715050\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\f295b5fc7e2a97ec7c3a8e85ba4ddd1b0ffa85bb\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.8\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="ef008db7640c1e5792748c986749d8ad62fb547c">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_b8cfefee78823b910e1f1fefbff6f49fdf4694db.jar" />
+        revision="24.0.3"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-core-2.3.8_7b550f39e52a8a7553c25d5c87fbde8aefdeecfd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\82c374fc389ce02144717ce11849a1c378d9d5ab\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e1ac386433c75195bcf506ff716661cfb42d3a89\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="6c09228ff931eb30b68dd27fe34ed90d978b6892">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_a019268bb10532c68dc31c5793dedab55918f130.jar" />
+        revision="24.0.3"
+        sha1="a65d98c9409f271d3209f4cc1f7d8e0391665fa5">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.2.1_8e81763a68f5b1d6cb3674018baadf58a30aa817.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\595f0c28cf06f020f6cc230fc6f554ea9f3991c0\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\0ef2dc8c7b0bb49f4de534d88dd2385d2f88bec6\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="197c431b8fc427f77e02997e299bd6b9bef58ede">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a684f0b35ddad69f5b196bc6cf07b9cde883b2d7\classes.dex" />
+        revision="25.0.0"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71ed59fbfa9cfb521002c029f527db3bd777772d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\487443a91e0cde3dfb2a6fb3be946d37b24e5ce5\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1bdfa2661a87eb64206a945aa9d4e91b17c372bd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_34f7a8313fb61efc0630a77c9b4ee83bfaf07913\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\6055324786a3ea8cc686dfcd682a71d2f8627efd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_860d7165e044f41593f712c3bac4aeed72628115\classes.dex" />
+        revision="25.0.0"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b70c41c855bea906e72e8433e76bab024e84c978\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\4e0179353fdf49be353ce016fb4c2f7d06191db1\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libZBarScanner\unspecified\jars\libs\zbar.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_4f4f645abd3f15b75fdf14958e0b16718275defc.jar" />
+        revision="24.0.3"
+        sha1="f109185c4ad13ec99defff852ae8b7875525fa4d">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\zbar_91e8d4907ea3d86e083d26046bd1c3d98b363b42.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\6d60542d5540db6014f900271067fbd2e156236e\output\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\4f176a80b9609523c759ffe5080d1a8b816a5927\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_a1d7ce0a28cb6688ce2c80477021ca3428ad7607\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\d09d19ff114dd0163b5340b6cdb4903e26b7f1c4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f1ce1f60e83204bcf9687d78db62927217133fe\classes.dex" />
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e20c30e00cce9de61b4bf94bebe12fa37fd249b8\classes.dex" />
     </item>
     <item
         is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.5.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-2.5.5_63f9e7bade6ee2ab2617f2988036e33009a2d8fa.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\3ecf4649d440f1a7c6018e225078ad96b194c3c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6e18f2fbdb2fd7933b7d066de5d9e554f479424c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_c03d85be44b2a50dd3e1112f47c848b4f52ff92c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\2b864f6adb71d6a9617bb432a762f4f0a291d58b\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_344e4f365104a352878e2f2d778823799a5f99cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_9d643c96046fac64f3b31d37e3c891b46995fe89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6c09228ff931eb30b68dd27fe34ed90d978b6892">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a019268bb10532c68dc31c5793dedab55918f130\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\retrofit-2.0.2_9d643c96046fac64f3b31d37e3c891b46995fe89.jar" />
+        revision="24.0.3"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_51a201017e231855450870b32e2d03e0db3984e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\fastadapter\1.4.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4c5bfb989e99b9308bcbe7ad2dfd56fa81e63440">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.mikepenz-fastadapter-1.4.1_50c942996a7bea199891d2c23ff3b34846ec8337.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\a81b6bfd38dd5735748ec932ad68b012ec67b9ed\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\4e0179353fdf49be353ce016fb4c2f7d06191db1\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="7bb417e9ac8645285342935679e75d371b58b62b">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3fc04393649263e007a24ca7ef5d6fbfe240cbb8\classes.dex" />
+        revision="25.0.0"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4f4f645abd3f15b75fdf14958e0b16718275defc\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\9015086ff02effaa1ddeb5b878793b090ebad4d4\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\e46a013f940a1f001296fcf713fda576e549e9c4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="edf9a22ebf25281619265079aec8f5d433da1a5c">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c28df1d0914a00af6708e53af838c0d0bf7542db\classes.dex" />
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d64bbaaac77373d9e50547946b182965ec8cf5c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\2b864f6adb71d6a9617bb432a762f4f0a291d58b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c898671aac30794117053daf0176b1084b924f60\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -210,30 +255,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\b99a925e4987d2e123938ad63ea10286572ca12b\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\e957ea4362de1ff5d56c4837fe947bf897b69b96\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_452381b1e76454083dac578bcd7b75962f1159a0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\e46a013f940a1f001296fcf713fda576e549e9c4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d64bbaaac77373d9e50547946b182965ec8cf5c0\classes.dex" />
+        revision="25.0.0"
+        sha1="4c5bfb989e99b9308bcbe7ad2dfd56fa81e63440">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_825701865b2e917af28d11520405092e575a2c17\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\595f0c28cf06f020f6cc230fc6f554ea9f3991c0\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\materialize\0.8.8\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
+        revision="24.0.3"
         sha1="197c431b8fc427f77e02997e299bd6b9bef58ede">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_a684f0b35ddad69f5b196bc6cf07b9cde883b2d7.jar" />
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.mikepenz-materialize-0.8.8_010929f43604d27c7097ddc0553c3bc612b06ed1.jar" />
     </item>
     <item
         is-multidex="true"
@@ -245,31 +281,13 @@
         <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\8\zbar_76b9573f7b65bf20d227f9e5cbca02e8ab9d508a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\25f45d5abd641bb47c7929eeb49f5578140230aa\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="85df25d7afb26b40d1eaaa7382238bb3cb95591c">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_82fb89815490ffa0d06bbc4f5fedb0f3d03ac96b.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\fe97b34e1068b9f4904d93e8c0e5fa333a915f7f\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\012fb4f7633b5785f858c0e13e2c266c65c659cd\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="ac78f93fc89c497a65f9d9a352cd405996d2f65a">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3ecc4f90fe17b862996b1c552cbd37eedef49b97\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\4f176a80b9609523c759ffe5080d1a8b816a5927\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e20c30e00cce9de61b4bf94bebe12fa37fd249b8\classes.dex" />
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_31561916f04b3c041241d0bfd67afc6773fea4a0\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -282,39 +300,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\436ddbc091f663d091920f7cda303292213d4aca\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="4e321f93dc9379e01485b0811f46c23c3572596d">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_3a3c8fcaf3a13b161ea88ccc8e4ff349d1c9b196.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\16e753d91f1e315b625460f0a507020b3896ddbd\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_37717a5e50385f01d5cd4ba135646377fbd15fd0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\okio-1.6.0_34f7a8313fb61efc0630a77c9b4ee83bfaf07913.jar" />
+        revision="24.0.3"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\gson-2.6.2_e46500b5b68e8b7c62c067950d711ec881efff73.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\4e0179353fdf49be353ce016fb4c2f7d06191db1\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\9ff1d1d2231ccd8d2325ece45277763a48f0c028\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4f4f645abd3f15b75fdf14958e0b16718275defc\classes.dex" />
+        revision="25.0.0"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_719a7c26dd9b042de75d66341b3a6ee3f02d5b6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\6d60542d5540db6014f900271067fbd2e156236e\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_a1d7ce0a28cb6688ce2c80477021ca3428ad7607\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -326,166 +335,220 @@
         <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\gcm_b2cdc1ebd7770817b9c8f3305e8d6acbd98f88f4.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\fd8f7ebb4a0ee811acfdb25bd6c4140e7ad03c2b\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_870897f5fb8f9bebba77169b3efb06dc593fa2bb\classes.dex" />
+        revision="24.0.3"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.2.1_f23e37e2894a90789367ad954ea5f17b122a1a25.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\9015086ff02effaa1ddeb5b878793b090ebad4d4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_961418884362bcf37e5164da8ae96a7fc374ab4c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\ea72569103a00dd50f499b04af68b901d093e2f5\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0c1f7e1caf98df8086ddbe9b398264f335d04a20\classes.dex" />
+        revision="25.0.0"
+        sha1="edf9a22ebf25281619265079aec8f5d433da1a5c">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c28df1d0914a00af6708e53af838c0d0bf7542db\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\6055324786a3ea8cc686dfcd682a71d2f8627efd\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_860d7165e044f41593f712c3bac4aeed72628115.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_f4b4bf904bc874474a01791720b13c9c866542dd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_c03d85be44b2a50dd3e1112f47c848b4f52ff92c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\2b864f6adb71d6a9617bb432a762f4f0a291d58b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c898671aac30794117053daf0176b1084b924f60\classes.dex" />
+        revision="24.0.3"
+        sha1="21bb89120d84fa29afeb0f9c0ebf415bc3b45a7e">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.2.0_28d411ab9af0b0220255aabde5cf5936fa7d149b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\b99a925e4987d2e123938ad63ea10286572ca12b\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libFAB\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_452381b1e76454083dac578bcd7b75962f1159a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\libs\gcm.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\gcm_b2cdc1ebd7770817b9c8f3305e8d6acbd98f88f4.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_9d643c96046fac64f3b31d37e3c891b46995fe89\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\f894a771df54cde393dc0cdaeaae560ebec9177f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="98a135c7935e62ac041acc1fcb148973bde828d5">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_26ebc17b3a6ee53ffa744f071f479761b4613865.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libFAB\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
+        revision="24.0.3"
         sha1="6cfa9ae84dd204b78045d3c4b5ba7255a2e8d1cc">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_0795f5d095f61ff51089c80c2b562eefc1920a28.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\fe97b34e1068b9f4904d93e8c0e5fa333a915f7f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ac78f93fc89c497a65f9d9a352cd405996d2f65a">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_3ecc4f90fe17b862996b1c552cbd37eedef49b97.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libZBarScanner\build\intermediates\bundles\default\libs\zbar.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f109185c4ad13ec99defff852ae8b7875525fa4d">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\zbar_76b9573f7b65bf20d227f9e5cbca02e8ab9d508a.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\9ff1d1d2231ccd8d2325ece45277763a48f0c028\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_719a7c26dd9b042de75d66341b3a6ee3f02d5b6e\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\okhttp-3.2.0_e339695d79b8523e2ee3f8dcaa6315c7fb2658c9.jar" />
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\Aalayam-libFAB-unspecified_940e3cccb128876956b2dbbc47e44c879de6d0b6.jar" />
     </item>
     <item
         is-multidex="true"
         jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
+        revision="25.0.0"
         sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
         <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_7bee75ac1e385f2da305c8c4be236a047641c38d\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\e5273d955b1d8c49cce09cf9caceda6a9c9e3fe5\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.5.11\jars\classes.jar"
         jumboMode="false"
         optimize="true"
+        revision="24.0.3"
+        sha1="98a135c7935e62ac041acc1fcb148973bde828d5">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.mikepenz-iconics-core-2.5.11_b9607be27dc6c3767f50f4c69c9aec312c6e2e34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.2.1_8777f559be25515b3c8c605c6341520659abd9ef.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\78ae3d6c6e0c5da03c2c9c3ac722dbae847cb62e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b8eb8456cf107873504fb64edc53105ee230ae2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\09c38db98030bcfbda8f364dd06c8ad42c8761bc\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_f4a2b4fd1afc7c2e7d6d3d9f06bd770c124aaf2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_d6267d108258454c1b7083440e9338e477d733ce.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="25.0.2"
-        sha1="a65d98c9409f271d3209f4cc1f7d8e0391665fa5">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_0669bc720f501a90bf247547874d4c68f049ae9c.jar" />
+        sha1="21bb89120d84fa29afeb0f9c0ebf415bc3b45a7e">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dce55cb6eb4cf085dc85c73435533096f75dfff2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_e339695d79b8523e2ee3f8dcaa6315c7fb2658c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.2.1_0996c6ee21121550e1e0dd974e700241a80c6cf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.0.0_7da511f68a050d2995dbc7e78b1ad495d3bcc17d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4ff6741db306e506ede1a0b84a78bb09456f7fa1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_df59c0b279a35fec2c21e3fe02156df11486f11f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\b99a925e4987d2e123938ad63ea10286572ca12b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_452381b1e76454083dac578bcd7b75962f1159a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0_8bd71001ab7a5934da5ba0b6d09d48386d198913.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\78380ad5d71a61f36518dadc435b40f5ad47927c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_65d503fbd217e81a2240f352d6edcfe99511eaa3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\f894a771df54cde393dc0cdaeaae560ebec9177f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98a135c7935e62ac041acc1fcb148973bde828d5">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_26ebc17b3a6ee53ffa744f071f479761b4613865\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\5.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4e321f93dc9379e01485b0811f46c23c3572596d">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.mikepenz-materialdrawer-5.2.0_40bb04bab4e2b75941fd0ff45c065a489733ec7b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_34f7a8313fb61efc0630a77c9b4ee83bfaf07913\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1bdfa2661a87eb64206a945aa9d4e91b17c372bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7e0dfc27b76601da004323ae3cdc6d15a28d809">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0270a446012aab0ff84ac1f5ac35a1a6e6c3a1c9\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -498,30 +561,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\6d60542d5540db6014f900271067fbd2e156236e\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\libs\universal-image-loader-1.9.5.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e619edc837a46758d9c71e647302524310654fbd\classes.dex" />
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.5_ecccf90467431617def33b51d4b013702e836e99\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\82c374fc389ce02144717ce11849a1c378d9d5ab\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4b1d9d4bdda8656d93865e38f694f57305466f76\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\2b864f6adb71d6a9617bb432a762f4f0a291d58b\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_344e4f365104a352878e2f2d778823799a5f99cd\classes.dex" />
+        revision="24.0.3"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.2.1_bf5c203e8c9bfddf31bd30057a14e6fea11341c2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -531,60 +585,6 @@
         revision="24.0.3"
         sha1="d71474d4f5e8741be81ac00167d5a5cbbdbd3ef1">
         <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\jalotsav-imageviewshape_23cdcb9461de227c037446e92041bb5e70715050.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\fd8f7ebb4a0ee811acfdb25bd6c4140e7ad03c2b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_870897f5fb8f9bebba77169b3efb06dc593fa2bb.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\82c374fc389ce02144717ce11849a1c378d9d5ab\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e1ac386433c75195bcf506ff716661cfb42d3a89\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_cc0e7bde3ffd0aa3dc1a6f4726ac6d2aba7133df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\libs\universal-image-loader-1.9.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_ecccf90467431617def33b51d4b013702e836e99.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_961418884362bcf37e5164da8ae96a7fc374ab4c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\gson-2.7_f4b4bf904bc874474a01791720b13c9c866542dd.jar" />
     </item>
     <item
         is-multidex="true"
@@ -597,93 +597,165 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\09c38db98030bcfbda8f364dd06c8ad42c8761bc\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_960bb515f48f5e8c8c7bab925b6bc320d04be01e\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_4ff6741db306e506ede1a0b84a78bb09456f7fa1.jar" />
+        revision="25.0.0"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_961418884362bcf37e5164da8ae96a7fc374ab4c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\e5273d955b1d8c49cce09cf9caceda6a9c9e3fe5\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_e339695d79b8523e2ee3f8dcaa6315c7fb2658c9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\f295b5fc7e2a97ec7c3a8e85ba4ddd1b0ffa85bb\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ef008db7640c1e5792748c986749d8ad62fb547c">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b8cfefee78823b910e1f1fefbff6f49fdf4694db\classes.dex" />
+        revision="25.0.0"
+        sha1="a65d98c9409f271d3209f4cc1f7d8e0391665fa5">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0669bc720f501a90bf247547874d4c68f049ae9c\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="C:\Users\JBS C021\.android\build-cache\d09d19ff114dd0163b5340b6cdb4903e26b7f1c4\output\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
+        revision="25.0.0"
         sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
         <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_70c1fa1bc0f8a0a6267c62f8d29a878c8a06aea5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\3ecf4649d440f1a7c6018e225078ad96b194c3c9\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\ea72569103a00dd50f499b04af68b901d093e2f5\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6e18f2fbdb2fd7933b7d066de5d9e554f479424c\classes.dex" />
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0c1f7e1caf98df8086ddbe9b398264f335d04a20\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\487443a91e0cde3dfb2a6fb3be946d37b24e5ce5\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b70c41c855bea906e72e8433e76bab024e84c978\classes.dex" />
+        revision="25.0.0"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cc0e7bde3ffd0aa3dc1a6f4726ac6d2aba7133df\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\9ff1d1d2231ccd8d2325ece45277763a48f0c028\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.mikepenz\fontawesome-typeface\4.6.0.3\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_719a7c26dd9b042de75d66341b3a6ee3f02d5b6e.jar" />
+        revision="24.0.3"
+        sha1="85df25d7afb26b40d1eaaa7382238bb3cb95591c">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.mikepenz-fontawesome-typeface-4.6.0.3_ebafdb2d131854f649f8c9871fca2233305df17c.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\e957ea4362de1ff5d56c4837fe947bf897b69b96\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\82c374fc389ce02144717ce11849a1c378d9d5ab\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="4c5bfb989e99b9308bcbe7ad2dfd56fa81e63440">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_825701865b2e917af28d11520405092e575a2c17\classes.dex" />
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4b1d9d4bdda8656d93865e38f694f57305466f76\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_0b14a86852bd2211468af890f9039ad4e6c9cbba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\Aalayam\libZBarScanner\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75bd77485db18fa2f599d02508ffc44078a56406">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\Aalayam-libZBarScanner-unspecified_d42b55d63b4073d2cde426b7c87b7e35fd2cb4de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_50b363b067cdea04f3a2ed44d9e50f89e63707b0.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\78ae3d6c6e0c5da03c2c9c3ac722dbae847cb62e\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\d09d19ff114dd0163b5340b6cdb4903e26b7f1c4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b8eb8456cf107873504fb64edc53105ee230ae2\classes.dex" />
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f1ce1f60e83204bcf9687d78db62927217133fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\595f0c28cf06f020f6cc230fc6f554ea9f3991c0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="197c431b8fc427f77e02997e299bd6b9bef58ede">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a684f0b35ddad69f5b196bc6cf07b9cde883b2d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\436ddbc091f663d091920f7cda303292213d4aca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e321f93dc9379e01485b0811f46c23c3572596d">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3a3c8fcaf3a13b161ea88ccc8e4ff349d1c9b196\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="21bb89120d84fa29afeb0f9c0ebf415bc3b45a7e">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dce55cb6eb4cf085dc85c73435533096f75dfff2\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-beta-1.1.4_a90134bccbb57506f9857a19521401851392fdc0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\fd8f7ebb4a0ee811acfdb25bd6c4140e7ad03c2b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_870897f5fb8f9bebba77169b3efb06dc593fa2bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.2.1_af9e1287c2090b3ca7245e460a182a11c12cfa2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.2.1_490233309a4e771ba2329a4d3fbc4f4d7ec2d94d.jar" />
     </item>
     <item
         is-multidex="true"
@@ -696,6 +768,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\09c38db98030bcfbda8f364dd06c8ad42c8761bc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_960bb515f48f5e8c8c7bab925b6bc320d04be01e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -705,75 +786,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\e5273d955b1d8c49cce09cf9caceda6a9c9e3fe5\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\6d60542d5540db6014f900271067fbd2e156236e\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="a65d98c9409f271d3209f4cc1f7d8e0391665fa5">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0669bc720f501a90bf247547874d4c68f049ae9c\classes.dex" />
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e619edc837a46758d9c71e647302524310654fbd\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\0ef2dc8c7b0bb49f4de534d88dd2385d2f88bec6\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71ed59fbfa9cfb521002c029f527db3bd777772d\classes.dex" />
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_f4b4bf904bc874474a01791720b13c9c866542dd\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\6055324786a3ea8cc686dfcd682a71d2f8627efd\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="6c09228ff931eb30b68dd27fe34ed90d978b6892">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a019268bb10532c68dc31c5793dedab55918f130\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\f894a771df54cde393dc0cdaeaae560ebec9177f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="98a135c7935e62ac041acc1fcb148973bde828d5">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_26ebc17b3a6ee53ffa744f071f479761b4613865\classes.dex" />
+        revision="25.0.0"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_860d7165e044f41593f712c3bac4aeed72628115\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.10\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.2_7bee75ac1e385f2da305c8c4be236a047641c38d.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\012fb4f7633b5785f858c0e13e2c266c65c659cd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_31561916f04b3c041241d0bfd67afc6773fea4a0\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_1bdfa2661a87eb64206a945aa9d4e91b17c372bd.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cc0e7bde3ffd0aa3dc1a6f4726ac6d2aba7133df\classes.dex" />
+        revision="24.0.3"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\io.fabric.sdk.android-fabric-1.3.10_dc806bcd0eddbecb79b342928a35a4f2b9d5a878.jar" />
     </item>
     <item
         is-multidex="false"
@@ -785,40 +830,40 @@
         <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\okhttp-3.2.0_e339695d79b8523e2ee3f8dcaa6315c7fb2658c9.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libZBarScanner\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\JBS C021\.android\build-cache\16e753d91f1e315b625460f0a507020b3896ddbd\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="75bd77485db18fa2f599d02508ffc44078a56406">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_fe6365afb367093ba5042b188813d3e0e84b0515.jar" />
+        revision="25.0.0"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_37717a5e50385f01d5cd4ba135646377fbd15fd0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\libs\gcm.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4ff6741db306e506ede1a0b84a78bb09456f7fa1\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\9015086ff02effaa1ddeb5b878793b090ebad4d4\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="edf9a22ebf25281619265079aec8f5d433da1a5c">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_c28df1d0914a00af6708e53af838c0d0bf7542db.jar" />
+        revision="25.0.0"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\2\gcm_b2cdc1ebd7770817b9c8f3305e8d6acbd98f88f4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\200c2770c2dd4af82e1386d8c14eeeaa90d62817\output\jars\classes.jar"
+        jar="C:\Users\JBS C021\.android\build-cache\25f45d5abd641bb47c7929eeb49f5578140230aa\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17ac214bf8ab76b857e42172180c169751de0d75\classes.dex" />
+        revision="25.0.0"
+        sha1="85df25d7afb26b40d1eaaa7382238bb3cb95591c">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82fb89815490ffa0d06bbc4f5fedb0f3d03ac96b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_ae0ba4bd35335fb57a31b161655d043f02ae322f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -831,21 +876,39 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\JBS C021\.android\build-cache\a81b6bfd38dd5735748ec932ad68b012ec67b9ed\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="7bb417e9ac8645285342935679e75d371b58b62b">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\classes_3fc04393649263e007a24ca7ef5d6fbfe240cbb8.jar" />
+        revision="24.0.3"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.2.1_a93107eb2bc15c3686bdcfdbb0480a05b26e4e48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.0.0_41ec45c77cbb613d85008d011b17502a042e9ecb.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\JBS C021\.android\build-cache\78380ad5d71a61f36518dadc435b40f5ad47927c\output\jars\classes.jar"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\libZBarScanner\build\intermediates\bundles\default\libs\zbar.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_65d503fbd217e81a2240f352d6edcfe99511eaa3\classes.dex" />
+        revision="25.0.0"
+        sha1="f109185c4ad13ec99defff852ae8b7875525fa4d">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\8\zbar_76b9573f7b65bf20d227f9e5cbca02e8ab9d508a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\Learn\R_and_D\JdCode\StudioProjects\Aalayam\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f5465edf4b70797e9d64a6a7e59668a3b47c15c9\classes.dex" />
     </item>
 
 </items>

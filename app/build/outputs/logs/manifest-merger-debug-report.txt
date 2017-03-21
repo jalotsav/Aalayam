@@ -110,8 +110,7 @@ MERGED from [com.google.firebase:firebase-core:9.2.1] C:\Users\JBS C021\.android
 MERGED from [com.google.firebase:firebase-crash:9.2.1] C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\AndroidManifest.xml:22:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\JBS C021\.android\build-cache\fe97b34e1068b9f4904d93e8c0e5fa333a915f7f\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-config:9.2.1] C:\Users\JBS C021\.android\build-cache\a81b6bfd38dd5735748ec932ad68b012ec67b9ed\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-common:9.2.1] C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-gcm:9.2.1] C:\Users\JBS C021\.android\build-cache\9015086ff02effaa1ddeb5b878793b090ebad4d4\output\AndroidManifest.xml:18:5-42
@@ -160,8 +159,7 @@ MERGED from [com.google.firebase:firebase-core:9.2.1] C:\Users\JBS C021\.android
 MERGED from [com.google.firebase:firebase-crash:9.2.1] C:\Users\JBS C021\.android\build-cache\ae4432feb6186d30c86978a13406edfcf141fc34\output\AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:26:5-41:19
 MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\JBS C021\.android\build-cache\75d204aebb6e830b8dbba596a12621b39368cfe5\output\AndroidManifest.xml:26:5-41:19
-MERGED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\JBS C021\.android\build-cache\fe97b34e1068b9f4904d93e8c0e5fa333a915f7f\output\AndroidManifest.xml:20:5-32:19
-MERGED from [com.google.firebase:firebase-config:9.2.1] C:\Users\JBS C021\.android\build-cache\a81b6bfd38dd5735748ec932ad68b012ec67b9ed\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\AndroidManifest.xml:20:5-32:19
 MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:30:5-59:19
 MERGED from [com.google.firebase:firebase-common:9.2.1] C:\Users\JBS C021\.android\build-cache\6e64bdcf945d36e90168998b42d60b3c6b859771\output\AndroidManifest.xml:5:5-12:19
 MERGED from [com.google.android.gms:play-services-gcm:9.2.1] C:\Users\JBS C021\.android\build-cache\9015086ff02effaa1ddeb5b878793b090ebad4d4\output\AndroidManifest.xml:24:5-20
@@ -456,11 +454,11 @@ MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\JBS C02
 	android:name
 		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\JBS C021\.android\build-cache\aad403e00d7ff5615947dc22410b1d46d041fe5e\output\AndroidManifest.xml:37:11-82
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\JBS C021\.android\build-cache\fe97b34e1068b9f4904d93e8c0e5fa333a915f7f\output\AndroidManifest.xml:24:9-30:19
+ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\AndroidManifest.xml:24:9-30:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\JBS C021\.android\build-cache\fe97b34e1068b9f4904d93e8c0e5fa333a915f7f\output\AndroidManifest.xml:26:13-36
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\JBS C021\.android\build-cache\fe97b34e1068b9f4904d93e8c0e5fa333a915f7f\output\AndroidManifest.xml:25:13-82
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\JBS C021\.android\build-cache\23d90bb1542d05c2080e5b1af40a5bb14cbb80f8\output\AndroidManifest.xml:25:13-82
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
 ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\JBS C021\.android\build-cache\234b063d9bd5b2905e490ee0174296ce62b8c2a3\output\AndroidManifest.xml:32:9-41:20
 	android:exported

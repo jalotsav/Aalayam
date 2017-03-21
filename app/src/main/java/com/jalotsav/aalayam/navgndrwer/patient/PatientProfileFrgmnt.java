@@ -2,7 +2,6 @@ package com.jalotsav.aalayam.navgndrwer.patient;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.InputStream;
 import java.util.ArrayList;
 
 import org.json.JSONArray;
@@ -17,13 +16,11 @@ import android.os.Build;
 import android.support.v4.app.Fragment;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.text.method.ScrollingMovementMethod;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -63,7 +60,6 @@ public class PatientProfileFrgmnt extends Fragment implements AalayamConstants {
 	ArrayList<String> arrylstProfileimgFilepath = new ArrayList<String>();
 
 	String strCurrentCallCntctNo = "";
-	public static final int REQUEST_USES_PERMISSION = 101;
 
 	private ImageLoader imageLoader;
 	private DisplayImageOptions optionsImgLoader;
@@ -502,7 +498,7 @@ public class PatientProfileFrgmnt extends Fragment implements AalayamConstants {
                         // Need contact permission UI for user convention.
                         Toast.makeText(this, "Must be need Permission", Toast.LENGTH_LONG).show();
                     }*/
-					requestPermissions(new String[]{Manifest.permission.CALL_PHONE}, REQUEST_USES_PERMISSION);
+					requestPermissions(new String[]{Manifest.permission.CALL_PHONE}, REQUEST_APP_PERMISSION);
 				}else{
 
 					// Show UserNotification
@@ -530,8 +526,8 @@ public class PatientProfileFrgmnt extends Fragment implements AalayamConstants {
 	public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
 
 		// For Single Permission
-		if(requestCode == REQUEST_USES_PERMISSION){
-			if(grantResults.length ==1 &&
+		if(requestCode == REQUEST_APP_PERMISSION){
+			if(grantResults.length > 0 &&
 					grantResults[0] == PackageManager.PERMISSION_GRANTED){
 
 				if(ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.CALL_PHONE) ==
@@ -547,7 +543,7 @@ public class PatientProfileFrgmnt extends Fragment implements AalayamConstants {
 			}else {
 
 				// Show UserNotification
-				General_Fnctns.showUsrNtfyAutoHide(getActivity(), lnrlyot_usr_ntfy, tv_usr_ntfy_msg, ContextCompat.getColor(getActivity(), R.color.red_alizarin), ContextCompat.getColor(getActivity(), R.color.white), getResources().getString(R.string.to_call_allow_permtn), HIDE_USERNOTIFY_TIME_5K);
+				General_Fnctns.showUsrNtfyAutoHide(getActivity(), lnrlyot_usr_ntfy, tv_usr_ntfy_msg, ContextCompat.getColor(getActivity(), R.color.red_alizarin), ContextCompat.getColor(getActivity(), R.color.white), getResources().getString(R.string.allow_permtn_to_call), HIDE_USERNOTIFY_TIME_5K);
 			}
 		}else{
 			super.onRequestPermissionsResult(requestCode, permissions, grantResults);

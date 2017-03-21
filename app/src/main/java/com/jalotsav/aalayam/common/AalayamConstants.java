@@ -236,8 +236,9 @@ public interface AalayamConstants {
 	int NOTIFICATION_BUILDER_ID_SINGLE = 1;
 	String OPEN_FRGMNT_BY_POSTN = "open_frgmnt_by_position";
 
-	// onActivityResult keys
+	// Key for onActivityResult
 	int REQUESTCODE_SPLASHACTIVITY = 101;
+	int REQUEST_APP_PERMISSION = 102;
 
 	// Remote Config keys
 	String VASSCALE_PREVIOUS_ADD_ENABLED = "vasscale_previous_add_enabled";

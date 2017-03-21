@@ -12,18 +12,23 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.Manifest;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.util.TypedValue;
@@ -46,7 +51,6 @@ import com.jalotsav.aalayam.webservice.ServiceHandler;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
-import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
 
 public class PatientImages_TabPatntImages extends Fragment implements AalayamConstants {
 
@@ -75,6 +79,7 @@ public class PatientImages_TabPatntImages extends Fragment implements AalayamCon
     private static final int MEDIA_TYPE_IMAGE = 1;
 	private Uri slctd_cptur_pic_uri;
 	Bitmap slctd_cptur_pic_btmp;
+	boolean isCameraRequest;
 
 	private ImageLoader imageLoader;
 	private DisplayImageOptions optionsImgLoader;
@@ -83,8 +88,7 @@ public class PatientImages_TabPatntImages extends Fragment implements AalayamCon
 	public View onCreateView(LayoutInflater inflater,
 			@Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-		View rootView = inflater.inflate(R.layout.lo_patient_frgmnt_patntimages_tab_patntimgs,
-				container, false);
+		View rootView = inflater.inflate(R.layout.lo_patient_frgmnt_patntimages_tab_patntimgs, container, false);
 
 		_CONTEXT = getActivity();
 		session = new UserSessionManager(_CONTEXT);
@@ -134,11 +138,9 @@ public class PatientImages_TabPatntImages extends Fragment implements AalayamCon
 				// TODO Auto-generated method stub
             	
 				fab_menu.collapse();
-				
-            	//Directly open Gallery for Choose Photo
-            	Intent galleryIntent = new Intent(Intent.ACTION_PICK,
-            	        android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-            	startActivityForResult(galleryIntent, GALLERY_REQUEST);
+				isCameraRequest = false;
+
+				checkStorageCameraPermission();
 			}
 		});
 		fab_mini_addcamera.setOnClickListener(new View.OnClickListener() {
@@ -146,24 +148,60 @@ public class PatientImages_TabPatntImages extends Fragment implements AalayamCon
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-	              
+
 				fab_menu.collapse();
-				
-				// Open Camera for Take Photo
-            	Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
-                slctd_cptur_pic_uri = getOutputMediaFileUri(MEDIA_TYPE_IMAGE);
-                cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, slctd_cptur_pic_uri);
-                startActivityForResult(cameraIntent, CAMERA_REQUEST);
+				isCameraRequest = true;
+
+				checkStorageCameraPermission();
 			}
 		});
 		
 		return rootView;
 	}
-	
+
+	// Check Storage & Camera permission for use
+	private void checkStorageCameraPermission() {
+
+		if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+
+			if (!isCheckSelfPermission())
+				requestPermissions(new String[]{android.Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CAMERA}, REQUEST_APP_PERMISSION);
+			else
+				launchRequestedActvty();
+		} else
+			launchRequestedActvty();
+	}
+
+	private boolean isCheckSelfPermission(){
+
+		int selfPermsnStorage = ActivityCompat.checkSelfPermission(getActivity(), android.Manifest.permission.WRITE_EXTERNAL_STORAGE);
+		int selfPermsnCamera = ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.CAMERA);
+		return  selfPermsnStorage == PackageManager.PERMISSION_GRANTED && selfPermsnCamera == PackageManager.PERMISSION_GRANTED;
+	}
+
+	// Launch Gallery/Camera activity for select/Capture photo
+	private void launchRequestedActvty() {
+
+		if(isCameraRequest) {
+
+			// Open Camera for Take Photo
+			Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+			slctd_cptur_pic_uri = getOutputMediaFileUri(MEDIA_TYPE_IMAGE);
+			cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, slctd_cptur_pic_uri);
+			startActivityForResult(cameraIntent, CAMERA_REQUEST);
+		} else {
+
+			//Directly open Gallery for Choose Photo
+			Intent galleryIntent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+			startActivityForResult(galleryIntent, GALLERY_REQUEST);
+		}
+	}
+
 	// get capture image URI and store as temp.jpeg
 	public Uri getOutputMediaFileUri(int type) {
 	    return Uri.fromFile(getOutputMediaFile(type));
 	}
+
     private static File getOutputMediaFile(int type) {
 
         // External sdcard location
@@ -179,8 +217,7 @@ public class PatientImages_TabPatntImages extends Fragment implements AalayamCon
         // Create a media file name
         File mediaFile;
         if (type == MEDIA_TYPE_IMAGE) {
-            mediaFile = new File(mediaStorageDir.getPath() + File.separator
-                    + "temp.jpeg");
+            mediaFile = new File(mediaStorageDir.getPath() + File.separator + "temp.jpeg");
         } else {
             return null;
         }
@@ -205,7 +242,7 @@ public class PatientImages_TabPatntImages extends Fragment implements AalayamCon
     }
 
     // Get Directory paths which are contain Image and set to GridView
-    public class GetPatientImgsPathAsync extends AsyncTask<Void, Void, Void>{
+	private class GetPatientImgsPathAsync extends AsyncTask<Void, Void, Void>{
 
 		@Override
 		protected void onPreExecute() {
@@ -288,7 +325,7 @@ public class PatientImages_TabPatntImages extends Fragment implements AalayamCon
     }
 
 	// Get Doctor Profile image from AdminPanel
-	public class GetImageFromWebsrvc extends AsyncTask<String, Void, Bitmap> {
+	private class GetImageFromWebsrvc extends AsyncTask<String, Void, Bitmap> {
 		
 		String mProfileImageName = "";
 		
@@ -379,7 +416,7 @@ public class PatientImages_TabPatntImages extends Fragment implements AalayamCon
 	}
 
     // Get Directory paths which are contain Image and Refresh to GridView
-    public class GetPatientImgsPathRefrehGridAsync extends AsyncTask<Void, Void, Void>{
+	private class GetPatientImgsPathRefrehGridAsync extends AsyncTask<Void, Void, Void>{
 
 		@Override
 		protected void onPreExecute() {
@@ -500,7 +537,7 @@ public class PatientImages_TabPatntImages extends Fragment implements AalayamCon
 	}
 	
 	// Image Upload to server AsyncTask
-	public class ImageUploadTask extends AsyncTask<Void, Void, String> {
+	private class ImageUploadTask extends AsyncTask<Void, Void, String> {
 
 		// private ProgressDialog dialog;
 		private ProgressDialog dialog = new ProgressDialog(_CONTEXT);
@@ -756,7 +793,7 @@ public class PatientImages_TabPatntImages extends Fragment implements AalayamCon
 	}
 	
 	// Get Patient Details from Web-service
-	public class GetPatientDetailsFromWebSrve extends AsyncTask<Void, Void, Void>{
+	private class GetPatientDetailsFromWebSrve extends AsyncTask<Void, Void, Void>{
 
 		String websrvc_response;
 
@@ -838,5 +875,21 @@ public class PatientImages_TabPatntImages extends Fragment implements AalayamCon
 				}
 			}
 		}
+	}
+
+	@Override
+	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+
+		if(requestCode == REQUEST_APP_PERMISSION) {
+
+			if(grantResults.length > 0) {
+
+				if(grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
+					launchRequestedActvty();
+				} else
+					General_Fnctns.showUsrNtfyAutoHide(_CONTEXT, lnrlyot_usr_ntfy, tv_usr_ntfy_msg, ContextCompat.getColor(_CONTEXT, R.color.red_alizarin), ContextCompat.getColor(_CONTEXT, R.color.white), _CONTEXT.getResources().getString(R.string.allow_permtn_gallery_camera), HIDE_USERNOTIFY_TIME_5K);
+			}
+		}
+		super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 	}
 }
