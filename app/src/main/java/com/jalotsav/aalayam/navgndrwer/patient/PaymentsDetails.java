@@ -3,7 +3,7 @@ package com.jalotsav.aalayam.navgndrwer.patient;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -16,7 +16,7 @@ import com.jalotsav.aalayam.common.AalayamConstants;
 import com.jalotsav.aalayam.common.General_Fnctns;
 import com.jalotsav.aalayam.service.InternetService;
 
-public class PaymentsDetails extends ActionBarActivity implements AalayamConstants{
+public class PaymentsDetails extends AppCompatActivity implements AalayamConstants{
 
 	LinearLayout lnrylot_ptntnm;
 	private TextView tvPtntName, tvPymntId, tvAmnt, tvPrtclr, tvDate;
