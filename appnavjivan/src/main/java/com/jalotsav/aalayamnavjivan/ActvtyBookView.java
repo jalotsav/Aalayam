@@ -1,20 +1,24 @@
 package com.jalotsav.aalayamnavjivan;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.github.barteksc.pdfviewer.PDFView;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.storage.FileDownloadTask;
@@ -30,6 +34,9 @@ import java.util.Locale;
 import butterknife.BindString;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import es.voghdev.pdfviewpager.library.PDFViewPager;
+import es.voghdev.pdfviewpager.library.adapter.BasePDFPagerAdapter;
+import es.voghdev.pdfviewpager.library.adapter.PDFPagerAdapter;
 
 /**
  * Created by Jalotsav on 1/17/2018.
@@ -38,17 +45,20 @@ import butterknife.ButterKnife;
 public class ActvtyBookView extends AppCompatActivity {
 
     @BindView(R.id.cordntrlyot_actvty_bookview_main) CoordinatorLayout mCrdntrlyot;
-    @BindView(R.id.pdfvw_actvty_bookview) PDFView mPdfVw;
+    @BindView(R.id.pdfvwpgr_actvty_bookview) PDFViewPager mPdfVwPgr;
 
     @BindString(R.string.no_intrnt_cnctn) String mNoInternetConnMsg;
     @BindString(R.string.server_problem_sml) String mServerPrblmMsg;
     @BindString(R.string.internal_problem_sml) String mInternalPrblmMsg;
     @BindString(R.string.allow_permtn_readbook) String mAllowPermsnMsg;
     @BindString(R.string.plzwait_weare_getting_book) String mWaitGettingBook;
+    @BindString(R.string.book_not_found) String mBookNotFound;
 
+    MenuItem mMenuItemShare;
     StorageReference mStorageRef;
     String mBookPathLocal;
     Dialog mDialogPrgrs;
+    BasePDFPagerAdapter mPDFAdapter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -57,6 +67,10 @@ public class ActvtyBookView extends AppCompatActivity {
         ButterKnife.bind(this);
 
         mStorageRef = FirebaseStorage.getInstance().getReference();
+
+        // for "Uri.fromFile()" in Share book
+        StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
+        StrictMode.setVmPolicy(builder.build());
 
         checkAppPermission();
     }
@@ -88,10 +102,11 @@ public class ActvtyBookView extends AppCompatActivity {
         mBookPathLocal = AppConstants.PATH_BOOKS_NAVJIVAN.concat(File.separator + AppConstants.BOOKNAME_NAVJIVAN_GU);
         File mBookFilePathLocal = new File(mBookPathLocal);
         if(mBookFilePathLocal.exists()) {
-            mPdfVw.fromFile(mBookFilePathLocal)
-                    .swipeHorizontal(true)
-                    .enableSwipe(true)
-                    .load();
+
+            mPDFAdapter = new PDFPagerAdapter(this, mBookPathLocal);
+            mPdfVwPgr.setAdapter(mPDFAdapter);
+            if(mMenuItemShare != null)
+                mMenuItemShare.setVisible(true);
         } else {
 
             if (GeneralFunctions.isNetConnected(this))
@@ -146,6 +161,27 @@ public class ActvtyBookView extends AppCompatActivity {
                 });
     }
 
+    // Create chooser for share book
+    private void shareBook() {
+        try {
+
+            File mBookFilePathLocal = new File(mBookPathLocal);
+            if(mBookFilePathLocal.exists()) {
+
+                Intent shareIntent = new Intent();
+                shareIntent.setAction(Intent.ACTION_SEND);
+                shareIntent.setType("application/pdf");
+                shareIntent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(mBookFilePathLocal));
+                shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                startActivity(Intent.createChooser(shareIntent, getString(R.string.share_appname_book_3dots, getString(R.string.app_name))));
+            } else
+                Snackbar.make(mCrdntrlyot, mBookNotFound, Snackbar.LENGTH_LONG).show();
+        } catch (Exception e) {
+            e.printStackTrace();
+            Snackbar.make(mCrdntrlyot, mBookNotFound, Snackbar.LENGTH_LONG).show();
+        }
+    }
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
 
@@ -161,5 +197,42 @@ public class ActvtyBookView extends AppCompatActivity {
             }
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_share, menu);
+        mMenuItemShare = menu.findItem(R.id.action_share);
+        mMenuItemShare.setVisible(false);
+
+        try {
+
+            File mBookFilePathLocal = new File(mBookPathLocal);
+            if(mBookFilePathLocal.exists())
+                mMenuItemShare.setVisible(true);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+            case R.id.action_share:
+
+                shareBook();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(mPDFAdapter != null) {
+            mPDFAdapter.close();
+            mPDFAdapter = null;
+        }
     }
 }

@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.jalotsav.aalayamnavjivan.ActvtyBookView">
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/pdfvw_actvty_bookview"
+    <es.voghdev.pdfviewpager.library.PDFViewPager
+        android:id="@+id/pdfvwpgr_actvty_bookview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </android.support.design.widget.CoordinatorLayout>
