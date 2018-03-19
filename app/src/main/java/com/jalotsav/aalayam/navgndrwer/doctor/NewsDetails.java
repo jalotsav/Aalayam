@@ -11,14 +11,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class NewsDetails extends ActionBarActivity implements AalayamConstants {
+public class NewsDetails extends AppCompatActivity implements AalayamConstants {
 
 	private TextView tvTitle, tvDscrptn, tvDate;
 	

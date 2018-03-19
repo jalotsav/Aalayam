@@ -106,7 +106,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="com.android.support:support-media-compat-26.1.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-compat-26.1.0" level="project" />
@@ -121,6 +121,5 @@
     <orderEntry type="library" name="com.android.support:support-annotations:26.1.0@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-utils-26.1.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-ui-26.1.0" level="project" />
-    <orderEntry type="library" name="android-android-23" level="project" />
   </component>
 </module>

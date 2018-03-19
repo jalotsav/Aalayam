@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aalayam Navjivan</string>
+    <string name="no_intrnt_cnctn">No internet connection</string>
+    <string name="server_problem_sml">There are some server problem.</string>
+    <string name="internal_problem_sml">There are some internal problem.</string>
+    <string name="allow_permtn_readbook">To read book, you must have to allow permission</string>
+
+    <!--Book View-->
+    <string name="plzwait_weare_getting_book">Please wait…\nWe are getting a book for you.</string>
+    <string name="share_sml">Share</string>
+    <string name="share_appname_book_3dots">Share %s book via</string>
+    <string name="book_not_found">Can not able to share, Book not found.</string>
+
+    <!--Book Upload-->
+    <string name="upload_book_sml">Upload Book</string>
+</resources>

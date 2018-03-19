@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,7 +15,7 @@ import com.jalotsav.aalayam.common.AalayamConstants;
 import com.jalotsav.aalayam.common.General_Fnctns;
 import com.jalotsav.aalayam.service.InternetService;
 
-public class MyEquipmentDetails extends ActionBarActivity implements AalayamConstants {
+public class MyEquipmentDetails extends AppCompatActivity implements AalayamConstants {
 
 	private TextView tvTitle, tvAmnt, tvDate, tvQty, tvRate, tvDscrptn;
 	@Override
