@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Aalayam.iml" filepath="$PROJECT_DIR$/Aalayam.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appnavjivan/appnavjivan.iml" filepath="$PROJECT_DIR$/appnavjivan/appnavjivan.iml" />
       <module fileurl="file://$PROJECT_DIR$/libFAB/libFAB.iml" filepath="$PROJECT_DIR$/libFAB/libFAB.iml" />
       <module fileurl="file://$PROJECT_DIR$/libZBarScanner/libZBarScanner.iml" filepath="$PROJECT_DIR$/libZBarScanner/libZBarScanner.iml" />
     </modules>

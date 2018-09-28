@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\Learn\R_and_D\JdCode\TestApp\Aalayam\Application\Aalayam\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\Learn\R_and_D\JdCode\TestApp\Aalayam\Application\Aalayam\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="F:\AndroidStudioProjects\Temp\Aalayam\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="F:\AndroidStudioProjects\Temp\Aalayam\app\src\debug\shaders"/></dataSet></merger>
