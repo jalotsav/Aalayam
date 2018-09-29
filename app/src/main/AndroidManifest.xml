@@ -43,7 +43,7 @@
     <!-- Permission to vibrate -->
     <uses-permission android:name="android.permission.VIBRATE" />
 
-    <uses-sdk android:minSdkVersion="14" tools:overrideLibrary="android.support.v4"/>
+    <uses-sdk tools:overrideLibrary="android.support.v4"/>
 
     <application
         tools:replace="android:icon, android:theme, android:label"

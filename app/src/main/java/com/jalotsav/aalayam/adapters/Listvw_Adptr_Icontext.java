@@ -132,6 +132,7 @@ public class Listvw_Adptr_Icontext extends BaseAdapter implements AalayamConstan
         }
 
         @Override
+		@SuppressWarnings("unchecked")
         protected void publishResults(CharSequence constraint,
                 FilterResults results) {
             _arrylst_title_temp = (ArrayList<String>) results.values;

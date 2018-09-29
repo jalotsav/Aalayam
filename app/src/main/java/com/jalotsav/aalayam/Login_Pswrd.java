@@ -276,7 +276,19 @@ public class Login_Pswrd extends Activity implements AalayamConstants{
 							session.setEmail(apiDctrEmailid);
 							session.setDrId(websrvc_drid);
 							
-							requestToGCM();							
+							// requestToGCM();
+
+							// Hide ProgressBar
+							prgrsbr_websrvc.setVisibility(View.GONE);
+
+							// set Login status as True in SharedPreffrences
+							session.setLoginStatusTrue();
+
+							// Intent intntNvgnDrwrDoctr = new Intent(Login_Pswrd.this, NavgnDrawer_Main_Doctor.class);
+							Intent intntNvgnDrwrDoctr = new Intent(Login_Pswrd.this, NavgnDrwrDoctor.class);
+							intntNvgnDrwrDoctr.putExtra(DCTR_EMAILID, apiDctrEmailid);
+							intntNvgnDrwrDoctr.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+							startActivity(intntNvgnDrwrDoctr);
 						}else{
 							
 							pswrdvaldn_lbl_vsbl(getResources().getString(R.string.there_seemsprblm_tryagainlater));
