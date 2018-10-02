@@ -172,7 +172,7 @@ public class VasScaleFrgmnt extends Fragment implements AalayamConstants, SwipeR
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 
-				if(arrylst_vasscaledate.get(0).equals(General_Fnctns.getcurrentDate()))
+				if (!arrylst_vasscaledate.isEmpty() && arrylst_vasscaledate.get(0).equals(General_Fnctns.getcurrentDate()))
 					showDatePicker();
 				else
 					startAddVasScaleActvty(0);
