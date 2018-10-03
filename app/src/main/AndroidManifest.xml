@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.jalotsav.aalayam" >
+    package="com.jalotsav.aalayam">
+
+    <uses-sdk tools:overrideLibrary="android.support.v4" />
 
     <!-- Get Internet connection status -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,7 +15,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <!-- Get Running Task -->
-    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.GET_TASKS" />
 
     <!-- Get Camera -->
     <uses-permission android:name="android.permission.CAMERA" />
@@ -43,20 +45,21 @@
     <!-- Permission to vibrate -->
     <uses-permission android:name="android.permission.VIBRATE" />
 
-    <uses-sdk tools:overrideLibrary="android.support.v4"/>
+    <!-- Required for complications to receive complication data and open the provider chooser. -->
+    <uses-permission android:name="com.google.android.wearable.permission.RECEIVE_COMPLICATION_DATA" />
 
     <application
-        tools:replace="android:icon, android:theme, android:label"
-        android:allowBackup="true"
         android:name=".AalayamApplication"
+        android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon, android:theme, android:label">
         <activity
             android:name=".Aalayam"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -67,7 +70,7 @@
             android:name=".common.NoInternet_Connection"
             android:label="@string/no_intrnt"
             android:screenOrientation="portrait"
-            android:theme="@style/Alym_Red_Light" >
+            android:theme="@style/Alym_Red_Light">
             <intent-filter>
                 <action android:name="intntfltrNoIntrntActvt" />
             </intent-filter>
@@ -77,82 +80,69 @@
             android:label="@string/login"
             android:screenOrientation="portrait"
             android:theme="@style/Alym_Blue_Light"
-            android:windowSoftInputMode="adjustResize" >
-        </activity>
+            android:windowSoftInputMode="adjustResize"></activity>
         <activity
             android:name=".Login_Pswrd"
             android:label="@string/login"
             android:screenOrientation="portrait"
             android:theme="@style/Alym_Blue_Light"
-            android:windowSoftInputMode="adjustResize" >
-        </activity>
+            android:windowSoftInputMode="adjustResize"></activity>
         <activity
             android:name=".navgndrwer.doctor.NavgnDrawer_Main_Doctor"
             android:screenOrientation="portrait"
-            android:theme="@style/JalotsavNavDrwrStyleTeal" >
-        </activity>
+            android:theme="@style/JalotsavNavDrwrStyleTeal"></activity>
         <activity
             android:name=".navgndrwer.doctor.NavgnDrwrDoctor"
             android:screenOrientation="portrait"
-            android:theme="@style/MikePenzNavDrwrStyleTeal" >
-        </activity>
+            android:theme="@style/MikePenzNavDrwrStyleTeal"></activity>
         <activity
             android:name=".navgndrwer.doctor.NewsDetails"
             android:label="@string/news_dtls"
             android:screenOrientation="portrait"
-            android:theme="@style/Alym_OrangeDeep_Light" >
-        </activity>
+            android:theme="@style/Alym_OrangeDeep_Light"></activity>
         <activity
             android:name=".navgndrwer.doctor.MyEquipmentDetails"
             android:label="@string/eqpmnt_dtls"
             android:screenOrientation="portrait"
-            android:theme="@style/Alym_Indigo_Light" >
-        </activity>
+            android:theme="@style/Alym_Indigo_Light"></activity>
         <activity
             android:name=".navgndrwer.patient.NavgnDrawer_Main_Patient"
             android:screenOrientation="portrait"
             android:theme="@style/JalotsavNavDrwrStyleBlue"
-            android:windowSoftInputMode="adjustPan">
-        </activity>
+            android:windowSoftInputMode="adjustPan"></activity>
         <activity
             android:name=".common.ImageFullScreen"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".navgndrwer.patient.VasScaleAddVasscale"
             android:label="@string/add_vasscale"
             android:screenOrientation="portrait"
-            android:theme="@style/Alym_Blue_Light" >
-        </activity>
+            android:theme="@style/Alym_Blue_Light"></activity>
         <activity
             android:name=".navgndrwer.patient.VasScaleDetails"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar.MinWidth" >
-        </activity>
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar.MinWidth"></activity>
         <activity
             android:name=".navgndrwer.patient.PaymentsDetails"
             android:label="@string/pymnt_dtls"
             android:screenOrientation="portrait"
-            android:theme="@style/Alym_Blue_Midnight_Light" >
-        </activity>
+            android:theme="@style/Alym_Blue_Midnight_Light"></activity>
         <activity
             android:name=".navgndrwer.patient.FullScreenImageViewActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".navgndrwer.patient.PatientProfileFrgmnt_CaseDetails"
             android:label="@string/case_dtls"
             android:screenOrientation="portrait"
-            android:theme="@style/Alym_Pink_Light" >
-        </activity>
-
-        <activity android:name="com.dm.zbar.android.scanner.ZBarScannerActivity"
-            android:screenOrientation="landscape"
-            android:label="@string/app_name" />
+            android:theme="@style/Alym_Pink_Light"></activity>
+        <activity
+            android:name="com.dm.zbar.android.scanner.ZBarScannerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
 
         <receiver
             android:name="com.google.android.gcm.GCMBroadcastReceiver"
-            android:permission="com.google.android.c2dm.permission.SEND" >
+            android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
 
                 <!-- Receives the actual messages. -->
@@ -165,7 +155,6 @@
         </receiver>
 
         <service android:name=".GCMIntentService" />
-
         <service android:name=".service.FireMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -176,10 +165,9 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-
         <service
-            android:enabled="true"
-            android:name=".service.InternetService"/>
+            android:name=".service.InternetService"
+            android:enabled="true" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
