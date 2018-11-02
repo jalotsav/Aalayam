@@ -14,9 +14,11 @@ public interface AppConstants {
     String PATH_FIREDATABASE_BOOK_NAVJIVAN = "books/navjivan";
 
     String BOOKNAME_NAVJIVAN_GU = "book_navjivan_gu.pdf";
+    String BOOKNAME_NAVJIVAN_EN = "book_navjivan_en.pdf";
 
     // Book Language short code
     String LANGUAGE_SHORTCODE_GUJARATI = "gu";
+    String LANGUAGE_SHORTCODE_ENGLISH = "en";
 
     // Request Keys
     int REQUEST_APP_PERMISSION = 101;

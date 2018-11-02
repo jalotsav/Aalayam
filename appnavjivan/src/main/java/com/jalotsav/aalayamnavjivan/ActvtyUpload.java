@@ -63,8 +63,8 @@ public class ActvtyUpload extends AppCompatActivity {
     private void uploadFile() {
 
         mPrgrsbrMain.setVisibility(View.VISIBLE);
-        Uri file = Uri.fromFile(new File("/storage/emulated/0/bluetooth/book_navjivan_gu.pdf"));
-        booksNavjivanRef = mStorageRef.child(AppConstants.PATH_FIRESTORAGE_BOOK_NAVJIVAN + AppConstants.BOOKNAME_NAVJIVAN_GU);
+        Uri file = Uri.fromFile(new File("/storage/emulated/0/bluetooth/book_navjivan_en.pdf"));
+        booksNavjivanRef = mStorageRef.child(AppConstants.PATH_FIRESTORAGE_BOOK_NAVJIVAN + AppConstants.BOOKNAME_NAVJIVAN_EN);
 
         booksNavjivanRef.putFile(file)
                 .continueWithTask(new Continuation<UploadTask.TaskSnapshot, Task<Uri>>() {
@@ -88,9 +88,9 @@ public class ActvtyUpload extends AppCompatActivity {
 
                             // Insert Book details in to Firebase Database
                             MdlBooks objMdlBooks = new MdlBooks(
-                                    AppConstants.BOOKNAME_NAVJIVAN_GU,
+                                    AppConstants.BOOKNAME_NAVJIVAN_EN,
                                     downloadUrl != null ? downloadUrl.toString() : "",
-                                    AppConstants.LANGUAGE_SHORTCODE_GUJARATI);
+                                    AppConstants.LANGUAGE_SHORTCODE_ENGLISH);
                             mDatabaseReference.child(mDatabaseReference.push().getKey()).setValue(objMdlBooks);
                         } else {
 
