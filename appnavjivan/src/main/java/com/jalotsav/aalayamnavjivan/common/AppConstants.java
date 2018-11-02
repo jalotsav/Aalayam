@@ -32,4 +32,7 @@ public interface AppConstants {
     String EXTRNL_STORAGE_PATH_STRING = Environment.getExternalStorageDirectory().getAbsolutePath();
     String PATH_BOOKS = EXTRNL_STORAGE_PATH_STRING + File.separator + AALAYAM + File.separator + DIR_BOOKS_SML;
     String PATH_BOOKS_NAVJIVAN = PATH_BOOKS.concat(File.separator + DIR_NAVJIVAN_SML);
+
+    // PutExtra Keys
+    String PUT_EXTRA_LANGUAGE_NAME = "comeFrom";
 }
