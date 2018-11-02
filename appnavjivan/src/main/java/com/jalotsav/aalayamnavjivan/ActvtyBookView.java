@@ -1,3 +1,19 @@
+/*
+ * Copyright (c) 2018 Jalotsav
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.jalotsav.aalayamnavjivan;
 
 import android.app.Dialog;
@@ -12,6 +28,7 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -56,7 +73,7 @@ public class ActvtyBookView extends AppCompatActivity {
 
     MenuItem mMenuItemShare;
     StorageReference mStorageRef;
-    String mBookPathLocal;
+    String mRequestedBookName, mBookPathLocal;
     Dialog mDialogPrgrs;
     BasePDFPagerAdapter mPDFAdapter;
 
@@ -66,11 +83,26 @@ public class ActvtyBookView extends AppCompatActivity {
         setContentView(R.layout.lo_actvty_book_view);
         ButterKnife.bind(this);
 
+        ActionBar mActionBar = getSupportActionBar();
+        if (mActionBar != null)
+            mActionBar.setDisplayHomeAsUpEnabled(true);
+
         mStorageRef = FirebaseStorage.getInstance().getReference();
 
         // for "Uri.fromFile()" in Share book
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
         StrictMode.setVmPolicy(builder.build());
+
+        String selectedLanguage = getIntent().getStringExtra(AppConstants.PUT_EXTRA_LANGUAGE_NAME);
+        if(selectedLanguage.equalsIgnoreCase(AppConstants.LANGUAGE_SHORTCODE_GUJARATI)) {
+            mRequestedBookName = AppConstants.BOOKNAME_NAVJIVAN_GU;
+            if (mActionBar != null)
+                mActionBar.setTitle(getString(R.string.app_name).concat(" - ").concat(getString(R.string.gujarati_sml)));
+        } else {
+            mRequestedBookName = AppConstants.BOOKNAME_NAVJIVAN_EN;
+            if (mActionBar != null)
+                mActionBar.setTitle(getString(R.string.app_name).concat(" - ").concat(getString(R.string.english_sml)));
+        }
 
         checkAppPermission();
     }
@@ -99,7 +131,7 @@ public class ActvtyBookView extends AppCompatActivity {
     // Get Book from local storage and update on UI
     private void getBookFromLocalStorage() {
 
-        mBookPathLocal = AppConstants.PATH_BOOKS_NAVJIVAN.concat(File.separator + AppConstants.BOOKNAME_NAVJIVAN_GU);
+        mBookPathLocal = AppConstants.PATH_BOOKS_NAVJIVAN.concat(File.separator + mRequestedBookName);
         File mBookFilePathLocal = new File(mBookPathLocal);
         if(mBookFilePathLocal.exists()) {
 
@@ -132,10 +164,10 @@ public class ActvtyBookView extends AppCompatActivity {
 
         File bookFilePathLocal = new File(AppConstants.PATH_BOOKS_NAVJIVAN);
         bookFilePathLocal.mkdirs();
-        File bookFilePathLocalName = new File(bookFilePathLocal, AppConstants.BOOKNAME_NAVJIVAN_GU);
+        File bookFilePathLocalName = new File(bookFilePathLocal, mRequestedBookName);
         if(bookFilePathLocalName.exists()) bookFilePathLocalName.delete();
 
-        StorageReference booksNavjivanRef = mStorageRef.child(AppConstants.PATH_FIRESTORAGE_BOOK_NAVJIVAN + AppConstants.BOOKNAME_NAVJIVAN_GU);
+        StorageReference booksNavjivanRef = mStorageRef.child(AppConstants.PATH_FIRESTORAGE_BOOK_NAVJIVAN + mRequestedBookName);
         booksNavjivanRef.getFile(bookFilePathLocalName)
                 .addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                     @Override
@@ -219,6 +251,10 @@ public class ActvtyBookView extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
+            case android.R.id.home:
+
+                onBackPressed();
+                break;
             case R.id.action_share:
 
                 shareBook();

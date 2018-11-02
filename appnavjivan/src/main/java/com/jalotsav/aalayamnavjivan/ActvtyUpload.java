@@ -1,3 +1,19 @@
+/*
+ * Copyright (c) 2018 Jalotsav
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.jalotsav.aalayamnavjivan;
 
 import android.net.Uri;
@@ -8,9 +24,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.Continuation;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -35,7 +55,7 @@ public class ActvtyUpload extends AppCompatActivity {
     @BindView(R.id.btn_actvty_upload) Button mBtnUpload;
     @BindView(R.id.prgrsbr_actvty_upload) ProgressBar mPrgrsbrMain;
 
-    StorageReference mStorageRef;
+    StorageReference mStorageRef, booksNavjivanRef;
     DatabaseReference mDatabaseReference;
 
     @Override
@@ -59,24 +79,40 @@ public class ActvtyUpload extends AppCompatActivity {
     private void uploadFile() {
 
         mPrgrsbrMain.setVisibility(View.VISIBLE);
-        Uri file = Uri.fromFile(new File("/storage/emulated/0/bluetooth/book_navjivan_gu.pdf"));
-        StorageReference booksNavjivanRef = mStorageRef.child(AppConstants.PATH_FIRESTORAGE_BOOK_NAVJIVAN + AppConstants.BOOKNAME_NAVJIVAN_GU);
+        Uri file = Uri.fromFile(new File("/storage/emulated/0/bluetooth/book_navjivan_en.pdf"));
+        booksNavjivanRef = mStorageRef.child(AppConstants.PATH_FIRESTORAGE_BOOK_NAVJIVAN + AppConstants.BOOKNAME_NAVJIVAN_EN);
 
         booksNavjivanRef.putFile(file)
-                .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                .continueWithTask(new Continuation<UploadTask.TaskSnapshot, Task<Uri>>() {
                     @Override
-                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                        mPrgrsbrMain.setVisibility(View.GONE);
-                        // Get a URL to the uploaded content
-                        Uri downloadUrl = taskSnapshot.getDownloadUrl();
-                        Log.e(TAG, "onSuccess: DownloadURL: " + downloadUrl);
+                    public Task<Uri> then(@NonNull Task<UploadTask.TaskSnapshot> task) throws Exception {
+                        if(!task.isSuccessful())
+                            throw task.getException();
+                        return booksNavjivanRef.getDownloadUrl();
+                    }
+                })
+                .addOnCompleteListener(new OnCompleteListener<Uri>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Uri> task) {
 
-                        // Insert Book details in to Firebase Database
-                        MdlBooks objMdlBooks = new MdlBooks(
-                                AppConstants.BOOKNAME_NAVJIVAN_GU,
-                                downloadUrl != null ? downloadUrl.toString() : "",
-                                AppConstants.LANGUAGE_SHORTCODE_GUJARATI);
-                        mDatabaseReference.child(mDatabaseReference.push().getKey()).setValue(objMdlBooks);
+                        mPrgrsbrMain.setVisibility(View.GONE);
+                        if(task.isSuccessful()) {
+
+                            // Get a URL to the uploaded content
+                            Uri downloadUrl = task.getResult();
+                            Log.e(TAG, "OnComplete: DownloadURL: " + downloadUrl);
+
+                            // Insert Book details in to Firebase Database
+                            MdlBooks objMdlBooks = new MdlBooks(
+                                    AppConstants.BOOKNAME_NAVJIVAN_EN,
+                                    downloadUrl != null ? downloadUrl.toString() : "",
+                                    AppConstants.LANGUAGE_SHORTCODE_ENGLISH);
+                            mDatabaseReference.child(mDatabaseReference.push().getKey()).setValue(objMdlBooks);
+                        } else {
+
+                            Log.e(TAG, "OnComplete: Upload failed: " + task.getException().getMessage());
+                            Toast.makeText(ActvtyUpload.this, "Upload FAILED", Toast.LENGTH_SHORT).show();
+                        }
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
