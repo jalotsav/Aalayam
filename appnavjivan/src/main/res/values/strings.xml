@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">Aalayam Navjivan</string>
+    <string name="imgcd_image">Content description of images</string>
     <string name="no_intrnt_cnctn">No internet connection</string>
     <string name="server_problem_sml">There are some server problem.</string>
     <string name="internal_problem_sml">There are some internal problem.</string>
     <string name="allow_permtn_readbook">To read book, you must have to allow permission</string>
+
+    <!--Language selection-->
+    <string name="select_language_sml">Select language</string>
+    <string name="gujarati_sml">Gujarati</string>
+    <string name="english_sml">English</string>
 
     <!--Book View-->
     <string name="plzwait_weare_getting_book">Please wait…\nWe are getting a book for you.</string>

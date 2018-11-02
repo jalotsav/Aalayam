@@ -21,7 +21,7 @@ public class ActvtySplash extends AppCompatActivity {
             public void run() {
 
                 finish();
-                startActivity(new Intent(ActvtySplash.this, ActvtyBookView.class));
+                startActivity(new Intent(ActvtySplash.this, ActvtyMain.class));
             }
         }, 3000);
     }

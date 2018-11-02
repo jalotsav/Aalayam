@@ -3,8 +3,10 @@
     <color name="colorPrimary">#2196F3</color>
     <color name="colorPrimaryDark">#1976D2</color>
     <color name="colorAccent">#009688</color>
+    <color name="colorPrimaryBlueMidnight">#21272B</color>
     <color name="logoGradiantStartEnd">#0D5095</color>
     <color name="logoGradiantCenter">#078AC7</color>
     <color name="bgNotification">#0088CC</color>
     <color name="logoGreen">#8EC549</color>
+    <color name="white">#FFFFFF</color>
 </resources>
